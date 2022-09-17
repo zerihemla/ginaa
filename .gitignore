@@ -78,3 +78,6 @@ fabric.properties
 
 #Ignore pyc generated files
 *.pyc
+
+temp_list_in.txt
+temp_list_out.txt
