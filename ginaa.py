@@ -3,6 +3,7 @@ from built_ui_files import ginaa_gui
 from npc_generator import GeneratedNPC
 from tavern_generator import GeneratedTavern
 from item_generator import GeneratedItem
+from potion_generator import GeneratedPotion
 
 from custom_libs.helper_func import *
 
@@ -93,11 +94,11 @@ class GinaaQtApp(ginaa_gui.Ui_Ginaa_GUI, QtWidgets.QMainWindow):
 
 
     def random_potion_button_clicked(self):
-        if self.include_side_effects_box.isChecked():
-            self.print_to_console("Generating Potion with Side effects")
-        else:
-            self.print_to_console("Generating Potion without side effects")
-
+        side_effect = self.include_side_effects_box.isChecked()
+        potion = GeneratedPotion()
+        potion.generate_attributes(side_effect)
+        potion_text = potion.get_text()
+        self.print_to_console(potion_text)
 
     #######################################
     ######SYSTEM FUNCTIONS#################

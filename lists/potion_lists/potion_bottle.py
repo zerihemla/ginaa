@@ -1,8 +1,8 @@
 bottle_list = ["A conical smooth glass bottle",
 				"A square glass bottle",
 				"A not quite watertight leather waterskin",
-				"A stone flask",
-				"A metal thermos",
+				# "A stone flask",
+				# "A metal thermos",
 				"A glass syringe",
 				"A small medical vial",
 				"A small shot sized bottle",
@@ -16,5 +16,6 @@ bottle_list = ["A conical smooth glass bottle",
 				"An inhaler like spray bottle",
 				"A coloured bottle",
 				"A bone flask",
-				"A small metal vial"
+				"A small metal vial",
+				"A large bottle that can be swigged several times"
 ]

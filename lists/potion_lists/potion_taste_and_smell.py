@@ -96,5 +96,6 @@ taste_and_smell_list = ["Nothing at all",
 				"A colour",
 				"Music",
 				"The end of the world",
-				"Magically the worst thing to you"
+				"Magically the worst thing to you",
+				"Magically the thing most desireable to you"
 ]

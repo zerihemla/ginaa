@@ -16,5 +16,9 @@ appearance_list = ["Flecks of colour",
 					"Sparkles of light coming from the bottle",
 					"Two eyes suspended in the liquid",
 					"Darkness surrounding the bottle",
-					"Hairline cracks in the bottle"
+					"Hairline cracks in the bottle",
+					"A constant heat",
+					"A constant cold",
+					"Very thick liquid",
+					"With the consistency of cottage cheese"
 ]

@@ -6,5 +6,6 @@ strength_list = ["Regular with a slight side effect",
 				"Major with a strong side effect",
 				"Major with a small side effect",
 				"A poison. Almost no positive affect all side effect",
-				"Temporary but strong and wears off quickly"
+				"Temporary but strong and wears off quickly",
+				"Seemingly Perminant"
 ]

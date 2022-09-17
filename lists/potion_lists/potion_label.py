@@ -96,5 +96,6 @@ label_list = ["Its name and title in bold letters",
 "The name of one of the party members",
 "The name of the bad guy",
 "Crawling with bugs",
-"Covered in something unspeakable"
+"Covered in something unspeakable",
+"Covered in glitter. It gets everywhere"
 ]
