@@ -1,20 +1,10 @@
-import random
+from lists.tavern_lists.tavern_names1 import tavern1_list
+from lists.tavern_lists.tavern_names2 import tavern2_list
+from lists.tavern_lists.tavern_feel import tavern_feel_list
+from lists.tavern_lists.tavern_look import tavern_look_list
 
-from lists.tavern_names1 import tavern1_list
-from lists.tavern_names2 import tavern2_list
-from lists.tavern_feel import tavern_feel_list
-from lists.tavern_look import tavern_look_list
+from custom_libs.helper_func import *
 
-DIVIDER_STARS = "*************************************************"
-
-def get_rand_index(list_size:int):
-    return random.randint(0, (list_size-1))
-
-def select_from_list(this_list:list):
-    list_len = len(this_list)
-    sel_index = get_rand_index(list_len)
-    sel_item = this_list[sel_index]
-    return sel_item
 
 class GeneratedTavern():
     def __init__(self):

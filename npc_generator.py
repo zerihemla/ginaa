@@ -1,25 +1,14 @@
-import random
+from lists.npc_lists.first_names import first_list
+from lists.npc_lists.last_names import last_list
+from lists.npc_lists.races import race_list
+from lists.npc_lists.ages import age_list
+from lists.npc_lists.description import description_list
+from lists.npc_lists.wants_and_needs import wants_list
+from lists.npc_lists.secret_or_obstacle import secret_list
+from lists.npc_lists.carrying import carrying_list
 
-from lists.first_names import first_list
-from lists.last_names import last_list
-from lists.races import race_list
-from lists.ages import age_list
-from lists.description import description_list
-from lists.wants_and_needs import wants_list
-from lists.secret_or_obstacle import secret_list
-from lists.carrying import carrying_list
+from custom_libs.helper_func import *
 
-
-DIVIDER_STARS = "*************************************************"
-
-def get_rand_index(list_size:int):
-    return random.randint(0, (list_size-1))
-
-def select_from_list(this_list:list):
-    list_len = len(this_list)
-    sel_index = get_rand_index(list_len)
-    sel_item = this_list[sel_index]
-    return sel_item
 
 class GeneratedNPC():
     def __init__(self):

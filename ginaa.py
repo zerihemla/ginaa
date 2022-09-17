@@ -2,6 +2,9 @@ from built_ui_files import ginaa_gui
 
 from npc_generator import GeneratedNPC
 from tavern_generator import GeneratedTavern
+from item_generator import GeneratedItem
+
+from custom_libs.helper_func import *
 
 #These were copied straight from RCade
 # from PyQt5 import QtCore
@@ -17,7 +20,6 @@ import qdarktheme
 import sys
 
 
-DIVIDER_STARS = "*************************************************"
 
 
 class GinaaQtApp(ginaa_gui.Ui_Ginaa_GUI, QtWidgets.QMainWindow):
@@ -46,6 +48,8 @@ class GinaaQtApp(ginaa_gui.Ui_Ginaa_GUI, QtWidgets.QMainWindow):
         self.random_magic_item_button.clicked.connect(self.random_magic_item_button_clicked)
         self.random_corrupted_item_button.clicked.connect(self.random_corrupted_item_button_clicked)
 
+        self.random_potion_button.clicked.connect(self.random_potion_button_clicked)
+
     #######################################
     ########NPC FUNCTIONS##################
     #######################################
@@ -59,8 +63,7 @@ class GinaaQtApp(ginaa_gui.Ui_Ginaa_GUI, QtWidgets.QMainWindow):
             self.npc.setStoryAttributes()
 
         self.npc_text = self.npc.get_text()
-        self.main_text.append(self.npc_text)
-        self.main_text.append(DIVIDER_STARS)
+        self.print_to_console(self.npc_text)
 
     ##########################################
     #######TAVERN FUNCTIONS###################
@@ -70,26 +73,42 @@ class GinaaQtApp(ginaa_gui.Ui_Ginaa_GUI, QtWidgets.QMainWindow):
         self.tavern.setRandomAttributes()
 
         self.tavern_text = self.tavern.get_text()
-        self.main_text.append(self.tavern_text)
-        self.main_text.append(DIVIDER_STARS)
+        self.print_to_console(self.tavern_text)
 
 
     #######################################
     ####ITEM FUNCTIONS#####################
     #######################################
     def random_item_button_clicked(self):
-        self.main_text.append("Random Item Button is not yet functional\n")
+        item = GeneratedItem()
+        item.setRandomItem()
+        text = item.get_text()
+        self.print_to_console(text)
 
     def random_magic_item_button_clicked(self):
-        self.main_text.append("Random Magic Item Button is not yet functional\n")
+        self.print_to_console("Random Magic Item Button is not yet functional\n")
 
     def random_corrupted_item_button_clicked(self):
-        self.main_text.append("Random Corrupted Item Button is not yet functional\n")
+        self.print_to_console("Random Corrupted Item Button is not yet functional\n")
+
+
+    def random_potion_button_clicked(self):
+        if self.include_side_effects_box.isChecked():
+            self.print_to_console("Generating Potion with Side effects")
+        else:
+            self.print_to_console("Generating Potion without side effects")
 
 
     #######################################
     ######SYSTEM FUNCTIONS#################
     #######################################
+
+    def print_to_console(self, print_string:str, print_stars:bool=True):
+        self.main_text.append(print_string)
+
+        if print_stars:
+            self.main_text.append(DIVIDER_STARS)
+
 
     def clear_button_clicked(self):
         self.main_text.clear()
