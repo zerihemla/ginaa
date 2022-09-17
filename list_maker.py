@@ -4,7 +4,10 @@ text = file.readlines()
 file.close()
 text2 = ""
 for x in text:
-    
+  
+    #Check for empty lines.
+    if len(x) < 3:
+        continue
     
     if x[-1] == '\n':
         x = x.replace (".\n", "\n") #This strips out the ending period if there is any

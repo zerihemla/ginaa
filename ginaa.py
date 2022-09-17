@@ -4,6 +4,7 @@ from npc_generator import GeneratedNPC
 from tavern_generator import GeneratedTavern
 from item_generator import GeneratedItem
 from potion_generator import GeneratedPotion
+from trap_generator import GeneratedTrap
 
 from custom_libs.helper_func import *
 
@@ -50,6 +51,10 @@ class GinaaQtApp(ginaa_gui.Ui_Ginaa_GUI, QtWidgets.QMainWindow):
         self.random_corrupted_item_button.clicked.connect(self.random_corrupted_item_button_clicked)
 
         self.random_potion_button.clicked.connect(self.random_potion_button_clicked)
+
+        self.mechanical_trap_button.clicked.connect(self.random_mechanical_trap_button_clicked)
+        self.magic_trap_button.clicked.connect(self.random_magical_trap_button_clicked)
+        self.chaotic_trap_button.clicked.connect(self.random_chaotic_trap_button_clicked)
 
     #######################################
     ########NPC FUNCTIONS##################
@@ -99,6 +104,29 @@ class GinaaQtApp(ginaa_gui.Ui_Ginaa_GUI, QtWidgets.QMainWindow):
         potion.generate_attributes(side_effect)
         potion_text = potion.get_text()
         self.print_to_console(potion_text)
+
+    #######################################
+    ####TRAP FUNCTIONS#####################
+    #######################################
+    def random_mechanical_trap_button_clicked(self):
+        trap = GeneratedTrap()
+        trap.generate_mechanical_trap()
+        trap_text = trap.get_text()
+        self.print_to_console(trap_text)
+
+    def random_magical_trap_button_clicked(self):
+        trap = GeneratedTrap()
+        trap.generate_magical_trap()
+        trap_text = trap.get_text()
+        self.print_to_console(trap_text)
+
+    def random_chaotic_trap_button_clicked(self):
+        trap = GeneratedTrap()
+        trap.generate_chaotic_trap()
+        trap_text = trap.get_text()
+        self.print_to_console(trap_text)
+
+
 
     #######################################
     ######SYSTEM FUNCTIONS#################
