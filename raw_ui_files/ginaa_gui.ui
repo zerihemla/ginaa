@@ -43,34 +43,6 @@
          </property>
         </widget>
        </item>
-       <item row="1" column="2">
-        <layout class="QHBoxLayout" name="horizontalLayout">
-         <item>
-          <widget class="QPushButton" name="save_button">
-           <property name="text">
-            <string>Save</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QPushButton" name="clear_button">
-           <property name="text">
-            <string>Clear</string>
-           </property>
-          </widget>
-         </item>
-        </layout>
-       </item>
-       <item row="0" column="0" rowspan="2">
-        <widget class="QTextEdit" name="main_text">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-        </widget>
-       </item>
        <item row="0" column="2">
         <widget class="QTabWidget" name="tabWidget">
          <property name="sizePolicy">
@@ -80,7 +52,7 @@
           </sizepolicy>
          </property>
          <property name="currentIndex">
-          <number>2</number>
+          <number>0</number>
          </property>
          <widget class="QWidget" name="peeps_and_paces_tab">
           <attribute name="title">
@@ -96,16 +68,43 @@
               <enum>QFrame::Raised</enum>
              </property>
              <layout class="QGridLayout" name="gridLayout">
-              <item row="0" column="0">
-               <widget class="QLabel" name="character_labels">
-                <property name="font">
-                 <font>
-                  <pointsize>15</pointsize>
-                 </font>
-                </property>
+              <item row="2" column="0">
+               <widget class="QCheckBox" name="chaotic_char_box">
                 <property name="text">
-                 <string>Characters</string>
+                 <string>Chaotic Char</string>
                 </property>
+               </widget>
+              </item>
+              <item row="3" column="0">
+               <widget class="QComboBox" name="character_type_box">
+                <property name="currentIndex">
+                 <number>4</number>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>General</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Small Town</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Outskirts</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Underdark</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Any</string>
+                 </property>
+                </item>
                </widget>
               </item>
               <item row="1" column="0">
@@ -115,17 +114,22 @@
                 </property>
                </widget>
               </item>
-              <item row="2" column="0">
-               <widget class="QCheckBox" name="chaotic_char_box">
-                <property name="text">
-                 <string>Chaotic Char</string>
-                </property>
-               </widget>
-              </item>
-              <item row="3" column="0">
+              <item row="4" column="0">
                <widget class="QPushButton" name="generate_char_button">
                 <property name="text">
                  <string>Generate Character</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="0">
+               <widget class="QLabel" name="character_labels">
+                <property name="font">
+                 <font>
+                  <pointsize>15</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Characters</string>
                 </property>
                </widget>
               </item>
@@ -385,6 +389,34 @@
            <string>Page</string>
           </attribute>
          </widget>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QPushButton" name="save_button">
+           <property name="text">
+            <string>Save</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="clear_button">
+           <property name="text">
+            <string>Clear</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="0" column="0" rowspan="2">
+        <widget class="QTextEdit" name="main_text">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
         </widget>
        </item>
       </layout>

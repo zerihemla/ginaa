@@ -17,11 +17,7 @@ from PyQt5 import QtWidgets
 # from PyQt5.QtWidgets import QMessageBox, QDialog, QDialogButtonBox, QFormLayout, QLineEdit
 
 import qdarktheme
-
-
 import sys
-
-
 
 
 class GinaaQtApp(ginaa_gui.Ui_Ginaa_GUI, QtWidgets.QMainWindow):
@@ -62,11 +58,14 @@ class GinaaQtApp(ginaa_gui.Ui_Ginaa_GUI, QtWidgets.QMainWindow):
 
     def generate_npc_button_clicked(self):
 
+        type_index = self.character_type_box.currentIndex()
+        # print(type_index)
+
         if self.chaotic_char_box.isChecked():
-            self.npc.setRandomAttributes()
+            self.npc.set_random_attributes(type_index)
 
         else:
-            self.npc.setStoryAttributes()
+            self.npc.set_story_attributes(type_index)
 
         self.npc_text = self.npc.get_text()
         self.print_to_console(self.npc_text)
