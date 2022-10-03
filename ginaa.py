@@ -6,6 +6,9 @@ from item_generator import GeneratedItem
 from potion_generator import GeneratedPotion
 from trap_generator import GeneratedTrap
 
+from wild_magic import get_wild_magic_effect
+
+
 from custom_libs.helper_func import *
 
 #These were copied straight from RCade
@@ -51,6 +54,8 @@ class GinaaQtApp(ginaa_gui.Ui_Ginaa_GUI, QtWidgets.QMainWindow):
         self.mechanical_trap_button.clicked.connect(self.random_mechanical_trap_button_clicked)
         self.magic_trap_button.clicked.connect(self.random_magical_trap_button_clicked)
         self.chaotic_trap_button.clicked.connect(self.random_chaotic_trap_button_clicked)
+
+        self.wild_magic_button.clicked.connect(self.wild_magic_button_clicked)
 
     #######################################
     ########NPC FUNCTIONS##################
@@ -103,6 +108,14 @@ class GinaaQtApp(ginaa_gui.Ui_Ginaa_GUI, QtWidgets.QMainWindow):
         potion.generate_attributes(side_effect)
         potion_text = potion.get_text()
         self.print_to_console(potion_text)
+
+
+    #######################################
+    ####WILD MAGIC FUNCTIONS###############
+    #######################################
+    def wild_magic_button_clicked(self):
+        wild_magic = "\n" + get_wild_magic_effect() + "\n"
+        self.print_to_console(wild_magic)
 
     #######################################
     ####TRAP FUNCTIONS#####################
