@@ -8716,3 +8716,25 @@ if __name__ == "__main__":
             print(tresure.name)
 
     print (catigory_list)
+
+
+    print("******************")
+
+    rarity_list = []
+    found = True
+    for tresure in treasure_table:
+        found = False
+        for rarity in rarity_list:
+            if rarity == tresure.rarity:
+                found = True
+                break
+        if found == False:
+            rarity_list.append(tresure.rarity)
+            print(tresure.name)
+
+    print(rarity_list)
+
+
+    print("***************")
+    print(len(treasure_table))
+
