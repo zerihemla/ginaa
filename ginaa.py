@@ -5,8 +5,11 @@ from tavern_generator import GeneratedTavern
 from item_generator import GeneratedItem
 from potion_generator import GeneratedPotion
 from trap_generator import GeneratedTrap
+from treasure_generator import GeneratedTreasure
 
 from wild_magic import get_wild_magic_effect
+
+
 
 
 from custom_libs.helper_func import *
@@ -38,6 +41,8 @@ class GinaaQtApp(ginaa_gui.Ui_Ginaa_GUI, QtWidgets.QMainWindow):
 
         self.setStyleSheet(qdarktheme.load_stylesheet("light", "rounded"))
 
+        self.tabWidget.setCurrentIndex(0)
+
     def setup_buttons(self):
         self.generate_char_button.clicked.connect(self.generate_npc_button_clicked)
         self.generate_tavern_button.clicked.connect(self.generate_tavern_button_clicked)
@@ -50,6 +55,8 @@ class GinaaQtApp(ginaa_gui.Ui_Ginaa_GUI, QtWidgets.QMainWindow):
         self.random_corrupted_item_button.clicked.connect(self.random_corrupted_item_button_clicked)
 
         self.random_potion_button.clicked.connect(self.random_potion_button_clicked)
+
+        self.generate_treasure_button.clicked.connect(self.generate_treasure_button_clicked)
 
         self.mechanical_trap_button.clicked.connect(self.random_mechanical_trap_button_clicked)
         self.magic_trap_button.clicked.connect(self.random_magical_trap_button_clicked)
@@ -108,6 +115,57 @@ class GinaaQtApp(ginaa_gui.Ui_Ginaa_GUI, QtWidgets.QMainWindow):
         potion.generate_attributes(side_effect)
         potion_text = potion.get_text()
         self.print_to_console(potion_text)
+
+
+    def generate_treasure_button_clicked(self):
+        rarity_list = []
+        category_list = []
+        if self.mundane_box.isChecked():
+            rarity_list.append("Mundane")
+
+        if self.common_box.isChecked():
+            rarity_list.append("Common")
+
+        if self.uncommon_box.isChecked():
+            rarity_list.append("Uncommon")
+
+        if self.rare_box.isChecked():
+            rarity_list.append("Rare")
+
+        if self.very_rare_box.isChecked():
+            rarity_list.append("Very Rare")
+
+        if self.legendary_box.isChecked():
+            rarity_list.append("Legendary")
+
+
+        if self.book_box.isChecked():
+            category_list.append("Book")
+
+        if self.weapon_box.isChecked():
+            category_list.append("Weapon")
+
+        if self.armor_box.isChecked():
+            category_list.append("Armor")
+
+        if self.treasure_box.isChecked():
+            category_list.append("Treasure")
+
+        if self.ring_box.isChecked():
+            category_list.append("Ring")
+
+        if self.wonderous_box.isChecked():
+            category_list.append("Wondrous Item")
+
+
+        num_items = self.num_treasure_box.value()
+
+        for i in range(num_items):
+            treasure = GeneratedTreasure()
+            treasure.get_filtered_treasure(category_list, rarity_list)
+            treasure_string = treasure.get_string()
+            self.print_to_console(treasure_string)
+
 
 
     #######################################
