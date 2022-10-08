@@ -2,6 +2,16 @@ from lists.treasure_lists.tresure import *
 
 from custom_libs.helper_func import *
 
+# self.name = name
+# self.description = description
+# self.value = value
+# self.rarity = rarity
+# self.weight = weight
+# self.category = category
+# self.properties = properties
+# self.requirements = requirements
+
+
 class GeneratedTreasure():
     def __init__(self):
         self.treasure = Treasure()

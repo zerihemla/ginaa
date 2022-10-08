@@ -157,6 +157,12 @@ class GinaaQtApp(ginaa_gui.Ui_Ginaa_GUI, QtWidgets.QMainWindow):
         if self.wonderous_box.isChecked():
             category_list.append("Wondrous Item")
 
+        if self.gear_box.isChecked():
+            category_list.append("Adventuring Gear")
+
+        if self.quest_hook_box.isChecked():
+            category_list.append("Quest Hook")
+
 
         num_items = self.num_treasure_box.value()
 

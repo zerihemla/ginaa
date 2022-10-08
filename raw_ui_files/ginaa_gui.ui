@@ -80,7 +80,7 @@
           </sizepolicy>
          </property>
          <property name="currentIndex">
-          <number>0</number>
+          <number>1</number>
          </property>
          <widget class="QWidget" name="peeps_and_paces_tab">
           <attribute name="title">
@@ -371,27 +371,25 @@
              <property name="frameShadow">
               <enum>QFrame::Raised</enum>
              </property>
-             <layout class="QGridLayout" name="gridLayout_19">
-              <item row="7" column="0">
-               <layout class="QHBoxLayout" name="horizontalLayout_2">
-                <item>
-                 <widget class="QSpinBox" name="num_treasure_box">
-                  <property name="minimum">
-                   <number>1</number>
-                  </property>
-                  <property name="maximum">
-                   <number>10</number>
-                  </property>
-                 </widget>
-                </item>
-                <item>
-                 <widget class="QPushButton" name="generate_treasure_button">
-                  <property name="text">
-                   <string>Gen. Treasure</string>
-                  </property>
-                 </widget>
-                </item>
-               </layout>
+             <layout class="QGridLayout" name="gridLayout_8">
+              <item row="0" column="0">
+               <widget class="QLabel" name="treasure_labsl">
+                <property name="font">
+                 <font>
+                  <pointsize>15</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Treasure</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="Line" name="line_8">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
               </item>
               <item row="2" column="0">
                <layout class="QGridLayout" name="gridLayout_17">
@@ -455,27 +453,8 @@
                 </property>
                </widget>
               </item>
-              <item row="1" column="0">
-               <widget class="Line" name="line_8">
-                <property name="orientation">
-                 <enum>Qt::Horizontal</enum>
-                </property>
-               </widget>
-              </item>
-              <item row="0" column="0">
-               <widget class="QLabel" name="treasure_labsl">
-                <property name="font">
-                 <font>
-                  <pointsize>15</pointsize>
-                 </font>
-                </property>
-                <property name="text">
-                 <string>Treasure</string>
-                </property>
-               </widget>
-              </item>
               <item row="4" column="0">
-               <layout class="QGridLayout" name="gridLayout_18">
+               <layout class="QGridLayout" name="gridLayout_7">
                 <item row="0" column="0">
                  <widget class="QCheckBox" name="book_box">
                   <property name="text">
@@ -536,6 +515,20 @@
                   </property>
                  </widget>
                 </item>
+                <item row="3" column="0">
+                 <widget class="QCheckBox" name="gear_box">
+                  <property name="text">
+                   <string>Gear</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="3" column="1">
+                 <widget class="QCheckBox" name="quest_hook_box">
+                  <property name="text">
+                   <string>Quest Hook</string>
+                  </property>
+                 </widget>
+                </item>
                </layout>
               </item>
               <item row="5" column="0">
@@ -551,6 +544,27 @@
                  <string>Num to Gen</string>
                 </property>
                </widget>
+              </item>
+              <item row="7" column="0">
+               <layout class="QHBoxLayout" name="horizontalLayout_2">
+                <item>
+                 <widget class="QSpinBox" name="num_treasure_box">
+                  <property name="minimum">
+                   <number>1</number>
+                  </property>
+                  <property name="maximum">
+                   <number>10</number>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="generate_treasure_button">
+                  <property name="text">
+                   <string>Gen. Treasure</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
               </item>
              </layout>
             </widget>

@@ -1434,14 +1434,6 @@ treasure_table = [
              "1d4 Bludgeoning - Two-Handed",
              ""),
 
-    Treasure(" ",
-             "0.2 gp",
-             "Mundane",
-             "6 lb",
-             "Weapon",
-             "1d4 Bludgeoning - Two-Handed",
-             "",
-             "Uberbeard"),
 
     Treasure("Wooden Mop",
              "Just a mop to the untrained eye, it excels at tidying up the place. But it owes its sturdy construction to a true craftsman, so it actually has some combat merit.",
@@ -1495,15 +1487,6 @@ treasure_table = [
              "1 lb",
              "Weapon",
              "1d4 Piercing - Finesse, Light - Range: 20/60",
-             ""),
-
-    Treasure("Marbles",
-             "",
-             "",
-             "Mundane",
-             "n/a",
-             "Trap",
-             "",
              ""),
 
     Treasure("Dead Rat",
@@ -2078,7 +2061,7 @@ treasure_table = [
              "",
              "Common",
              "",
-             "Shield",
+             "Armor",
              "",
              ""),
 
@@ -2924,7 +2907,7 @@ treasure_table = [
              "0.5 gp",
              "Common",
              "1 lb",
-             "Mundane",
+             "Treasure",
              "",
              ""),
 
@@ -3234,33 +3217,6 @@ treasure_table = [
              "",
              ""),
 
-    Treasure("Fungus Spores",
-             "",
-             "",
-             "Common",
-             "n/a",
-             "Trap",
-             "",
-             ""),
-
-    Treasure("Stabby String",
-             "A popular Goblin trap; a 50 ft length of neatly coiled wire that has nails welded onto it at regular intervals. The resulting product can be used either by running it across the floor or by intertwining it along a fence or wall.",
-             "20. gp",
-             "Common",
-             "5 lb",
-             "Trap",
-             "Stabby String can be left semi-coiled on the floor, at half it's length, to create difficult terrain. Any creature that attempts to pass over the Stabby String is subject to 1d4 piercing damage.",
-             ""),
-
-    Treasure("Burning Oil",
-             "",
-             "",
-             "Common",
-             "1 lb",
-             "Trap",
-             "",
-             ""),
-
     Treasure("Pendulum",
              "",
              "",
@@ -3393,15 +3349,6 @@ treasure_table = [
              "Uncommon",
              "1 lb",
              "Wondrous Item",
-             "",
-             ""),
-
-    Treasure("Allmagic Scrolls",
-             "These pieces of unweatherd, thick parchment are lined by a thin string of gold woven into the paper. To anyone who cannot read magic, they are always blank and featureless. However, someone who can read magic realizes that these scrolls can contain spell charges—of ANY type of spell, rather than just Arcane. Paladins, Clerics, and Druids, rejoice! Two charges of the spell must be spent to write one to the scroll, and some scrolls might be found with magic already written to them. These scrolls, once written to, can be cast free of charge—but the scroll is consumed in the process. Store those odd utility spells on Allmagic Scrolls, and never waste an unused daily charge again!",
-             "150. gp",
-             "Uncommon",
-             "n/a",
-             "",
              "",
              ""),
 
@@ -3590,7 +3537,7 @@ treasure_table = [
              "220. gp",
              "Uncommon",
              "1 lb",
-             "",
+             "Armor",
              "",
              ""),
 
@@ -3950,7 +3897,7 @@ treasure_table = [
              "135. gp",
              "Uncommon",
              "n/a",
-             "",
+             "Treasure",
              "",
              ""),
 
@@ -4013,7 +3960,7 @@ treasure_table = [
              "800. gp",
              "Uncommon",
              "1 lb",
-             "",
+             "Treasure",
              "",
              ""),
 
@@ -4031,7 +3978,7 @@ treasure_table = [
              "",
              "Uncommon",
              "",
-             "Trap",
+             "Wondrous Item",
              "",
              ""),
 
@@ -4112,7 +4059,7 @@ treasure_table = [
              "80. gp",
              "Uncommon",
              "2 lb",
-             "",
+             "Weapon",
              "1d6 Piercing - Simple - Thrown - Range: 30/120",
              ""),
 
@@ -4238,7 +4185,7 @@ treasure_table = [
              "",
              "Uncommon",
              "",
-             "Rod",
+             "Wondrous Item",
              "",
              ""),
 
@@ -4328,7 +4275,7 @@ treasure_table = [
              "0. gp",
              "Uncommon",
              "300 lb",
-             "",
+             "Wondrous Item",
              "",
              ""),
 
@@ -4436,7 +4383,7 @@ treasure_table = [
              "45. gp",
              "Uncommon",
              "n/a",
-             "",
+             "Treasure",
              "",
              ""),
 
@@ -5057,7 +5004,7 @@ treasure_table = [
              "1,800. gp",
              "Rare",
              "n/a",
-             "",
+             "Wondrous Item",
              "",
              ""),
 
@@ -5066,7 +5013,7 @@ treasure_table = [
              "1,000. gp",
              "Rare",
              "2 lb",
-             "Container",
+             "Wondrous Item",
              "",
              ""),
 
@@ -5507,7 +5454,7 @@ treasure_table = [
              "650. gp",
              "Rare",
              "10 lb",
-             "",
+             "Armor",
              "",
              ""),
 
@@ -5543,7 +5490,7 @@ treasure_table = [
              "2,400. gp",
              "Rare",
              "5 lb",
-             "",
+             "Armor",
              "",
              ""),
 
@@ -5966,7 +5913,7 @@ treasure_table = [
              "4,000. gp",
              "Rare",
              "8 lb",
-             "",
+             "Weapon",
              "",
              ""),
 
@@ -6083,7 +6030,7 @@ treasure_table = [
              "",
              "Rare",
              "",
-             "Rod",
+             "Wondrous Item",
              "",
              "Requires Attunement"),
 
@@ -6191,7 +6138,7 @@ treasure_table = [
              "1,400. gp",
              "Rare",
              "3 lb",
-             "",
+             "Weapon",
              "",
              ""),
 
@@ -6428,16 +6375,6 @@ treasure_table = [
              "Weapon",
              "",
              ""),
-
-    Treasure(
-        " Roll a dlOO. On a 1- 60, you travel to a random location on the plane you named. On a 61- 100, you travel to a randomly determined plane of existence. ",
-        "160,000. gp",
-        "Very Rare",
-        "n/a",
-        "Wondrous Item",
-        "",
-        "Requires Attunement",
-        "DMG"),
 
     Treasure("Amulets of Inedibility",
              "These two amulets are enchanted as a pair and both must be worn at the same time for the enchantment to work. Anything wearing it cannot be considered as food.",
@@ -6687,7 +6624,7 @@ treasure_table = [
              "0. gp",
              "Very Rare",
              "n/a",
-             "",
+             "Wondrous Item",
              "",
              ""),
 
@@ -6849,7 +6786,7 @@ treasure_table = [
              "4,600. gp",
              "Very Rare",
              "n/a",
-             "",
+             "Wondrous Item",
              "",
              ""),
 
@@ -6984,7 +6921,7 @@ treasure_table = [
              "2,300. gp",
              "Very Rare",
              "3 lb",
-             "",
+             "Weapon",
              "",
              ""),
 
@@ -6993,7 +6930,7 @@ treasure_table = [
              "600. gp",
              "Very Rare",
              "1 lb",
-             "",
+             "Weapon",
              "",
              ""),
 
@@ -7029,18 +6966,10 @@ treasure_table = [
              "6,400. gp",
              "Very Rare",
              "n/a",
-             "",
+             "Wondrous Item",
              "",
              ""),
 
-    Treasure("Zoltar's Pearlescent Ring",
-             "A simple white pearlescent ring. Curse: Lose 1d4 max health once per day. The effect stacks each day. Once worn, this ring cannot be removed. Any attempt to remove the ring sees it reappear after a few seconds. Any attempt to circumvent the curse by removing the ring finger sees it appear on a different finger. If the wearer removes every finger, the curse ends. Should they fail to get the curse removed before their health falls below 0 they become an undead thrall.",
-             "0. gp",
-             "Very Rare",
-             "n/a",
-             "Trap",
-             "",
-             ""),
 
     Treasure("Quelling Axe",
              "This axe appears to be like any other felling axe, but when used it will unerringly cut down any tree with one swing. Its formidable weight and uneven balancing make it a slow, inefficient weapon.",
@@ -8774,5 +8703,16 @@ treasure_table = [
 
 
 if __name__ == "__main__":
-    for treasure in treasure_table:
-        treasure.print()
+    catigory_list = []
+    found = True
+    for tresure in treasure_table:
+        found = False
+        for catigory in catigory_list:
+            if catigory == tresure.category:
+                found = True
+                break
+        if found == False:
+            catigory_list.append(tresure.category)
+            print(tresure.name)
+
+    print (catigory_list)
