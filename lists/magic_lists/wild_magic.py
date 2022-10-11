@@ -123,5 +123,15 @@ wild_magic_list = [
 	"Heat Wave. Every creature within 30 feet of the caster (caster included) has their metal weapons heat up and they drop them. It takes 2 turns to cool off enough to pick them up",
 	"Random creature within 30 feet of the caster turns into a baby for 1d20 turns (minutes if out of combat)",
 	"One random rock close to the caster gains sentience",
-	"Caster thinks that they died and came back as a ghost till the end of the day."
+	"Caster thinks that they died and came back as a ghost till the end of the day.",
+	"All creatures within 30 feet of the caster gain 4d8 health.",
+	"A tremor rips through the earth. If indoors, the building or cave starts to collapse.",
+	"A random creature within 100 feet of the caster (including the caster) turns into a chicken for a minute",
+	"The spell is now reduce/enlarge on the same target that the caster was targeting",
+	"The caster's wepon turns into a magical +1 weapon.",
+	"The spell creates 2 cave bears where the caster was targeting. The dire bears attack whoever is closest to them.",
+	"The spell creates 1 owl bear for 1 minute who listens to the casters command (caster commands it with a bonus action)",
+	"The spell raises all enimies that died as zombies that are friendly to the caster and their party",
+	"The caster creates a random potion in their hand.",
+	"The caster creates a random common wonderous item"
 ]

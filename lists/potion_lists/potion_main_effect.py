@@ -97,5 +97,6 @@ main_effect_list = ["Healing. It instantly regenerates some health when drank",
 					"Fear. Makes the user terrified",
 					"Night vision. Gives the ability to see in the dark",
 					"Tracking. Lets the user track an enemy",
-					"Cure-all. Cures any and all status effects"
+					"Cure-all. Cures any and all status effects",
+					"Polymorth. Makes the user turn into a creature"
 ]
