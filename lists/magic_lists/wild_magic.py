@@ -133,5 +133,7 @@ wild_magic_list = [
 	"The spell creates 1 owl bear for 1 minute who listens to the casters command (caster commands it with a bonus action)",
 	"The spell raises all enimies that died as zombies that are friendly to the caster and their party",
 	"The caster creates a random potion in their hand.",
-	"The caster creates a random common wonderous item"
+	"The caster creates a random common wonderous item",
+	"A duplicate of the caster is created. The duplicate gets its own turn in combat, but shares hp and spell slots with the caster. The duplicate lasts for 3 rouds.",
+	"A portal opens up and the caster is pulled into it. They disappear for 3 rounds. At the end of 3 rounds, they reappear in a random location close to the party."
 ]
