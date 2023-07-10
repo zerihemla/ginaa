@@ -1,0 +1,16 @@
+smells_list = [
+    "Smells like poop",
+    "Smells normal",
+    "Smells like freshly cut flowers",
+    "Smells like worked leather",
+    "Smells like nickles",
+    "Smells like fresh bread",
+    "Smells like something suspicious",
+    "Smells like victory",
+    "Smells like defeat",
+    "Smells like warm cheese",
+    "Smells like old milk",
+    "Smells like dead mouse",
+    "Smells like dead fish",
+    "Smells like vegitation",
+]

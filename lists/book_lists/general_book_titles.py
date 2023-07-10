@@ -1,0 +1,16 @@
+general_book_titles_list = [
+ "Gone with the Gust of Air",
+ "Moby Duck",
+ "Frank-en-stien",
+ "Sheer-luck home",
+ "War and .... more war",
+ "Pride and General Dislike",
+ "Pointy things and how to use them for dummies",
+ "Scarlet Number",
+ "WAY less miserable-s",
+ "Dawn", 
+ "Old Moon",
+ "Totality",
+ "Breaking Midnight",
+ "Reindeer are better than people, 50 reasons why",
+]

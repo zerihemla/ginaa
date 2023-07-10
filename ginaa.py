@@ -6,6 +6,7 @@ from item_generator import GeneratedItem
 from potion_generator import GeneratedPotion
 from trap_generator import GeneratedTrap
 from treasure_generator import GeneratedTreasure
+from book_generator import GeneratedBook
 
 from wild_magic import get_wild_magic_effect
 
@@ -53,6 +54,8 @@ class GinaaQtApp(ginaa_gui.Ui_Ginaa_GUI, QtWidgets.QMainWindow):
         self.random_item_button.clicked.connect(self.random_item_button_clicked)
         self.random_magic_item_button.clicked.connect(self.random_magic_item_button_clicked)
         self.random_corrupted_item_button.clicked.connect(self.random_corrupted_item_button_clicked)
+        self.bad_item_button.clicked.connect(self.bad_item_button_clicked)
+        self.useless_item_button.clicked.connect(self.useless_item_button_clicked)
 
         self.random_potion_button.clicked.connect(self.random_potion_button_clicked)
 
@@ -63,6 +66,8 @@ class GinaaQtApp(ginaa_gui.Ui_Ginaa_GUI, QtWidgets.QMainWindow):
         self.chaotic_trap_button.clicked.connect(self.random_chaotic_trap_button_clicked)
 
         self.wild_magic_button.clicked.connect(self.wild_magic_button_clicked)
+
+        self.random_book_button.clicked.connect(self.random_book_button_clicked)
 
     #######################################
     ########NPC FUNCTIONS##################
@@ -99,6 +104,19 @@ class GinaaQtApp(ginaa_gui.Ui_Ginaa_GUI, QtWidgets.QMainWindow):
     def random_item_button_clicked(self):
         item = GeneratedItem()
         item.setRandomItem()
+        text = item.get_text()
+        self.print_to_console(text)
+
+    def bad_item_button_clicked(self):
+        item = GeneratedItem()
+        item.getBadItem()
+        text = item.get_text()
+        self.print_to_console(text)
+
+
+    def useless_item_button_clicked(self):
+        item = GeneratedItem()
+        item.getUselessItem()
         text = item.get_text()
         self.print_to_console(text)
 
@@ -180,6 +198,16 @@ class GinaaQtApp(ginaa_gui.Ui_Ginaa_GUI, QtWidgets.QMainWindow):
     def wild_magic_button_clicked(self):
         wild_magic = "\n" + get_wild_magic_effect() + "\n"
         self.print_to_console(wild_magic)
+
+    #######################################
+    ####BOOK FUNCTIONS#####################
+    #######################################
+    def random_book_button_clicked(self):
+        book = GeneratedBook()
+        book.setGeneralBook()
+        text = book.get_text()
+        self.print_to_console(text)
+
 
     #######################################
     ####TRAP FUNCTIONS#####################

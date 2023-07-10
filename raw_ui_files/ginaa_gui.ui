@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>931</width>
-    <height>754</height>
+    <height>781</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -80,7 +80,7 @@
           </sizepolicy>
          </property>
          <property name="currentIndex">
-          <number>1</number>
+          <number>3</number>
          </property>
          <widget class="QWidget" name="peeps_and_paces_tab">
           <attribute name="title">
@@ -320,6 +320,27 @@
               <enum>QFrame::Raised</enum>
              </property>
              <layout class="QGridLayout" name="gridLayout_3">
+              <item row="3" column="1">
+               <widget class="QPushButton" name="bad_item_button">
+                <property name="text">
+                 <string>Bad Item</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0" rowspan="2">
+               <widget class="QPushButton" name="random_item_button">
+                <property name="text">
+                 <string>Random Item</string>
+                </property>
+               </widget>
+              </item>
+              <item row="7" column="0" colspan="2">
+               <widget class="QPushButton" name="random_corrupted_item_button">
+                <property name="text">
+                 <string>Random Corrupted</string>
+                </property>
+               </widget>
+              </item>
               <item row="0" column="0">
                <widget class="QLabel" name="label">
                 <property name="font">
@@ -332,31 +353,24 @@
                 </property>
                </widget>
               </item>
-              <item row="1" column="0">
+              <item row="1" column="0" colspan="2">
                <widget class="Line" name="line">
                 <property name="orientation">
                  <enum>Qt::Horizontal</enum>
                 </property>
                </widget>
               </item>
-              <item row="2" column="0">
-               <widget class="QPushButton" name="random_item_button">
-                <property name="text">
-                 <string>Random Item</string>
-                </property>
-               </widget>
-              </item>
-              <item row="3" column="0">
+              <item row="6" column="0">
                <widget class="QPushButton" name="random_magic_item_button">
                 <property name="text">
                  <string>Random Magic</string>
                 </property>
                </widget>
               </item>
-              <item row="4" column="0">
-               <widget class="QPushButton" name="random_corrupted_item_button">
+              <item row="6" column="1">
+               <widget class="QPushButton" name="useless_item_button">
                 <property name="text">
-                 <string>Random Corrupted</string>
+                 <string>Useless Item</string>
                 </property>
                </widget>
               </item>
@@ -653,6 +667,39 @@
               </size>
              </property>
             </spacer>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="book_tab">
+          <attribute name="title">
+           <string>Books</string>
+          </attribute>
+          <layout class="QGridLayout" name="gridLayout_11">
+           <item row="0" column="0">
+            <widget class="QScrollArea" name="scrollArea">
+             <property name="widgetResizable">
+              <bool>true</bool>
+             </property>
+             <widget class="QWidget" name="scrollAreaWidgetContents">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>226</width>
+                <height>611</height>
+               </rect>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_12">
+               <item row="0" column="0">
+                <widget class="QPushButton" name="random_book_button">
+                 <property name="text">
+                  <string>Random Book</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
            </item>
           </layout>
          </widget>
