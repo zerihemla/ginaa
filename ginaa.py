@@ -67,7 +67,7 @@ class GinaaQtApp(ginaa_gui.Ui_Ginaa_GUI, QtWidgets.QMainWindow):
 
         self.wild_magic_button.clicked.connect(self.wild_magic_button_clicked)
 
-        self.random_book_button.clicked.connect(self.random_book_button_clicked)
+        self.generate_book_button.clicked.connect(self.generate_book_button_clicked)
 
     #######################################
     ########NPC FUNCTIONS##################
@@ -202,9 +202,24 @@ class GinaaQtApp(ginaa_gui.Ui_Ginaa_GUI, QtWidgets.QMainWindow):
     #######################################
     ####BOOK FUNCTIONS#####################
     #######################################
-    def random_book_button_clicked(self):
+    def generate_book_button_clicked(self):
         book = GeneratedBook()
-        book.setGeneralBook()
+
+        selected_catigory_list = []
+
+        if self.funny_books_box.isChecked():
+            selected_catigory_list.append("general_funny_book_titles")
+
+        if self.general_books_box.isChecked():
+            selected_catigory_list.append("general_book_titles")
+
+        if self.evil_books_box.isChecked():
+            selected_catigory_list.append("general_evil_book_titles")
+
+        if self.evil_wizard_books_box.isChecked():
+            selected_catigory_list.append("evil_wizard_book_titles")
+
+        book.set_book_from_random_catigories(selected_catigory_list)
         text = book.get_text()
         self.print_to_console(text)
 

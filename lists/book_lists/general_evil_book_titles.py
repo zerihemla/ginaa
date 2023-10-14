@@ -23,4 +23,8 @@ general_evil_book_titles_list = [
 	"Are you gonna finish that? Using ALL parts of humans in food",
 	"Tigers and Lions and Bears, oh my! How to encourage beasts to stay in dungons",
 	"How to win friends and influce dark eldrich beings",
+	"How to roast your friends and other seasoning tips",
+	"The day I lost my face by the former lord big Lips",
+	"Are you ready to command an undead army? 10 helpful tips",
+
 	]
