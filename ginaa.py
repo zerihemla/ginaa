@@ -8,6 +8,12 @@ from trap_generator import GeneratedTrap
 from treasure_generator import GeneratedTreasure
 from book_generator import GeneratedBook
 
+
+from lists.occurance_list.creepy_occurances import creepy_occurances_list
+from lists.occurance_list.random_occurances import random_occurances_list
+from lists.encounter_lists.encounter_spice_list import encouter_spice_list
+
+
 from wild_magic import get_wild_magic_effect
 
 
@@ -64,6 +70,12 @@ class GinaaQtApp(ginaa_gui.Ui_Ginaa_GUI, QtWidgets.QMainWindow):
         self.mechanical_trap_button.clicked.connect(self.random_mechanical_trap_button_clicked)
         self.magic_trap_button.clicked.connect(self.random_magical_trap_button_clicked)
         self.chaotic_trap_button.clicked.connect(self.random_chaotic_trap_button_clicked)
+
+
+        self.creepy_occurance_button.clicked.connect(self.creepy_occurance_button_clicked)
+        self.random_occurance_button.clicked.connect(self.random_occurance_button_clicked)
+        self.combat_spices_button.clicked.connect(self.combat_spice_button_clicked)
+
 
         self.wild_magic_button.clicked.connect(self.wild_magic_button_clicked)
 
@@ -245,6 +257,19 @@ class GinaaQtApp(ginaa_gui.Ui_Ginaa_GUI, QtWidgets.QMainWindow):
         trap_text = trap.get_text()
         self.print_to_console(trap_text)
 
+
+    def creepy_occurance_button_clicked(self):
+        occurance = select_from_list(creepy_occurances_list)
+        self.print_to_console(occurance)
+
+    def random_occurance_button_clicked(self):
+        occurance = select_from_list(random_occurances_list)
+        self.print_to_console(occurance)
+
+
+    def combat_spice_button_clicked(self):
+        combat_spice = select_from_list(encouter_spice_list)
+        self.print_to_console(combat_spice)
 
 
     #######################################

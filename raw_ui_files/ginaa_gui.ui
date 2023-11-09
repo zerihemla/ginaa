@@ -664,6 +664,13 @@
               <enum>QFrame::Raised</enum>
              </property>
              <layout class="QGridLayout" name="gridLayout_10">
+              <item row="3" column="0">
+               <widget class="QPushButton" name="random_occurance_button">
+                <property name="text">
+                 <string>Random</string>
+                </property>
+               </widget>
+              </item>
               <item row="0" column="0">
                <widget class="QLabel" name="label_5">
                 <property name="font">
@@ -690,10 +697,10 @@
                 </property>
                </widget>
               </item>
-              <item row="3" column="0">
-               <widget class="QPushButton" name="random_occurance_button">
+              <item row="4" column="0">
+               <widget class="QPushButton" name="combat_spices_button">
                 <property name="text">
-                 <string>Random</string>
+                 <string>Combat Spices</string>
                 </property>
                </widget>
               </item>
@@ -730,8 +737,8 @@
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>226</width>
-                <height>611</height>
+                <width>171</width>
+                <height>218</height>
                </rect>
               </property>
               <layout class="QGridLayout" name="gridLayout_13">
