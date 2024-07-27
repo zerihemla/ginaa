@@ -1,12 +1,9 @@
 import random
 import sys
+import time
 
 from map_defines import *
 from map_drawer import *
-
-# Initialize Pygame
-
-
 
 # Tile size
 DEFAULT_TILE_SIZE = 20
@@ -31,8 +28,6 @@ DEFAULT_MAX_NUM_HOLES = 3
 
 DEFAULT_MIN_NUM_OBSTRUCTIONS = 1
 DEFAULT_MAX_NUM_OBSTRUCTIONS = 3
-
-
 
 
 class GeneratedMap():
@@ -89,14 +84,15 @@ class GeneratedMap():
         self._add_entrance()
         self._add_treasure()
         self._link_rooms()
-        self._add_traps()
-        self._add_holes()
-        self._add_obstructions()
+        # self._add_traps()
+        # self._add_holes()
+        # self._add_obstructions()
 
 
     def draw_map(self):
         drawn_map = MapDrawer(self.map_arr, self.map_width, self.map_height, self.tile_size)
-        drawn_map.display_map()
+        # drawn_map.display_map()
+        drawn_map._display_loop()
 
     def print_raw(self):
         self._print_raw_map()
@@ -196,11 +192,11 @@ class GeneratedMap():
             x1, y1 = self.room_centers[i]
             x2, y2 = self.room_centers[i + 1]
             if random.choice([True, False]):
-                create_corridor(self.map_arr, x1, y1, x2, y1)
-                create_corridor(self.map_arr, x2, y1, x2, y2)
+                self._create_hallways(x1, y1, x2, y1)
+                self._create_hallways(x2, y1, x2, y2)
             else:
-                create_corridor(self.map_arr, x1, y1, x1, y2)
-                create_corridor(self.map_arr, x1, y2, x2, y2)
+                self._create_hallways(x1, y1, x1, y2)
+                self._create_hallways(x1, y2, x2, y2)
 
     def _create_hallways(self, x1, y1, x2, y2):
         if x1 < x2:
@@ -216,109 +212,15 @@ class GeneratedMap():
             for y in range(y2, y1 + 1):
                 self.map_arr[y][x2] = OPEN_CHAR
     
-
-def create_corridor(dungeon, x1, y1, x2, y2):
-    if x1 < x2:
-        for x in range(x1, x2 + 1):
-            dungeon[y1][x] = '.'
-    elif x1 > x2:
-        for x in range(x2, x1 + 1):
-            dungeon[y1][x] = '.'
-    if y1 < y2:
-        for y in range(y1, y2 + 1):
-            dungeon[y][x2] = '.'
-    elif y1 > y2:
-        for y in range(y2, y1 + 1):
-            dungeon[y][x2] = '.'
-
-
-def create_dungeon(width, height):
-    # Initialize dungeon with walls
-    dungeon = [[WALL_CHAR for _ in range(width)] for _ in range(height)]
-
-    room_centers = []
-    # Create rooms
-    num_rooms = random.randint(5, 10)
-    for _ in range(num_rooms):
-        room_width = random.randint(3, 8)
-        room_height = random.randint(3, 8)
-        x = random.randint(1, width - room_width - 1)
-        y = random.randint(1, height - room_height - 1)
-
-        for i in range(y, y + room_height):
-            for j in range(x, x + room_width):
-                dungeon[i][j] = '.'
-
-        room_centers.append((x + room_width // 2, y + room_height // 2))
-
-    # Create corridors
-    for i in range(len(room_centers) - 1):
-        x1, y1 = room_centers[i]
-        x2, y2 = room_centers[i + 1]
-        if random.choice([True, False]):
-            create_corridor(dungeon, x1, y1, x2, y1)
-            create_corridor(dungeon, x2, y1, x2, y2)
-        else:
-            create_corridor(dungeon, x1, y1, x1, y2)
-            create_corridor(dungeon, x1, y2, x2, y2)
-
-    # Add entrance
-    entrance_x = random.randint(1, width - 2)
-    entrance_y = random.randint(1, height - 2)
-    while dungeon[entrance_y][entrance_x] != '.':
-        entrance_x = random.randint(1, width - 2)
-        entrance_y = random.randint(1, height - 2)
-    dungeon[entrance_y][entrance_x] = 'E'
-
-    return dungeon
-
-
-def draw_dungeon(screen, dungeon):
-    for y, row in enumerate(dungeon):
-        for x, cell in enumerate(row):
-            rect = pygame.Rect(x * TILE_SIZE, y * TILE_SIZE, TILE_SIZE, TILE_SIZE)
-            if cell == WALL_CHAR:
-                pygame.draw.rect(screen, GRAY, rect)
-            elif cell == '.':
-                pygame.draw.rect(screen, WHITE, rect)
-            elif cell == 'E':
-                pygame.draw.rect(screen, BROWN, rect)
-            pygame.draw.rect(screen, BLACK, rect, 1)  # Draw cell borders
-
-
-def main():
-    print("Welcome to the D&D Dungeon Generator!")
-    width = int(input("Enter the width of the dungeon: "))
-    height = int(input("Enter the height of the dungeon: "))
-
-    dungeon = create_dungeon(width, height)
-
-    # Set up the display
-    screen_width = width * TILE_SIZE
-    screen_height = height * TILE_SIZE
-    screen = pygame.display.set_mode((screen_width, screen_height))
-    pygame.display.set_caption("D&D Dungeon")
-
-    # Main game loop
-    running = True
-    while running:
-        for event in pygame.event.get():
-            if event.type == pygame.QUIT:
-                running = False
-
-        screen.fill(BLACK)
-        draw_dungeon(screen, dungeon)
-        pygame.display.flip()
-
-    pygame.quit()
-    sys.exit()
-
 def class_main():
     print("Running map class")
     map = GeneratedMap()
     map.generate_map()
     map.print_raw()
     map.draw_map()
+
+    while(1):
+        time.sleep(1)
 
 
 if __name__ == "__main__":

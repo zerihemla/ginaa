@@ -1,4 +1,5 @@
 import pygame
+import threading
 
 from map_defines import *
 
@@ -27,7 +28,33 @@ class MapDrawer():
         self.hole_color = hole_color
         self.obstruction_color = obstruction_color
 
-    def process_map(self):
+
+    ######################################
+    ####PUBLIC FUNCTIONS##################
+    ######################################
+    def display_map(self):
+        display_thread = threading.Thread(target = self._display_loop, args=self)
+
+
+
+    ######################################
+    ####PRIVATE FUNCTIONS#################
+    ######################################
+
+    def _display_loop(self):
+        running = True
+        while running:
+            for event in pygame.event.get():
+                if event.type == pygame.QUIT:
+                    running = False
+
+            self.screen.fill(BLACK)
+            self._process_map()
+
+        pygame.quit()
+
+
+    def _process_map(self):
         self.screen.fill(BLACK)
         
         for y, row in enumerate(self.map_arr):
@@ -52,20 +79,4 @@ class MapDrawer():
                 pygame.draw.rect(self.screen, BLACK, rect, 1) 
         
         pygame.display.flip() # Draw cell borders
-
-
-
-
-    def display_map(self):
-         # Main game loop
-        running = True
-        while running:
-            for event in pygame.event.get():
-                if event.type == pygame.QUIT:
-                    running = False
-
-            self.screen.fill(BLACK)
-            self.process_map()
-
-        pygame.quit()
 
