@@ -1,0 +1,18 @@
+WALL_CHAR = "#"
+OPEN_CHAR = "."
+ENTRANCE_CHAR = "E"
+TREASURE_CHAR = "G"
+TRAP_CHAR = "T"
+HOLE_CHAR = "H"
+OBSTRUCTION_CHAR = "O"
+
+# Colors
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+GRAY = (100, 100, 100)
+BROWN = (165, 42, 42)
+GOLD = (100, 50, 50)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
+
