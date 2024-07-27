@@ -1,0 +1,31 @@
+#This verb list is for a prophecy generator
+#Therefore, all the verbs will be in futrue tense.
+#Also, all the verbs will be lower case. 
+verb_list = [ 
+    "dances",
+    "shatters",
+    "dies",
+    "kills",
+    "executes",
+    "laughs",
+    "sings",
+    "cries",
+    "runs",
+    "jumps",
+    "falls",
+    "flies",
+    "swims",
+    "sinks",
+    "rises",
+    "walks",
+    "whispers",
+    "screams",
+    "shouts",
+    "whispers",
+    "silences",
+    "fights",
+    "battles",
+    "duels",
+    "clashes",
+    "argues",
+]
