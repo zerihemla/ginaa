@@ -6,7 +6,8 @@ from map_defines import *
 
 
 class MapDrawer():
-    def __init__(self, map_arr, map_width, map_height, tile_size, wall_color = GRAY, open_color = WHITE, entrance_color = BROWN, treasure_color = GOLD,
+    def __init__(self, map_arr, map_width, map_height, tile_size, wall_color = GRAY, open_color = WHITE, 
+                 entrance_color = BROWN, hallway_color = LIGHT_GRAY, treasure_color = GOLD,
                  trap_color= RED, hole_color = BLACK, obstruction_color = BLUE):
         
         self.map_arr = map_arr
@@ -23,6 +24,7 @@ class MapDrawer():
         self.wall_color = wall_color
         self.open_color = open_color
         self.entrance_color = entrance_color
+        self.hallway_color = hallway_color
         self.treasure_color = treasure_color
         self.trap_color = trap_color
         self.hole_color = hole_color
@@ -66,6 +68,8 @@ class MapDrawer():
                     pygame.draw.rect(self.screen, self.open_color, rect)
                 elif cell == ENTRANCE_CHAR:
                     pygame.draw.rect(self.screen, self.entrance_color, rect)
+                elif cell == HALLWAY_CHAR:
+                    pygame.draw.rect(self.screen, self.hallway_color, rect)
                 elif cell == TREASURE_CHAR:
                     pygame.draw.rect(self.screen, self.treasure_color, rect)
                 elif cell == TRAP_CHAR:

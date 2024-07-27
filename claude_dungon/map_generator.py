@@ -12,10 +12,10 @@ DEFAULT_WIDTH = 50
 DEFAULT_HEIGHT = 50
 
 DEFAULT_MIN_NUM_ROOMS = 5
-DEFAULT_MAX_NUM_ROOMS = 10
+DEFAULT_MAX_NUM_ROOMS = 15
 
 DEFAULT_MIN_ROOM_DIM = 3
-DEFAULT_MAX_ROOM_DIM = 8
+DEFAULT_MAX_ROOM_DIM = 10
 
 DEFAULT_MIN_NUM_TREASURE = 1
 DEFAULT_MAX_NUM_TREASURE = 3
@@ -201,17 +201,22 @@ class GeneratedMap():
     def _create_hallways(self, x1, y1, x2, y2):
         if x1 < x2:
             for x in range(x1, x2 + 1):
-                self.map_arr[y1][x] = OPEN_CHAR
+                self._create_hallway_piece(y1, x)
         elif x1 > x2:
             for x in range(x2, x1 + 1):
-                self.map_arr[y1][x] = OPEN_CHAR
+                self._create_hallway_piece(y1, x)
         if y1 < y2:
             for y in range(y1, y2 + 1):
-                self.map_arr[y][x2] = OPEN_CHAR
+                self._create_hallway_piece(y,x2)
         elif y1 > y2:
             for y in range(y2, y1 + 1):
-                self.map_arr[y][x2] = OPEN_CHAR
+                self._create_hallway_piece(y, x2)
     
+    def _create_hallway_piece(self, y, x):
+        if self.map_arr[y][x] == WALL_CHAR:
+            self.map_arr[y][x] = HALLWAY_CHAR
+
+
 def class_main():
     print("Running map class")
     map = GeneratedMap()
@@ -219,8 +224,8 @@ def class_main():
     map.print_raw()
     map.draw_map()
 
-    while(1):
-        time.sleep(1)
+    # while(1):
+    #     time.sleep(1)
 
 
 if __name__ == "__main__":
