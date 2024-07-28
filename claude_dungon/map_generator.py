@@ -84,6 +84,7 @@ class GeneratedMap():
         self._add_entrance()
         self._add_treasure()
         self._link_rooms()
+        # self._remove_fluff()
         # self._add_traps()
         # self._add_holes()
         # self._add_obstructions()
@@ -103,10 +104,13 @@ class GeneratedMap():
     ######################################
 
     def _print_raw_map(self):
+        index = 0
         for line in self.map_arr:
             for char in line:
                 print(char, end = "")
-            print("")
+            print(f" i: {index}")
+            index += 1
+            # print()
         print(f"\n\n")
 
     def _print_data_structure(self):
@@ -120,7 +124,7 @@ class GeneratedMap():
         self._print_data("num treasure", self.num_treasure)
         self._print_data("num traps", self.num_traps)
         self._print_data("num holes", self.num_holes)
-        self._print_data("num obstructions", self.num_obstructions)
+        self._print_data("num obstr.", self.num_obstructions)
         print()
         self._print_data("min room dim", self.min_room_dim)
         self._print_data("max room dim", self.max_room_dim)
@@ -198,6 +202,28 @@ class GeneratedMap():
                 self._create_hallways(x1, y1, x1, y2)
                 self._create_hallways(x1, y2, x2, y2)
 
+
+    #This sorta works..... but it is UGLY!
+    def _remove_fluff(self):
+        index = 0
+        lines_to_remove = []
+        for line in self.map_arr:
+            safe_to_remove = True
+            # print("NEW LINE")
+            for char in line:
+                # print(char)
+                if char != WALL_CHAR and char != HALLWAY_CHAR:
+                    safe_to_remove = False
+            if safe_to_remove == True:
+                # print("SAFE TO REMOVE!")
+                # print(f"Removed Index: {index}")
+                lines_to_remove.append(index)    
+            index += 1
+        
+        for this_index in reversed(lines_to_remove):
+            print(this_index)
+            del self.map_arr[this_index]
+
     def _create_hallways(self, x1, y1, x2, y2):
         if x1 < x2:
             for x in range(x1, x2 + 1):
@@ -222,7 +248,9 @@ def class_main():
     map = GeneratedMap()
     map.generate_map()
     map.print_raw()
+    map._remove_fluff()
     map.draw_map()
+
 
     # while(1):
     #     time.sleep(1)
