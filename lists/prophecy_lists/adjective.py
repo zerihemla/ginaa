@@ -61,4 +61,6 @@ adjective_list = [
     "fearful",
     "bold",
     "timid",
+    "shining",
+    "expensive",
 ]
