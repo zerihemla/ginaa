@@ -99,6 +99,13 @@ class GeneratedMap():
         self._print_raw_map()
         self._print_data_structure()
 
+    def remove_fluff(self):
+        self._remove_horizontal_fluff()
+        self._remove_vertical_fluff()
+        self._add_horizontal_filler_walls()
+        self._add_vertical_filler_walls()
+
+
     ######################################
     ####PRIVATE FUNCTIONS#################
     ######################################
@@ -204,10 +211,13 @@ class GeneratedMap():
 
 
     #This sorta works..... but it is UGLY!
-    def _remove_fluff(self):
+    def _remove_vertical_fluff(self):
         index = 0
         lines_to_remove = []
         for line in self.map_arr:
+            if index == 0 or index == self.map_height - 1:
+                index += 1
+                continue
             safe_to_remove = True
             # print("NEW LINE")
             for char in line:
@@ -223,6 +233,34 @@ class GeneratedMap():
         for this_index in reversed(lines_to_remove):
             print(this_index)
             del self.map_arr[this_index]
+
+    def _remove_horizontal_fluff(self):
+        index = 0
+        lines_to_remove = []
+        for i in range(self.map_width):
+            if i == 0 or i == self.map_width - 1:
+                continue
+            safe_to_remove = True
+            for j in range(self.map_height):
+                if self.map_arr[j][i] != WALL_CHAR and self.map_arr[j][i] != HALLWAY_CHAR:
+                    safe_to_remove = False
+            if safe_to_remove == True:
+                lines_to_remove.append(index)
+            index += 1
+
+        for this_index in reversed(lines_to_remove):
+            for j in range(self.map_height):
+                del self.map_arr[j][this_index]
+
+    def _add_horizontal_filler_walls(self):
+        for line in self.map_arr:
+            lenght = len(line)
+            while len(line) < self.map_width:
+                line.append(WALL_CHAR)
+    
+    def _add_vertical_filler_walls(self):
+        while len(self.map_arr) < self.map_height:
+            self.map_arr.append([WALL_CHAR for _ in range(self.map_width)])
 
     def _create_hallways(self, x1, y1, x2, y2):
         if x1 < x2:
@@ -248,7 +286,7 @@ def class_main():
     map = GeneratedMap()
     map.generate_map()
     map.print_raw()
-    map._remove_fluff()
+    map.remove_fluff()
     map.draw_map()
 
 
