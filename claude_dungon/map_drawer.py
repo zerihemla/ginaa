@@ -2,6 +2,8 @@ import pygame
 import threading
 from map_defines import *
 
+NUM_BOXES_TO_COLOR = 2
+
 class MapDrawer():
     def __init__(self, map_arr, map_width, map_height, tile_size, wall_color=GRAY, open_color=WHITE,
                  entrance_color=BROWN, hallway_color=LIGHT_GRAY, treasure_color=GOLD,
@@ -54,7 +56,7 @@ class MapDrawer():
                 self._handle_mouse_over()
 
             self.screen.fill(BLACK)
-            self._process_map()
+            self._process_player_map()
             pygame.display.flip()
             clock.tick(60)  # Limit to 60 FPS
 
@@ -70,10 +72,10 @@ class MapDrawer():
             if 0 <= grid_x < self.map_width and 0 <= grid_y < self.map_height:
                 cell_value = self.map_arr[grid_y][grid_x]
                 print(f"Mouse over cell: ({grid_x}, {grid_y}), Value: {cell_value}")
-                self.map_arr[grid_y][grid_x] = cell_value.upper()
+                self._make_square_visible(grid_x, grid_y)
                 self.last_reported_cell = current_cell
 
-    def _process_map(self):
+    def _process_player_map(self):
         for y, row in enumerate(self.map_arr):
             for x, cell in enumerate(row):
                 rect = pygame.Rect(x * self.tile_size, y * self.tile_size, self.tile_size, self.tile_size)
@@ -94,5 +96,22 @@ class MapDrawer():
                 elif cell == OBSTRUCTION_CHAR:
                     pygame.draw.rect(self.screen, self.obstruction_color, rect)
                 else:
-                    pygame.draw.rect(self.screen, GREEN, rect)
+                    pygame.draw.rect(self.screen, self.wall_color, rect)
                 pygame.draw.rect(self.screen, BLACK, rect, 1)
+    
+    def _make_square_visible(self, x, y):
+        self._make_cell_visible(x, y)
+
+        #If num boxes to color gets set more than 1, this makes weird shapes. 
+        for i in range(NUM_BOXES_TO_COLOR+1):
+            self._make_cell_visible(x + i, y)
+            self._make_cell_visible(x - i, y)
+            self._make_cell_visible(x, y + i)
+            self._make_cell_visible(x, y - i)
+            self._make_cell_visible(x + i, y + i)
+            self._make_cell_visible(x - i, y - i)
+            self._make_cell_visible(x + i, y - i)
+            self._make_cell_visible(x - i, y + i)
+
+    def _make_cell_visible(self, x, y):
+        self.map_arr[y][x] = self.map_arr[y][x].upper()

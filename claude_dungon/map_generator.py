@@ -81,8 +81,8 @@ class GeneratedMap():
     def generate_map(self):
         self._init_map()
         self._create_rooms()
-        self._add_entrance()
-        self._add_treasure()
+        # self._add_entrance()
+        # self._add_treasure()
         self._link_rooms()
         # self._remove_fluff()
         # self._add_traps()
@@ -158,7 +158,7 @@ class GeneratedMap():
 
             for i in range(y, y + room_height):
                 for j in range(x, x + room_width):
-                    self.map_arr[i][j] = OPEN_CHAR
+                    self.map_arr[i][j] = OPEN_CHAR.lower()
             self.room_sizes.append((room_width, room_height))
             self.room_centers.append((x + room_width // 2, y + room_height // 2))
 
@@ -168,19 +168,19 @@ class GeneratedMap():
 
     def _add_treasure(self):
         for _ in range(self.num_treasure):
-            self._replace_random_char(OPEN_CHAR, TREASURE_CHAR)
+            self._replace_random_char(OPEN_CHAR, TREASURE_CHAR.lower())
 
     def _add_traps(self):
         for _ in range(self.num_traps):
-            self._replace_random_char(OPEN_CHAR, TRAP_CHAR)
+            self._replace_random_char(OPEN_CHAR, TRAP_CHAR.lower())
 
     def _add_holes(self):
         for _ in range(self.num_holes):
-            self._replace_random_char(OPEN_CHAR, HOLE_CHAR)
+            self._replace_random_char(OPEN_CHAR, HOLE_CHAR.lower())
 
     def _add_obstructions(self):
         for _ in range(self.num_obstructions):
-            self._replace_random_char(OPEN_CHAR, OBSTRUCTION_CHAR)
+            self._replace_random_char(OPEN_CHAR, OBSTRUCTION_CHAR.lower())
 
 
     def _replace_random_char(self, char_to_find, char_to_put, max_tries = 100):
@@ -278,7 +278,7 @@ class GeneratedMap():
     
     def _create_hallway_piece(self, y, x):
         if self.map_arr[y][x] == WALL_CHAR:
-            self.map_arr[y][x] = HALLWAY_CHAR
+            self.map_arr[y][x] = HALLWAY_CHAR.lower()
 
 
 def class_main():
