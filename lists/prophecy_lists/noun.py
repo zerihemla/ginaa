@@ -29,4 +29,9 @@ noun_list = [
     "night",
     "moon",
     "ring",
+    "craig",
+    "city",
+    "forest",
+    "mountain",
+    
 ]

@@ -28,4 +28,8 @@ verb_list = [
     "duels",
     "clashes",
     "argues",
+    "destroys",
+    "slips",
+    "avenges",
+    
 ]
