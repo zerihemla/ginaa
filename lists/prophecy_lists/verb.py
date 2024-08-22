@@ -21,7 +21,6 @@ verb_list = [
     "whispers",
     "screams",
     "shouts",
-    "whispers",
     "silences",
     "fights",
     "battles",
@@ -29,7 +28,10 @@ verb_list = [
     "clashes",
     "argues",
     "destroys",
-    "slips",
     "avenges",
-    
+    "prays",
+    "fights",
+    "crumbles",
+    "runs",
+    "dines",
 ]
