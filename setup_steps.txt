@@ -1,0 +1,14 @@
+####################
+####SETUP STEPS#####
+####################
+
+OPTIONAL:
+Set up a virtual enviornment and activate it.
+
+Install Requirements:
+In a terminal, run the following command:
+pip install -r requirements.txt
+
+Build UI:
+From the root of the ginaa directory, run the following command:
+

@@ -83,3 +83,6 @@ temp_list_in.txt
 temp_list_out.txt
 
 .idea/*
+
+venv/
+built_ui_files/
