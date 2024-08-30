@@ -9,6 +9,7 @@ from lists.npc_lists.description import description_lists
 from lists.npc_lists.wants_and_needs import wants_lists
 from lists.npc_lists.secret_or_obstacle import secret_lists
 from lists.npc_lists.carrying import carrying_lists
+from lists.npc_lists.qwirks import qwirk_list
 
 from custom_libs.helper_func import *
 
@@ -23,6 +24,7 @@ class GeneratedNPC():
         self.wants_and_needs = "---"
         self.secret_or_obstacle = "---"
         self.carrying = "---"
+        self.suggested_qwirk = "---"
 
     def set_random_attributes(self, list_num):
         first_list = []
@@ -54,6 +56,7 @@ class GeneratedNPC():
         self.wants_and_needs = select_from_list_not_first(wants_list)
         self.secret_or_obstacle = select_from_list_not_first(secret_list)
         self.carrying = select_from_list_not_first(carrying_list)
+        self.suggested_qwirk = select_from_list(qwirk_list)
 
 
     ##list num 0 is general
@@ -133,6 +136,7 @@ class GeneratedNPC():
               "Sug. Race: " + self.race + "\n"
               "Sug. Age: " + self.age + "\n\n"
               "Desc: " + self.description + "\n" +
+              "Sugg Qwirk: " + self.suggested_qwirk + "\n" +
               "Wants: " + self.wants_and_needs + "\n\n" +
               "Secret: " + self.secret_or_obstacle + "\n" +
               "Carrying: " + self.carrying)

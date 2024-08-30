@@ -18,8 +18,6 @@ from lists.encounter_lists.encounter_spice_list import encouter_spice_list
 from wild_magic import get_wild_magic_effect
 
 
-
-
 from custom_libs.helper_func import *
 
 #These were copied straight from RCade
