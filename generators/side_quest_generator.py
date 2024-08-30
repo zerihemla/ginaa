@@ -1,3 +1,6 @@
+import sys
+sys.path.append("../")
+
 from npc_generator import GeneratedNPC
 
 

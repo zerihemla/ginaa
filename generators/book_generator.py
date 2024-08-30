@@ -1,3 +1,6 @@
+import sys
+sys.path.append("../")
+
 from lists.book_lists.general_book_titles import general_book_titles_list
 from lists.book_lists.evil_wizard_book_titles import evil_wizard_book_title_list
 from lists.book_lists.general_evil_book_titles import general_evil_book_titles_list

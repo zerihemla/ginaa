@@ -1,3 +1,6 @@
+import sys
+sys.path.append("../")
+
 from lists.prophecy_lists.adjective import adjective_list
 from lists.prophecy_lists.subjects import subject_list
 from lists.prophecy_lists.verbs import verb_list
@@ -8,8 +11,8 @@ from lists.prophecy_lists.wepons import wepon_list
 from lists.prophecy_lists.objects import object_list
 from lists.prophecy_lists.good_adjective import good_adjective_list
 from lists.prophecy_lists.bad_adjective import bad_adjective_list
-
 from lists.prophecy_lists.prophecy_form import form_list
+
 
 
 from custom_libs.helper_func import *

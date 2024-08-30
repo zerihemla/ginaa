@@ -1,3 +1,6 @@
+import sys
+sys.path.append("../")
+
 from lists.tavern_lists.tavern_names1 import tavern1_list
 from lists.tavern_lists.tavern_names2 import tavern2_list
 from lists.tavern_lists.tavern_feel import tavern_feel_list

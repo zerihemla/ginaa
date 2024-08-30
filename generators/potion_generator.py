@@ -1,3 +1,6 @@
+import sys
+sys.path.append("../")
+
 from lists.potion_lists.potion_label import label_list
 from lists.potion_lists.potion_bottle import bottle_list
 from lists.potion_lists.potion_taste_and_smell import taste_and_smell_list

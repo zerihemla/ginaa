@@ -1,13 +1,13 @@
 from built_ui_files import ginaa_gui
 
-from npc_generator import GeneratedNPC
-from tavern_generator import GeneratedTavern
-from item_generator import GeneratedItem
-from potion_generator import GeneratedPotion
-from trap_generator import GeneratedTrap
-from treasure_generator import GeneratedTreasure
-from book_generator import GeneratedBook
-from prophecy_generator import Prophecy
+from generators.npc_generator import GeneratedNPC
+from generators.tavern_generator import GeneratedTavern
+from generators.item_generator import GeneratedItem
+from generators.potion_generator import GeneratedPotion
+from generators.trap_generator import GeneratedTrap
+from generators.treasure_generator import GeneratedTreasure
+from generators.book_generator import GeneratedBook
+from generators.prophecy_generator import Prophecy
 
 
 from lists.occurance_list.creepy_occurances import creepy_occurances_list

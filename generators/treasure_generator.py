@@ -1,3 +1,6 @@
+import sys
+sys.path.append("../")
+
 from lists.treasure_lists.tresure import *
 
 from custom_libs.helper_func import *

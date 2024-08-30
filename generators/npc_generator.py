@@ -1,3 +1,6 @@
+import sys
+sys.path.append("../")
+
 from lists.npc_lists.first_names import first_lists
 from lists.npc_lists.last_names import last_lists
 from lists.npc_lists.races import race_list
