@@ -80,13 +80,13 @@
           </sizepolicy>
          </property>
          <property name="currentIndex">
-          <number>2</number>
+          <number>0</number>
          </property>
          <widget class="QWidget" name="peeps_and_paces_tab">
           <attribute name="title">
            <string>Peeps&amp;&amp;Places</string>
           </attribute>
-          <layout class="QGridLayout" name="gridLayout_16">
+          <layout class="QGridLayout" name="gridLayout_18">
            <item row="0" column="0">
             <widget class="QFrame" name="char_button_frame">
              <property name="frameShape">
@@ -241,6 +241,44 @@
             </widget>
            </item>
            <item row="3" column="0">
+            <widget class="QFrame" name="frame_9">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_16">
+              <item row="0" column="0">
+               <widget class="QLabel" name="prophecy_label">
+                <property name="font">
+                 <font>
+                  <pointsize>15</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Prophecy</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="Line" name="line_11">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QPushButton" name="prophecy_button">
+                <property name="text">
+                 <string>Gen Prophecy</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item row="4" column="0">
             <spacer name="verticalSpacer_2">
              <property name="orientation">
               <enum>Qt::Vertical</enum>
@@ -737,8 +775,8 @@
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>171</width>
-                <height>218</height>
+                <width>169</width>
+                <height>214</height>
                </rect>
               </property>
               <layout class="QGridLayout" name="gridLayout_13">
@@ -852,7 +890,7 @@
      <x>0</x>
      <y>0</y>
      <width>931</width>
-     <height>22</height>
+     <height>20</height>
     </rect>
    </property>
   </widget>

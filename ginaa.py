@@ -7,6 +7,7 @@ from potion_generator import GeneratedPotion
 from trap_generator import GeneratedTrap
 from treasure_generator import GeneratedTreasure
 from book_generator import GeneratedBook
+from prophecy_generator import Prophecy
 
 
 from lists.occurance_list.creepy_occurances import creepy_occurances_list
@@ -78,6 +79,7 @@ class GinaaQtApp(ginaa_gui.Ui_Ginaa_GUI, QtWidgets.QMainWindow):
 
 
         self.wild_magic_button.clicked.connect(self.wild_magic_button_clicked)
+        self.prophecy_button.clicked.connect(self.prophecy_button_clicked)
 
         self.generate_book_button.clicked.connect(self.generate_book_button_clicked)
 
@@ -210,6 +212,14 @@ class GinaaQtApp(ginaa_gui.Ui_Ginaa_GUI, QtWidgets.QMainWindow):
     def wild_magic_button_clicked(self):
         wild_magic = "\n" + get_wild_magic_effect() + "\n"
         self.print_to_console(wild_magic)
+
+    #######################################
+    ####PROPHECY FUNCTIONS#################
+    #######################################
+    def prophecy_button_clicked(self):
+        prophecy = Prophecy()
+        prophecy_string = f"\n {prophecy.get_string()} \n"
+        self.print_to_console(prophecy_string)
 
     #######################################
     ####BOOK FUNCTIONS#####################

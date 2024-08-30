@@ -46,7 +46,8 @@ class Prophecy():
             self.print_string = self.print_string.replace(f"N{i}", select_from_list(noun_list))
 
 
-
+    def get_string(self):
+        return self.print_string
 
     def print(self):
         print(self.selected_string_form)
