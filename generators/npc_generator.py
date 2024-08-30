@@ -104,6 +104,7 @@ class GeneratedNPC():
         self.last_name = last_list[sel_index]
         # self.sanity_print("last ", last_list[0], sel_index, self.last_name)
 
+        self.suggested_qwirk = select_from_list(qwirk_list)
         self.description = description_list[sel_index]
         # self.sanity_print("desc ", description_list[0], sel_index, self.description)
 
@@ -135,8 +136,10 @@ class GeneratedNPC():
         text = ("Name: " + self.first_name + " " + self.last_name + "\n" +
               "Sug. Race: " + self.race + "\n"
               "Sug. Age: " + self.age + "\n\n"
-              "Desc: " + self.description + "\n" +
+              
               "Sugg Qwirk: " + self.suggested_qwirk + "\n" +
+              "Desc: " + self.description + "\n" +
+              
               "Wants: " + self.wants_and_needs + "\n\n" +
               "Secret: " + self.secret_or_obstacle + "\n" +
               "Carrying: " + self.carrying)
