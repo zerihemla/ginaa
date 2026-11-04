@@ -149,7 +149,7 @@ class GeneratedNPC():
 
 if __name__ == "__main__":
 
-    selection = input("Caotic Selection? (y/N)")
+    selection = input("Chaotic Selection? (y/N)")
 
     npc = GeneratedNPC()
 

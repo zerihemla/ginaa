@@ -86,3 +86,8 @@ temp_list_out.txt
 
 venv/
 built_ui_files/
+
+# PyInstaller output (build.py)
+build/
+dist/
+*.spec

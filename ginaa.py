@@ -30,7 +30,9 @@ import os
 import sys
 
 # Load the Qt Designer file directly at runtime, so no pyuic5 build step is needed.
-UI_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "raw_ui_files", "ginaa_gui.ui")
+# When built with PyInstaller (build.py), bundled files are unpacked to sys._MEIPASS.
+BASE_DIR = getattr(sys, "_MEIPASS", os.path.dirname(os.path.abspath(__file__)))
+UI_FILE = os.path.join(BASE_DIR, "raw_ui_files", "ginaa_gui.ui")
 Ui_Ginaa_GUI, _ = uic.loadUiType(UI_FILE)
 
 

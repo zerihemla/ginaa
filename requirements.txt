@@ -1,6 +1,9 @@
 # Required to run ginaa.py
 PyQt5  # GUI framework; ginaa.py loads raw_ui_files/ginaa_gui.ui at runtime
 
+# Required to build a standalone executable (python scripts/build.py)
+pyinstaller
+
 # Optional dev tool: Qt Designer for editing raw_ui_files/ginaa_gui.ui.
 # Left out by default because it pins an old PyQt5 and fails to install
 # on newer Python versions (e.g. 3.13). Install separately if needed.
