@@ -1,5 +1,3 @@
-from built_ui_files import ginaa_gui
-
 from generators.npc_generator import GeneratedNPC
 from generators.tavern_generator import GeneratedTavern
 from generators.item_generator import GeneratedItem
@@ -23,16 +21,20 @@ from custom_libs.helper_func import *
 #These were copied straight from RCade
 # from PyQt5 import QtCore
 # from PyQt5 import QtSerialPort
-from PyQt5 import QtWidgets
+from PyQt5 import QtWidgets, uic
 # from PyQt5.QtCore import QThreadPool, QTimer
 # from PyQt5.QtGui import QColor
 # from PyQt5.QtWidgets import QMessageBox, QDialog, QDialogButtonBox, QFormLayout, QLineEdit
 
-import qdarktheme
+import os
 import sys
 
+# Load the Qt Designer file directly at runtime, so no pyuic5 build step is needed.
+UI_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "raw_ui_files", "ginaa_gui.ui")
+Ui_Ginaa_GUI, _ = uic.loadUiType(UI_FILE)
 
-class GinaaQtApp(ginaa_gui.Ui_Ginaa_GUI, QtWidgets.QMainWindow):
+
+class GinaaQtApp(Ui_Ginaa_GUI, QtWidgets.QMainWindow):
     def __init__(self):
         super(GinaaQtApp, self).__init__()
         self.setupUi(self)
@@ -45,7 +47,7 @@ class GinaaQtApp(ginaa_gui.Ui_Ginaa_GUI, QtWidgets.QMainWindow):
 
         self.setup_buttons()
 
-        self.setStyleSheet(qdarktheme.load_stylesheet("light", "rounded"))
+        QtWidgets.QApplication.setStyle("Fusion")
 
         self.tabWidget.setCurrentIndex(0)
 
