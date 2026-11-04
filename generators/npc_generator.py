@@ -136,10 +136,10 @@ class GeneratedNPC():
         text = ("Name: " + self.first_name + " " + self.last_name + "\n" +
               "Sug. Race: " + self.race + "\n"
               "Sug. Age: " + self.age + "\n\n"
-              
-              "Sugg Qwirk: " + self.suggested_qwirk + "\n" +
+
+              "Possible Qwirk: " + self.suggested_qwirk + "\n" +
               "Desc: " + self.description + "\n" +
-              
+
               "Wants: " + self.wants_and_needs + "\n\n" +
               "Secret: " + self.secret_or_obstacle + "\n" +
               "Carrying: " + self.carrying)
