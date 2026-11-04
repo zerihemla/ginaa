@@ -9,6 +9,9 @@ Install Requirements:
 In a terminal, run the following command:
 pip install -r requirements.txt
 
-Build UI:
-From the root of the ginaa directory, run the following command:
+Run:
+python ginaa.py
+
+The UI is loaded directly from raw_ui_files/ginaa_gui.ui at runtime, so there
+is no separate UI build step. Edit that .ui file in Qt Designer to change the UI.
 
