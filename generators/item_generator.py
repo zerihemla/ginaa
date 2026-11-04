@@ -1,6 +1,3 @@
-import sys
-sys.path.append("../")
-
 from lists.item_lists.items import item_list
 from lists.item_lists.item_adjectives import adjective_list
 

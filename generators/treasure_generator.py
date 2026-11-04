@@ -1,6 +1,3 @@
-import sys
-sys.path.append("../")
-
 from lists.treasure_lists.tresure import *
 
 from custom_libs.helper_func import *
@@ -31,7 +28,8 @@ class GeneratedTreasure():
     def get_random_treasure(self):
         self.treasure = select_from_list(treasure_table)
 
-    #The possibilities for category are Wondrous Item, Book, Weapon, Treasure, Armor, Ring
+    #The possibilities for category are Wondrous Item, Book, Weapon, Treasure, Armor, Ring,
+    #Potion, Adventuring Gear, Quest Hook
     #The possibilities for rarity are Mundane, Common, Uncommon, Rare, Very Rare, Legendary
     def get_filtered_treasure(self, category_filters=[], rarity_filters=[]):
 
@@ -58,7 +56,7 @@ class GeneratedTreasure():
                     if item.rarity == filter:
                         filtered_list2.append(item)
 
-        if len(filtered_list2) > 1:
+        if filtered_list2:
             self.treasure = select_from_list(filtered_list2)
 
         else:

@@ -18,13 +18,7 @@ from wild_magic import get_wild_magic_effect
 
 from custom_libs.helper_func import *
 
-#These were copied straight from RCade
-# from PyQt5 import QtCore
-# from PyQt5 import QtSerialPort
 from PyQt5 import QtWidgets, uic
-# from PyQt5.QtCore import QThreadPool, QTimer
-# from PyQt5.QtGui import QColor
-# from PyQt5.QtWidgets import QMessageBox, QDialog, QDialogButtonBox, QFormLayout, QLineEdit
 
 import os
 import sys
@@ -197,6 +191,9 @@ class GinaaQtApp(Ui_Ginaa_GUI, QtWidgets.QMainWindow):
         if self.quest_hook_box.isChecked():
             category_list.append("Quest Hook")
 
+        if self.potion_box.isChecked():
+            category_list.append("Potion")
+
 
         num_items = self.num_treasure_box.value()
 
@@ -299,27 +296,19 @@ class GinaaQtApp(Ui_Ginaa_GUI, QtWidgets.QMainWindow):
         self.main_text.clear()
 
     def save_button_clicked(self):
-        options = QtWidgets.QFileDialog.Options()
-        # options |= QtWidgets.QFileDialog.DontUseNativeDialog
-        file_location = QtWidgets.QFileDialog.getSaveFileName(self, "QFileDialog.getSaveFileName()",
-                                                              "./local_test_data", "All Files (*);;Text Files (*.txt)",
-                                                              options=options)
+        file_location, _ = QtWidgets.QFileDialog.getSaveFileName(self, "Save Output",
+                                                                 os.path.expanduser("~"),
+                                                                 "Text Files (*.txt);;All Files (*)")
 
-        file_location_string = str(file_location[0])
-
-        if file_location_string == "":
+        if not file_location:
             return
 
-        file_location_string = file_location_string.split(".")[0]
+        # Always save as .txt. splitext only strips the real extension, so
+        # dots in folder names (e.g. C:/Users/first.last/) are left alone.
+        file_location = os.path.splitext(file_location)[0] + ".txt"
 
-        file_location_string += ".txt"
-
-        console_sting = self.main_text.toPlainText()
-
-        save_file = open(file_location_string, "w")
-        save_file.write(console_sting)
-
-        save_file.close()
+        with open(file_location, "w", encoding="utf-8") as save_file:
+            save_file.write(self.main_text.toPlainText())
 
 
 

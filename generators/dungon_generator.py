@@ -1,6 +1,3 @@
-import sys
-sys.path.append("../")
-
 import matplotlib.pyplot as plt
 import numpy as np
 import plotly.express as px
@@ -30,7 +27,7 @@ def plotly_plot(image):
 
 def numpy_plot(image):
     plt.figure(1)
-    plt.imshow(A, origin='upper')
+    plt.imshow(image, origin='upper')
     # plt.grid(True, which='both')
     plt.show()
 

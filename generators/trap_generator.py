@@ -1,5 +1,4 @@
-import sys
-sys.path.append("../")
+import random
 
 from lists.trap_lists.trap_mechanical_trap import mechanical_trap_list
 from lists.trap_lists.trap_mechanical_tell import mechanical_tell_list

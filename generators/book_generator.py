@@ -1,6 +1,3 @@
-import sys
-sys.path.append("../")
-
 from lists.book_lists.general_book_titles import general_book_titles_list
 from lists.book_lists.evil_wizard_book_titles import evil_wizard_book_title_list
 from lists.book_lists.general_evil_book_titles import general_evil_book_titles_list
@@ -11,8 +8,6 @@ from lists.general_adjectives.item_conditions import item_conditions
 from lists.general_adjectives.smells import smells_list
 
 from custom_libs.helper_func import *
-
-import random
 
 EMPTY_TEXT = "---"
 
@@ -33,12 +28,12 @@ class GeneratedBook():
 
 
     def set_book_from_random_catigories(self, catigory_list):
-        #If the list has stuff in it.
-        if catigory_list:
-            num_catigories = len(catigory_list)
-            selected_catigory_index = random.randint(0, num_catigories-1)
-            selected_catigory = catigory_list[selected_catigory_index]
-            self.set_book_from_list_name(selected_catigory)
+        #No categories selected means any category.
+        if not catigory_list:
+            catigory_list = list(book_list_dictionary.keys())
+
+        selected_catigory = select_from_list(catigory_list)
+        self.set_book_from_list_name(selected_catigory)
 
 
     def set_book_from_list_name(self, list_name):
@@ -48,9 +43,6 @@ class GeneratedBook():
 
         selected_list = book_list_dictionary[list_name]
         self.book_title = select_from_list(selected_list)
-        # self.item_condition = select_from_list(item_conditions)
-        # self.item = select_from_list(item_list)
-        # self.item_adj = select_from_list(adjective_list)
 
     def get_text(self):
         text = ""
@@ -77,6 +69,6 @@ class GeneratedBook():
 
 if __name__ == "__main__":
 
-    item = GeneratedBook()
-    item.setGeneralBook()
-    item.print()
+    book = GeneratedBook()
+    book.set_book_from_random_catigories([])
+    book.print()

@@ -1,6 +1,3 @@
-import sys
-sys.path.append("../")
-
 from lists.prophecy_lists.adjective import adjective_list
 from lists.prophecy_lists.subjects import subject_list
 from lists.prophecy_lists.verbs import verb_list
@@ -22,13 +19,8 @@ import re
 
 class Prophecy():
     def __init__(self):
-        pass
-
         self.print_string = ""
-        self.selected_string_form = ""
-
-
-        self.selected_string_form = select_from_list(form_list)   
+        self.selected_string_form = select_from_list(form_list)
         self.populate_string()
 
     def populate_string(self):
@@ -58,14 +50,6 @@ class Prophecy():
 
     def _find_highest_number(self, string:str):
         # Find all sequences of digits in the string
-        numbers = re.findall(r'\d+', string)
-
-        # Convert the list of number strings to integers
-        numbers = [int(num) for num in numbers]
-
-        # Return the highest number
-        if numbers:
-            return max(numbers)        # Find all sequences of digits in the string
         numbers = re.findall(r'\d+', string)
 
         # Convert the list of number strings to integers
