@@ -27,13 +27,13 @@ class GeneratedBook():
         self.__init__()
 
 
-    def set_book_from_random_catigories(self, catigory_list):
+    def set_book_from_random_categories(self, category_list):
         #No categories selected means any category.
-        if not catigory_list:
-            catigory_list = list(book_list_dictionary.keys())
+        if not category_list:
+            category_list = list(book_list_dictionary.keys())
 
-        selected_catigory = select_from_list(catigory_list)
-        self.set_book_from_list_name(selected_catigory)
+        selected_category = select_from_list(category_list)
+        self.set_book_from_list_name(selected_category)
 
 
     def set_book_from_list_name(self, list_name):
@@ -70,5 +70,5 @@ class GeneratedBook():
 if __name__ == "__main__":
 
     book = GeneratedBook()
-    book.set_book_from_random_catigories([])
+    book.set_book_from_random_categories([])
     book.print()

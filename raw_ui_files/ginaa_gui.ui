@@ -558,9 +558,9 @@
                  </widget>
                 </item>
                 <item row="2" column="1">
-                 <widget class="QCheckBox" name="wonderous_box">
+                 <widget class="QCheckBox" name="wondrous_box">
                   <property name="text">
-                   <string>Wonderous</string>
+                   <string>Wondrous</string>
                   </property>
                   <property name="checked">
                    <bool>false</bool>
@@ -643,9 +643,9 @@
            </item>
           </layout>
          </widget>
-         <widget class="QWidget" name="dungon_tab">
+         <widget class="QWidget" name="dungeon_tab">
           <attribute name="title">
-           <string>Dungon</string>
+           <string>Dungeon</string>
           </attribute>
           <layout class="QGridLayout" name="gridLayout_14">
            <item row="0" column="0">
@@ -710,7 +710,7 @@
              </property>
              <layout class="QGridLayout" name="gridLayout_10">
               <item row="3" column="0">
-               <widget class="QPushButton" name="random_occurance_button">
+               <widget class="QPushButton" name="random_occurrence_button">
                 <property name="text">
                  <string>Random</string>
                 </property>
@@ -724,7 +724,7 @@
                  </font>
                 </property>
                 <property name="text">
-                 <string>Occurances</string>
+                 <string>Occurrences</string>
                 </property>
                </widget>
               </item>
@@ -736,7 +736,7 @@
                </widget>
               </item>
               <item row="2" column="0">
-               <widget class="QPushButton" name="creepy_occurance_button">
+               <widget class="QPushButton" name="creepy_occurrence_button">
                 <property name="text">
                  <string>Creepy</string>
                 </property>

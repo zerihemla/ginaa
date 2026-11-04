@@ -26,7 +26,7 @@ def get_cat_strings(input_string):
 
 
 if __name__ == "__main__":
-    input_file = open("raw_tresure_list.tsv", "r")
+    input_file = open("raw_treasure_list.tsv", "r")
     output_file = open("output_treasure_list.txt", "w")
 
     output_line = ""

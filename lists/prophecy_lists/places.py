@@ -2,7 +2,7 @@ place_list = [
     "tower",
     "castle",
     "moat",
-    "dungen",
+    "dungeon",
     "city",
     "forest",
     "mountain",

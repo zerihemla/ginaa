@@ -6,7 +6,7 @@ underdark_wants_list = [
     "who is a big fan of romance novels and wants to collect them all",
     "wo seeks to convert passerby's to their religion",
     "who needs to rescue their kidnapped sister",
-    "who wants ot become a champion fistfighter",
+    "who wants to become a champion fistfighter",
     "who is seeking to gain their father's respect as a successful miner",
     "who is trying to find someone to escort them to the top of an undermountain",
     "who needs to beg everyday to make ends meet",
@@ -32,9 +32,9 @@ underdark_wants_list = [
     "who is looking for inspiration and excitement",
     "who is searching for investor in their startup",
     "who has found a new use for bat droppings",
-    "wio must defeat Krag the Malevolent in one-on-one combat to claim the throne",
+    "who must defeat Krag the Malevolent in one-on-one combat to claim the throne",
     "who is ready to compete in the Great Cliff Dive",
-    "who just wants to tak to anything vaguely humanoid",
+    "who just wants to talk to anything vaguely humanoid",
     "who wants to open the first subterranean sky port",
     "who is searching for participants for a clinical trial",
     "who is looking for the rare white dragon bush, said to make delectable tea",
@@ -64,7 +64,7 @@ underdark_wants_list = [
 
 general_wants_list = [
     "wants general",
-    "who could really use a hug",                           #this is the begining of the random encounters book
+    "who could really use a hug",                           #this is the beginning of the random encounters book
     "who could use a bath",
     "who literally and figuratively has no sense of direction",
     "who is begging for help to find their gnoll-nabbed dad",
@@ -79,7 +79,7 @@ general_wants_list = [
     "who hasn't been sober in two weeks",
     "who will do pretty much anything for a silver piece",
     "who repeats the full names of everyone they meet",
-    "who cant stop talking about the end of the world",
+    "who can't stop talking about the end of the world",
     "who is constantly on the lookout for grooming tips",
     "who compulsively says what they are thinking",
     "who wants to do right by their god, no matter the cost",
@@ -137,7 +137,7 @@ general_wants_list = [
     "who wants to learn to fight",
     "who enjoys harmless flirting",
     "who spreads propaganda against shapechangers",
-    "enroute to the Hall of Many Gods (Encounters book pg 144)",
+    "en route to the Hall of Many Gods (Encounters book pg 144)",
     "who needs investors for their pyramid scheme",
     "who can't find their watch",
     "who is trying to sell a dragon heart",
@@ -199,7 +199,7 @@ outskirts_wants_list = [
     "who needs their magic serum",
     "who dreams of being a knight",
     "who needs to appease their god or goddess",
-    "who needs to pay off a masive debt",
+    "who needs to pay off a massive debt",
     "who needs a bath",
     "who seeks an artifact that can alter reality",
     "who has a great story to tell",
@@ -231,12 +231,12 @@ outskirts_wants_list = [
 ]
 
 small_town_wants_list = [
-    "wamts small town",
+    "wants small town",
     "who desires a warrior to help reclaim their world",
     "who is the only representative of their race in the region",
     "who wants an apprentice",
     "who desperately wants to remember who they are",
-    "who never met a pie they didnt like (or want to steal a peice of)",
+    "who never met a pie they didn't like (or want to steal a piece of)",
     "who needs to find a magic potion that they lost",
     "who wants to unite the area's clans",
     "who wants to learn how to read a map",
@@ -264,7 +264,7 @@ small_town_wants_list = [
     "who isn't happy with their current station in life",
     "who needs to get a bad wound attended to",
     "who needs the purse on that man's belt",
-    "who desires their neighbor's spouce",
+    "who desires their neighbor's spouse",
     "who believes they are the reincarnation of a great mage",
     "who loves the chase",
     "who is trying to lay low and avoid the tax collector",
@@ -283,15 +283,15 @@ small_town_wants_list = [
     "who is looking for their next gig",
     "who just wants to chat about birds",
     "who only wants to go fishing",
-    "who is definitely not an orgre in disguise",
+    "who is definitely not an ogre in disguise",
     "who is offering free samples",
     "who is looking for any kind of work",
     "who will offer payment for information",
     "who is a master acrobat street performer",
     "who has a line on a fortune and knows you won't believe them",
-    "who won't shup up about the debt",
+    "who won't shut up about the debt",
     "who wants directions to the local noble's estate",
-    "who recently crawlded out of the pond they'd been dumped in"       #End of NPC Small town
+    "who recently crawled out of the pond they'd been dumped in"       #End of NPC Small town
 ]
 
 

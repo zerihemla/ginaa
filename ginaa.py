@@ -8,9 +8,9 @@ from generators.book_generator import GeneratedBook
 from generators.prophecy_generator import Prophecy
 
 
-from lists.occurance_list.creepy_occurances import creepy_occurances_list
-from lists.occurance_list.random_occurances import random_occurances_list
-from lists.encounter_lists.encounter_spice_list import encouter_spice_list
+from lists.occurrence_list.creepy_occurrences import creepy_occurrences_list
+from lists.occurrence_list.random_occurrences import random_occurrences_list
+from lists.encounter_lists.encounter_spice_list import encounter_spice_list
 
 
 from wild_magic import get_wild_magic_effect
@@ -69,8 +69,8 @@ class GinaaQtApp(Ui_Ginaa_GUI, QtWidgets.QMainWindow):
         self.chaotic_trap_button.clicked.connect(self.random_chaotic_trap_button_clicked)
 
 
-        self.creepy_occurance_button.clicked.connect(self.creepy_occurance_button_clicked)
-        self.random_occurance_button.clicked.connect(self.random_occurance_button_clicked)
+        self.creepy_occurrence_button.clicked.connect(self.creepy_occurrence_button_clicked)
+        self.random_occurrence_button.clicked.connect(self.random_occurrence_button_clicked)
         self.combat_spices_button.clicked.connect(self.combat_spice_button_clicked)
 
 
@@ -182,7 +182,7 @@ class GinaaQtApp(Ui_Ginaa_GUI, QtWidgets.QMainWindow):
         if self.ring_box.isChecked():
             category_list.append("Ring")
 
-        if self.wonderous_box.isChecked():
+        if self.wondrous_box.isChecked():
             category_list.append("Wondrous Item")
 
         if self.gear_box.isChecked():
@@ -226,21 +226,21 @@ class GinaaQtApp(Ui_Ginaa_GUI, QtWidgets.QMainWindow):
     def generate_book_button_clicked(self):
         book = GeneratedBook()
 
-        selected_catigory_list = []
+        selected_category_list = []
 
         if self.funny_books_box.isChecked():
-            selected_catigory_list.append("general_funny_book_titles")
+            selected_category_list.append("general_funny_book_titles")
 
         if self.general_books_box.isChecked():
-            selected_catigory_list.append("general_book_titles")
+            selected_category_list.append("general_book_titles")
 
         if self.evil_books_box.isChecked():
-            selected_catigory_list.append("general_evil_book_titles")
+            selected_category_list.append("general_evil_book_titles")
 
         if self.evil_wizard_books_box.isChecked():
-            selected_catigory_list.append("evil_wizard_book_titles")
+            selected_category_list.append("evil_wizard_book_titles")
 
-        book.set_book_from_random_catigories(selected_catigory_list)
+        book.set_book_from_random_categories(selected_category_list)
         text = book.get_text()
         self.print_to_console(text)
 
@@ -267,17 +267,17 @@ class GinaaQtApp(Ui_Ginaa_GUI, QtWidgets.QMainWindow):
         self.print_to_console(trap_text)
 
 
-    def creepy_occurance_button_clicked(self):
-        occurance = select_from_list(creepy_occurances_list)
-        self.print_to_console(occurance)
+    def creepy_occurrence_button_clicked(self):
+        occurrence = select_from_list(creepy_occurrences_list)
+        self.print_to_console(occurrence)
 
-    def random_occurance_button_clicked(self):
-        occurance = select_from_list(random_occurances_list)
-        self.print_to_console(occurance)
+    def random_occurrence_button_clicked(self):
+        occurrence = select_from_list(random_occurrences_list)
+        self.print_to_console(occurrence)
 
 
     def combat_spice_button_clicked(self):
-        combat_spice = select_from_list(encouter_spice_list)
+        combat_spice = select_from_list(encounter_spice_list)
         self.print_to_console(combat_spice)
 
 

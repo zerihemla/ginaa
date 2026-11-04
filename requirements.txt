@@ -12,7 +12,7 @@ pyinstaller==6.19.0
 # pyqt5-tools
 
 # Optional: only needed for the experimental dungeon generators
-# (dungon_generator.py and claude_dungon/), not used by ginaa.py
+# (dungeon_generator.py and claude_dungeon/), not used by ginaa.py
 # matplotlib
 # numpy
 # plotly

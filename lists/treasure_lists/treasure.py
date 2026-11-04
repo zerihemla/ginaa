@@ -112,7 +112,7 @@ treasure_table = [
              ""),
 
     Treasure("Black Velvet Mask",
-             "An ornate black velvet mask sitched with silver thread.",
+             "An ornate black velvet mask stitched with silver thread.",
              "25. gp",
              "Mundane",
              "n/a",
@@ -391,7 +391,7 @@ treasure_table = [
              ""),
 
     Treasure("Dire Bat Wings",
-             "Hanging from a drying rack are two large Dire Bat wings. It is unclear how long they have been seperated from the rest of the bat, but they are in good condition and could potentially be used as a crafting material.",
+             "Hanging from a drying rack are two large Dire Bat wings. It is unclear how long they have been separated from the rest of the bat, but they are in good condition and could potentially be used as a crafting material.",
              "2. gp",
              "Mundane",
              "4 lb",
@@ -445,7 +445,7 @@ treasure_table = [
              ""),
 
     Treasure("Leather Ball",
-             "A leather ball stuffed with chicken feathers. On a DC 15 peception check the player can find an electrum ring amongst the feathers.",
+             "A leather ball stuffed with chicken feathers. On a DC 15 perception check the player can find an electrum ring amongst the feathers.",
              "3.5 gp",
              "Mundane",
              "n/a",
@@ -598,7 +598,7 @@ treasure_table = [
              ""),
 
     Treasure("Glow Stone",
-             "A small green stone that gives off a feint light that's practically imperceptable in anything other than pitch black darkness. It could be used as a marker or a light source in a pinch.",
+             "A small green stone that gives off a feint light that's practically imperceptible in anything other than pitch black darkness. It could be used as a marker or a light source in a pinch.",
              "2. gp",
              "Mundane",
              "n/a",
@@ -1057,7 +1057,7 @@ treasure_table = [
              ""),
 
     Treasure("Pick Axe",
-             "A straight wooden handle with a curved iron pick useful for breaking up rocky surfaces or hard earth. It would not make for an effecitve weapon, but without the head the handle would make for a rudimentary club.",
+             "A straight wooden handle with a curved iron pick useful for breaking up rocky surfaces or hard earth. It would not make for an effective weapon, but without the head the handle would make for a rudimentary club.",
              "2. gp",
              "Mundane",
              "10 lb",
@@ -1390,7 +1390,7 @@ treasure_table = [
              ""),
 
     Treasure("Quarterstaff",
-             "A length of stoud wood ranging six to nine feet in length and shod with metal at both ends.",
+             "A length of stout wood ranging six to nine feet in length and shod with metal at both ends.",
              "0.2 gp",
              "Mundane",
              "4 lb",
@@ -1416,7 +1416,7 @@ treasure_table = [
              "",
              ""),
 
-    Treasure("Soup Ladel",
+    Treasure("Soup Ladle",
              "A kitchen implement often used for serving delicious soups. It was carved from the wood of a sturdy tree, so it actually packs quite the wallop.",
              "0.2 gp",
              "Mundane",
@@ -1490,7 +1490,7 @@ treasure_table = [
              ""),
 
     Treasure("Dead Rat",
-             "An old dead rat. It has begun to decay, and eminates an unpleasant smell.",
+             "An old dead rat. It has begun to decay, and emanates an unpleasant smell.",
              "0. gp",
              "Mundane",
              "1 lb",
@@ -1517,7 +1517,7 @@ treasure_table = [
              ""),
 
     Treasure("Two-Sided Die",
-             "This perculiar dice is made out of copper and has two sides. Engraved on one side is the portrait of a long forgotten ruler, on the other is an ornate two headed chimera. Useful for making decisions. Doesn't roll well.",
+             "This peculiar dice is made out of copper and has two sides. Engraved on one side is the portrait of a long forgotten ruler, on the other is an ornate two headed chimera. Useful for making decisions. Doesn't roll well.",
              "1. gp",
              "Mundane",
              "1 lb",
@@ -1724,7 +1724,7 @@ treasure_table = [
              "Language: Dwarven"),
 
     Treasure("Agni Mani Necklace",
-             "A necklace patterened with Agni Mani. These ornamental stones were usually found in desert regions. In the Realms, the name applies specifically only to black tektite material. ",
+             "A necklace patterned with Agni Mani. These ornamental stones were usually found in desert regions. In the Realms, the name applies specifically only to black tektite material. ",
              "20. gp",
              "Common",
              "1 lb",
@@ -2381,7 +2381,7 @@ treasure_table = [
              "Language: Common"),
 
     Treasure("Iol Gem",
-             "Iol is actually short for Iolite (cordierite), although a common nickname is \"violet stone\" even though its overall hue is usually blue. Iols are usually cut into faceted gems to best display the stone's color change as it is viewed from different directions. Small, cut iols can be clear, but larger specimens usually contain silky inclusions of another substance such as hemitite crystals, which give the same rich golden flash of color as in sunstones. ",
+             "Iol is actually short for Iolite (cordierite), although a common nickname is \"violet stone\" even though its overall hue is usually blue. Iols are usually cut into faceted gems to best display the stone's color change as it is viewed from different directions. Small, cut iols can be clear, but larger specimens usually contain silky inclusions of another substance such as hematite crystals, which give the same rich golden flash of color as in sunstones. ",
              "50. gp",
              "Common",
              "n/a",
@@ -2786,7 +2786,7 @@ treasure_table = [
              ""),
 
     Treasure("Sunstone Gem",
-             "Sunstone is a feldspar jem, closely related to moonstone, and more properly known as oligoclase. Sunstone can be colorless or faintly greenish and of facet grade, but most common by far is its softer (cabochon) variety. This yields gemstones that have bright red or orange spangles (minute crystals) suspended in a nearly colorless background in a parallel fashion, giving the whole a rich golden or redish brown color. ",
+             "Sunstone is a feldspar jem, closely related to moonstone, and more properly known as oligoclase. Sunstone can be colorless or faintly greenish and of facet grade, but most common by far is its softer (cabochon) variety. This yields gemstones that have bright red or orange spangles (minute crystals) suspended in a nearly colorless background in a parallel fashion, giving the whole a rich golden or reddish brown color. ",
              "50. gp",
              "Common",
              "n/a",
@@ -3011,7 +3011,7 @@ treasure_table = [
              ""),
 
     Treasure("Javelin",
-             "A long thin shaft armed with a leaf-shaped head. It has a tassled based, to allow the javelineer to retrieve it after it has been thrown.",
+             "A long thin shaft armed with a leaf-shaped head. It has a tasseled based, to allow the javelineer to retrieve it after it has been thrown.",
              "0.5 gp",
              "Common",
              "2 lb",
@@ -3137,7 +3137,7 @@ treasure_table = [
              ""),
 
     Treasure("Combat Boomerang",
-             "This combat boomering does not resembe the conventional \"V\" shape of a normal boomerang and instead has more of a \"tick mark\" shape. One end has a smaller wing which is both thicker and carefully reinforced with metal studs. It can be used as both a ranged weapon as expected, but can also be used in close quarters as a club.",
+             "This combat boomerang does not resemble the conventional \"V\" shape of a normal boomerang and instead has more of a \"tick mark\" shape. One end has a smaller wing which is both thicker and carefully reinforced with metal studs. It can be used as both a ranged weapon as expected, but can also be used in close quarters as a club.",
              "2. gp",
              "Common",
              "2 lb",
@@ -3641,12 +3641,12 @@ treasure_table = [
              "Requires Attunement"),
 
     Treasure("Bracers of Binding",
-             "The bracers appear to be Bracers of Specialization, but when donned, bind the wearer wrists together, making it quite difficult to wield a weapon or cast a spell. These bracers are sometimes offered as rewards for services rendered by the Drow. The recipient, believing them to be very powerful, will often don them before examinating them. At this point, the drow find it amusing to conjure a hook horror. ",
+             "The bracers appear to be Bracers of Specialization, but when donned, bind the wearer wrists together, making it quite difficult to wield a weapon or cast a spell. These bracers are sometimes offered as rewards for services rendered by the Drow. The recipient, believing them to be very powerful, will often don them before examining them. At this point, the drow find it amusing to conjure a hook horror. ",
              "300. gp",
              "Uncommon",
              "n/a",
              "Wondrous Item",
-             "lower damage by 5 points, increase spell failure to 75% and give the wearer a +5 penalty to THACO. Since they are cursed, they can't be unequiped without a Remove Curse spell or the services of a priest",
+             "lower damage by 5 points, increase spell failure to 75% and give the wearer a +5 penalty to THACO. Since they are cursed, they can't be unequipped without a Remove Curse spell or the services of a priest",
              ""),
 
     Treasure("Brass Dragon Egg",
@@ -3727,7 +3727,7 @@ treasure_table = [
              "Uncommon",
              "1 lb",
              "Wondrous Item",
-             "While wearing this cap underwater you can speak its command word as an action to create a bubble of air arround your head. It allows you to breathing normally underwater. This bubble stays with you until you speak the command word again, the cap is removed or you are no longer underwater.",
+             "While wearing this cap underwater you can speak its command word as an action to create a bubble of air around your head. It allows you to breathing normally underwater. This bubble stays with you until you speak the command word again, the cap is removed or you are no longer underwater.",
              ""),
 
     Treasure("Ceramic Jars",
@@ -4334,7 +4334,7 @@ treasure_table = [
              ""),
 
     Treasure("Menesta's Book of Stored Skill",
-             "This magical book has no discernable writings on the outside, or on any page. As soon as it is opened up, ask the player for the first three skills that come to mind. As soon as they tell you, the first page of the book becomes a table of contents with three chapters. The names of the chapters are the three skills they mentioned. Turning to the page of a skill chapter causes the book to disappear in a colored burst of light—and leaves the user with a permanent +1 rank to said skill. If their ranks are maxed out, the book is wasted.",
+             "This magical book has no discernible writings on the outside, or on any page. As soon as it is opened up, ask the player for the first three skills that come to mind. As soon as they tell you, the first page of the book becomes a table of contents with three chapters. The names of the chapters are the three skills they mentioned. Turning to the page of a skill chapter causes the book to disappear in a colored burst of light—and leaves the user with a permanent +1 rank to said skill. If their ranks are maxed out, the book is wasted.",
              "950. gp",
              "Uncommon",
              "2 lb",
@@ -4505,7 +4505,7 @@ treasure_table = [
              ""),
 
     Treasure("Townshend's Cudgel",
-             "Townshend's Crudgels was invented by its namesake, Peter \"Unknown\" Townshend, a traveling bard who wished his lute to both give beauty and take it away (preferably with a good old fashioned thrashing). His lute design, later copied by some of his admirers, was a simple oak lute, reinforced with an iron shell, to maintain the soft vibration of the sound against the wooden interior, and to give the lute the strength to crack open an orc's skull with a well placed blow. This weapon functions both as a lute and a weapon. When used as a lute, it is considered to be a lute and does not require a separate proficiency bonus to play. However, if the user rolls a critical miss with the weapon (a 1 on an attack roll) the lute may become slightly damaged and will require the user to spend an hour to retune it. If the instrument is not returned, whenever the instrument is played, the user is disadvantaged on the Perform check. This weapon can also be used as a bard's spellcasting focus. ",
+             "Townshend's Cudgels was invented by its namesake, Peter \"Unknown\" Townshend, a traveling bard who wished his lute to both give beauty and take it away (preferably with a good old fashioned thrashing). His lute design, later copied by some of his admirers, was a simple oak lute, reinforced with an iron shell, to maintain the soft vibration of the sound against the wooden interior, and to give the lute the strength to crack open an orc's skull with a well placed blow. This weapon functions both as a lute and a weapon. When used as a lute, it is considered to be a lute and does not require a separate proficiency bonus to play. However, if the user rolls a critical miss with the weapon (a 1 on an attack roll) the lute may become slightly damaged and will require the user to spend an hour to retune it. If the instrument is not returned, whenever the instrument is played, the user is disadvantaged on the Perform check. This weapon can also be used as a bard's spellcasting focus. ",
              "38. gp",
              "Uncommon",
              "4 lb",
@@ -4577,7 +4577,7 @@ treasure_table = [
              ""),
 
     Treasure("Ring of Fake Invisibility",
-             "A silver ring inlaid with a trasluscent pearl. There is an inscription in Elvish which reads, \"To Elabella, perhaps now you will find your mirror less engrossing.\"",
+             "A silver ring inlaid with a translucent pearl. There is an inscription in Elvish which reads, \"To Elabella, perhaps now you will find your mirror less engrossing.\"",
              "80. gp",
              "Uncommon",
              "n/a",
@@ -4667,7 +4667,7 @@ treasure_table = [
              ""),
 
     Treasure("Gnome Bomb",
-             "An ornate, egg-shaped device made with cast bronze. There is a pin in the top of the device with an etched note indicating the following: PULL THYS PINNE AND WAITE TENNE COUNTS BEFORRE BOOME. When the pin is pulled, an urgent ticking sound begins to eminate from the device.",
+             "An ornate, egg-shaped device made with cast bronze. There is a pin in the top of the device with an etched note indicating the following: PULL THYS PINNE AND WAITE TENNE COUNTS BEFORRE BOOME. When the pin is pulled, an urgent ticking sound begins to emanate from the device.",
              "",
              "Uncommon",
              "1 lb",
@@ -4703,7 +4703,7 @@ treasure_table = [
              ""),
 
     Treasure("Gnome Timepiece",
-             "A magical time-keeping device produced by a Gnomish artisan. Opening this circular locket allows you to check the current time based on where a delicate hand is pointing. On one half of the circular face is an ornate night's sky with a crescent moon indicating midnight. On the other half is a blue sky, with a bright sun indicating mid-day. It's unclear how the magic has been infused with the device, as no arcane presence is detectable, but pulling the silver panel off the back of the locket simply exposes a number of delicate, ticking gears. Gnome magic is compicated.",
+             "A magical time-keeping device produced by a Gnomish artisan. Opening this circular locket allows you to check the current time based on where a delicate hand is pointing. On one half of the circular face is an ornate night's sky with a crescent moon indicating midnight. On the other half is a blue sky, with a bright sun indicating mid-day. It's unclear how the magic has been infused with the device, as no arcane presence is detectable, but pulling the silver panel off the back of the locket simply exposes a number of delicate, ticking gears. Gnome magic is complicated.",
              "150. gp",
              "Uncommon",
              "n/a",
@@ -4721,7 +4721,7 @@ treasure_table = [
              "Language: Common"),
 
     Treasure("Romeot and Julio",
-             "One of the most famous plays in the works of the famous Orcish bard; Villam Spearshaker. It tells the story of two starcrossed lovers whose familes are locked in a bitter rivalry. They attempt to run away together, only to end up eaten by an ogre. The ogre then proceeds to eat most of the two feuding families, all of the side characters and in a number of early renditions of the play a few members of the audience as well. A note to budding directors: Try not to cast an actual ogre as the ogre.",
+             "One of the most famous plays in the works of the famous Orcish bard; Villam Spearshaker. It tells the story of two starcrossed lovers whose families are locked in a bitter rivalry. They attempt to run away together, only to end up eaten by an ogre. The ogre then proceeds to eat most of the two feuding families, all of the side characters and in a number of early renditions of the play a few members of the audience as well. A note to budding directors: Try not to cast an actual ogre as the ogre.",
              "180. gp",
              "Uncommon",
              "1 lb",
@@ -4730,7 +4730,7 @@ treasure_table = [
              ""),
 
     Treasure("Romeot and Julio II",
-             "A sequel to the original play by the famous Orcish bard; Villam Speakshaker. Romeot and Julio (or at least, what's left of them) are ressurected as shambling zombies in service to a wealthy merchant. The play ends with the merchant attempting to extract a pound of flesh from Romeot to pay for a debt before getting eaten alive by the two zombies. Their final moments of the play are spent lovingly feeding each other his bloody entrails.",
+             "A sequel to the original play by the famous Orcish bard; Villam Spearshaker. Romeot and Julio (or at least, what's left of them) are resurrected as shambling zombies in service to a wealthy merchant. The play ends with the merchant attempting to extract a pound of flesh from Romeot to pay for a debt before getting eaten alive by the two zombies. Their final moments of the play are spent lovingly feeding each other his bloody entrails.",
              "175. gp",
              "Uncommon",
              "1 lb",
@@ -5090,7 +5090,7 @@ treasure_table = [
              ""),
 
     Treasure("Belt of Baby Fire Giant Strength",
-             "To all intents and purposes this resembles a Belt of Fire Giant Stength, and it certainly does have a giant's strength enchantment on it; unfortunately, the it was accidentally made with the strength of a baby fire giant. Fire giant babies have roughly the same strength as an average human man. ",
+             "To all intents and purposes this resembles a Belt of Fire Giant Strength, and it certainly does have a giant's strength enchantment on it; unfortunately, the it was accidentally made with the strength of a baby fire giant. Fire giant babies have roughly the same strength as an average human man. ",
              "1,000. gp",
              "Rare",
              "1 lb",
@@ -5446,7 +5446,7 @@ treasure_table = [
              "Rare",
              "30 lb",
              "Treasure",
-             "The box contains 1d10+4 'Chaos Mushrooms', which are considered a delecacy at Fey dinner parties. If a creature eats one of the Chaos Mushrooms, they must roll on the Wild Magic Surge table (PHB, p104) and are subject to the result. Each mushroom eaten requires a seperate roll. ",
+             "The box contains 1d10+4 'Chaos Mushrooms', which are considered a delicacy at Fey dinner parties. If a creature eats one of the Chaos Mushrooms, they must roll on the Wild Magic Surge table (PHB, p104) and are subject to the result. Each mushroom eaten requires a separate roll. ",
              ""),
 
     Treasure("Crescent Armor Spikes",
@@ -5711,7 +5711,7 @@ treasure_table = [
              ""),
 
     Treasure("Grog of Substantial Whimsy",
-             "http://www.dandwiki.com/wiki/Grog_of_Susbtantial_Whimsy_%283.5e_Equipment%29",
+             "http://www.dandwiki.com/wiki/Grog_of_Substantial_Whimsy_%283.5e_Equipment%29",
              "",
              "Rare",
              "",
@@ -5756,7 +5756,7 @@ treasure_table = [
              ""),
 
     Treasure("Helm of Confusion",
-             " Helm – cherubic infant embellishment, emits confusion spell at wil",
+             " Helm – cherubic infant embellishment, emits confusion spell at will",
              "",
              "Rare",
              "",
@@ -5855,7 +5855,7 @@ treasure_table = [
              ""),
 
     Treasure("Masterpiece Painting",
-             "An old painting, a lot treasure by a painter of some renoun.",
+             "An old painting, a lot treasure by a painter of some renown.",
              "2,500. gp",
              "Rare",
              "10 lb",
@@ -6439,7 +6439,7 @@ treasure_table = [
              "",
              ""),
 
-    Treasure("Bardweave Parisol",
+    Treasure("Bardweave Parasol",
              "A beautiful, vibrantly colorful cloth parasol with a light wooden handle. The object feels delicate and weightless.",
              "1,500. gp",
              "Very Rare",
@@ -6593,7 +6593,7 @@ treasure_table = [
              ""),
 
     Treasure("Diamond",
-             "Diamond is a hard clear gem which can be clear blue-white, rich blue, yelow or pink. The hardest of all the gemstones, and among the most valuable. Diamonds are usually found in northern mountains by underground races, and then traded to the surface world. ",
+             "Diamond is a hard clear gem which can be clear blue-white, rich blue, yellow or pink. The hardest of all the gemstones, and among the most valuable. Diamonds are usually found in northern mountains by underground races, and then traded to the surface world. ",
              "5,000. gp",
              "Very Rare",
              "n/a",
@@ -6620,7 +6620,7 @@ treasure_table = [
              ""),
 
     Treasure("Eldhand's Mind Slug",
-             "In the laboratory, vault, or home of the famed (and thought long dead) Eldhand the Scholar sits a small glass box. Across the lid is a grid of very tiny holes for air. The box contains a pink, slimy slug admidst some wet sawdust. A tag on the box reads “Eldhand.” The bug can be killed easily, like any slug. However, placing the slug near one's nose or mouth allows it to crawl up into the player's brain. The player will go into a coma for 3d4 hours and, upon awakening, will find that the voice of Eldhand the Scholar can be heard inside their head. He is quite sarcastic, pessimistic, and usually upset that someone so “pea-brained” ended up finding him. However, he can be convinced to give help in scholarly matters—granting the host +6 on all Knowledge Arcana, Knowledge History, and Spellcraft checks. He is reluctant to give out help unless you have proven yourself a more than worthy host. But he is generally willing to help in exchange for your player eating some odd or expensive food item (plums, goat cheese, and Ruby Port liquor tend to be his favorites).",
+             "In the laboratory, vault, or home of the famed (and thought long dead) Eldhand the Scholar sits a small glass box. Across the lid is a grid of very tiny holes for air. The box contains a pink, slimy slug amidst some wet sawdust. A tag on the box reads “Eldhand.” The bug can be killed easily, like any slug. However, placing the slug near one's nose or mouth allows it to crawl up into the player's brain. The player will go into a coma for 3d4 hours and, upon awakening, will find that the voice of Eldhand the Scholar can be heard inside their head. He is quite sarcastic, pessimistic, and usually upset that someone so “pea-brained” ended up finding him. However, he can be convinced to give help in scholarly matters—granting the host +6 on all Knowledge Arcana, Knowledge History, and Spellcraft checks. He is reluctant to give out help unless you have proven yourself a more than worthy host. But he is generally willing to help in exchange for your player eating some odd or expensive food item (plums, goat cheese, and Ruby Port liquor tend to be his favorites).",
              "0. gp",
              "Very Rare",
              "n/a",
@@ -6854,7 +6854,7 @@ treasure_table = [
              "Requires Attunement"),
 
     Treasure("Rogue Stone",
-             "A small, shifting, rainbow coloured, irridecent gemstone. The fluid shades of colour appear almost liquid under normal sunlight, it is truly a beautiful sight to behold. Rogue stones are extremely rare and are used for the gemjump spell, hence one of the most sought after gems in the Realms.        ",
+             "A small, shifting, rainbow coloured, iridescent gemstone. The fluid shades of colour appear almost liquid under normal sunlight, it is truly a beautiful sight to behold. Rogue stones are extremely rare and are used for the gemjump spell, hence one of the most sought after gems in the Realms.        ",
              "5,000. gp",
              "Very Rare",
              "n/a",
@@ -6962,7 +6962,7 @@ treasure_table = [
              ""),
 
     Treasure("Winged Eye",
-             "This extremely tiny Beholder creature has wings in addition to its ten eyed tentacles. It is made of delicate glass that is finely stained. Any arcane spellcaster can activate it, as can any creature that succeeds on a DC 20 Use Magic Device skill check. When activated, it will come to life in all respects—except that it is tethered to the mind of the activator. It cannot attack, move objects, or affect the physical setting in any way. However, it can fly up to 100 ft away at a speed of 10 ft per round. The activator can now see as though their head were the eye, and can ONLY see what the eye would see. This means the original PC is temporarily “blinded.” The eye can be deactived at any time from any distance within 100 ft. However, as soon as it is deactived, it turns back to delicate glass—wherever it was. Thus deactivating it before flying it back is not recommended.",
+             "This extremely tiny Beholder creature has wings in addition to its ten eyed tentacles. It is made of delicate glass that is finely stained. Any arcane spellcaster can activate it, as can any creature that succeeds on a DC 20 Use Magic Device skill check. When activated, it will come to life in all respects—except that it is tethered to the mind of the activator. It cannot attack, move objects, or affect the physical setting in any way. However, it can fly up to 100 ft away at a speed of 10 ft per round. The activator can now see as though their head were the eye, and can ONLY see what the eye would see. This means the original PC is temporarily “blinded.” The eye can be deactivated at any time from any distance within 100 ft. However, as soon as it is deactivated, it turns back to delicate glass—wherever it was. Thus deactivating it before flying it back is not recommended.",
              "6,400. gp",
              "Very Rare",
              "n/a",
@@ -7017,7 +7017,7 @@ treasure_table = [
              ""),
 
     Treasure("48-sided Garnet Gemstone",
-             "Garnet is a general class of crystals ranging from deep red to violet in colour. a typical cut for this rare isometric gem is 12 to 24 sides, with the very rare 36 sides being known from time to time. This may be the only 48 sided garnet in existance. and as such it is highly prized.",
+             "Garnet is a general class of crystals ranging from deep red to violet in colour. a typical cut for this rare isometric gem is 12 to 24 sides, with the very rare 36 sides being known from time to time. This may be the only 48 sided garnet in existence. and as such it is highly prized.",
              "10,000. gp",
              "Legendary",
              "n/a",
@@ -7710,7 +7710,7 @@ treasure_table = [
              ""),
 
     Treasure("Steel Spiked Gauntlets",
-             "A pair of blue enameled steel spiked gauntlets. The palms of both gauntlets are designed to display the Cambersome family crest, a stylized ‘C’ shaped into the likeness of a coiled serpent.",
+             "A pair of blue enameled steel spiked gauntlets. The palms of both gauntlets are designed to display the Cumbersome family crest, a stylized ‘C’ shaped into the likeness of a coiled serpent.",
              "90. gp",
              "Common",
              "",
@@ -8070,7 +8070,7 @@ treasure_table = [
              ""),
 
     Treasure("The Book of Monster Recipes",
-             "This leather-bound recipe book appears to be aimed at adventurers who aren't satified with merely fighting monsters and taking their treasure. It features a mixed selection of recipies, with side-notes on how best to prepare the remains of each creature included. \"Braized Dragon Liver and Onions\", \"Eye of the Beholder Soup\", \"Rust Monster Jerky\" and \"Gelatinous Cube Jelly\" are particular standouts.",
+             "This leather-bound recipe book appears to be aimed at adventurers who aren't satisfied with merely fighting monsters and taking their treasure. It features a mixed selection of recipes, with side-notes on how best to prepare the remains of each creature included. \"Braised Dragon Liver and Onions\", \"Eye of the Beholder Soup\", \"Rust Monster Jerky\" and \"Gelatinous Cube Jelly\" are particular standouts.",
              "40. gp",
              "Common",
              "1 lb",
@@ -8151,12 +8151,12 @@ treasure_table = [
              ""),
 
     Treasure("Waterskin of Inexplicable Amelioration",
-             "A sheep's bladder waterskin. It is lined with a suedelike fabric which has been beautifully stiched with the image of a stag's head. ",
+             "A sheep's bladder waterskin. It is lined with a suedelike fabric which has been beautifully stitched with the image of a stag's head. ",
              "600. gp",
              "Uncommon",
              "",
              "Wondrous Item",
-             "When any liquid is poured into this waterskin it is instantly purified of disease, poison or other potentially harmful contaminents.",
+             "When any liquid is poured into this waterskin it is instantly purified of disease, poison or other potentially harmful contaminants.",
              ""),
 
     Treasure("Weapon Cabinet",
@@ -8291,7 +8291,7 @@ treasure_table = [
              "Uncommon",
              "15 lb",
              "Wondrous Item",
-             "This functions as a normal Bag of Holding, but for every item you wish to remove from the bag you must put in a silver piece. Any money placed into the bag dissapears almost immediately. It's unclear where the coins go when placed into the bag.",
+             "This functions as a normal Bag of Holding, but for every item you wish to remove from the bag you must put in a silver piece. Any money placed into the bag disappears almost immediately. It's unclear where the coins go when placed into the bag.",
              ""),
 
     Treasure("Spear of the Hunter",
@@ -8498,7 +8498,7 @@ treasure_table = [
              "Common",
              "1 lb",
              "Wondrous Item",
-             "The wearer of this hat always knows the direction to the nearest alcholic beverage.",
+             "The wearer of this hat always knows the direction to the nearest alcoholic beverage.",
              "Requires Attunement"),
 
     Treasure("Key Dagger",
@@ -8547,7 +8547,7 @@ treasure_table = [
              "Martial Weapon Expertise"),
 
     Treasure("Adventurer's Robe",
-             "This robe has been specially enchanted to meet the eclectic needs of the adventuring mage. Aside from protecting the wearer from various forms of crushing damage, it also provides protection from the basilisk's petrying gaze and polymorphing powers of rival mages. As with other such robes, the Adventurer's Robe can only be worn by those engaged in the wizardly profession. ",
+             "This robe has been specially enchanted to meet the eclectic needs of the adventuring mage. Aside from protecting the wearer from various forms of crushing damage, it also provides protection from the basilisk's petrifying gaze and polymorphing powers of rival mages. As with other such robes, the Adventurer's Robe can only be worn by those engaged in the wizardly profession. ",
              "600. gp",
              "Uncommon",
              "4 lb",
@@ -8703,34 +8703,34 @@ treasure_table = [
 
 
 if __name__ == "__main__":
-    catigory_list = []
+    category_list = []
     found = True
-    for tresure in treasure_table:
+    for treasure in treasure_table:
         found = False
-        for catigory in catigory_list:
-            if catigory == tresure.category:
+        for category in category_list:
+            if category == treasure.category:
                 found = True
                 break
         if found == False:
-            catigory_list.append(tresure.category)
-            print(tresure.name)
+            category_list.append(treasure.category)
+            print(treasure.name)
 
-    print (catigory_list)
+    print (category_list)
 
 
     print("******************")
 
     rarity_list = []
     found = True
-    for tresure in treasure_table:
+    for treasure in treasure_table:
         found = False
         for rarity in rarity_list:
-            if rarity == tresure.rarity:
+            if rarity == treasure.rarity:
                 found = True
                 break
         if found == False:
-            rarity_list.append(tresure.rarity)
-            print(tresure.name)
+            rarity_list.append(treasure.rarity)
+            print(treasure.name)
 
     print(rarity_list)
 

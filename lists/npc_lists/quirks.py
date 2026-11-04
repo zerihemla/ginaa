@@ -1,4 +1,4 @@
-qwirk_list = [
+quirk_list = [
     "A white scar across their eye",
     "An abnormally high voice",
     "An abnormally low voice",

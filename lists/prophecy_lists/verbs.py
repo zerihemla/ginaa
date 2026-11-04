@@ -1,5 +1,5 @@
 #This verb list is for a prophecy generator
-#Therefore, all the verbs will be in futrue tense.
+#Therefore, all the verbs will be in future tense.
 #Also, all the verbs will be lower case. 
 verb_list = [ 
     "dance",

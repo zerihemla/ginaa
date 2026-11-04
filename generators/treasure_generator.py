@@ -1,4 +1,4 @@
-from lists.treasure_lists.tresure import *
+from lists.treasure_lists.treasure import *
 
 from custom_libs.helper_func import *
 
@@ -36,7 +36,7 @@ class GeneratedTreasure():
         filtered_list1 = []
         filtered_list2 = []
 
-        #Filter the catigory
+        #Filter the category
         if len(category_filters) == 0:
             filtered_list1 = treasure_table
 

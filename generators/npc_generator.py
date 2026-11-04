@@ -6,7 +6,7 @@ from lists.npc_lists.description import description_lists
 from lists.npc_lists.wants_and_needs import wants_lists
 from lists.npc_lists.secret_or_obstacle import secret_lists
 from lists.npc_lists.carrying import carrying_lists
-from lists.npc_lists.qwirks import qwirk_list
+from lists.npc_lists.quirks import quirk_list
 
 from custom_libs.helper_func import *
 
@@ -21,7 +21,7 @@ class GeneratedNPC():
         self.wants_and_needs = "---"
         self.secret_or_obstacle = "---"
         self.carrying = "---"
-        self.suggested_qwirk = "---"
+        self.suggested_quirk = "---"
 
     def set_random_attributes(self, list_num):
         first_list = []
@@ -53,7 +53,7 @@ class GeneratedNPC():
         self.wants_and_needs = select_from_list_not_first(wants_list)
         self.secret_or_obstacle = select_from_list_not_first(secret_list)
         self.carrying = select_from_list_not_first(carrying_list)
-        self.suggested_qwirk = select_from_list(qwirk_list)
+        self.suggested_quirk = select_from_list(quirk_list)
 
 
     ##list num 0 is general
@@ -81,13 +81,13 @@ class GeneratedNPC():
         first_list, last_list, description_list, wants_list, secret_list, carrying_list = self.get_lists(list_num)
         list_len = len(first_list)
 
-        #This ensures we dont get index 0.
+        #This ensures we don't get index 0.
         #Index 0 is a label
         sel_index = get_rand_index(list_len -1 ) + 1
 
         self.first_name = first_list[sel_index]
         self.last_name = last_list[sel_index]
-        self.suggested_qwirk = select_from_list(qwirk_list)
+        self.suggested_quirk = select_from_list(quirk_list)
         self.description = description_list[sel_index]
         self.wants_and_needs = wants_list[sel_index]
         self.secret_or_obstacle = secret_list[sel_index]
@@ -108,7 +108,7 @@ class GeneratedNPC():
               "Sug. Race: " + self.race + "\n"
               "Sug. Age: " + self.age + "\n\n"
 
-              "Possible Qwirk: " + self.suggested_qwirk + "\n" +
+              "Possible Quirk: " + self.suggested_quirk + "\n" +
               "Desc: " + self.description + "\n" +
 
               "Wants: " + self.wants_and_needs + "\n\n" +

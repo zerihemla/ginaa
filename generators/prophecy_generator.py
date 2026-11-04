@@ -4,7 +4,7 @@ from lists.prophecy_lists.verbs import verb_list
 from lists.prophecy_lists.places import place_list
 from lists.prophecy_lists.things import thing_list
 from lists.prophecy_lists.nouns import noun_list
-from lists.prophecy_lists.wepons import wepon_list
+from lists.prophecy_lists.weapons import weapon_list
 from lists.prophecy_lists.objects import object_list
 from lists.prophecy_lists.good_adjective import good_adjective_list
 from lists.prophecy_lists.bad_adjective import bad_adjective_list
@@ -32,7 +32,7 @@ class Prophecy():
             self.print_string = self.print_string.replace(f"P{i}", select_from_list(place_list))
             self.print_string = self.print_string.replace(f"S{i}", select_from_list(subject_list))
             self.print_string = self.print_string.replace(f"O{i}", select_from_list(object_list))
-            self.print_string = self.print_string.replace(f"W{i}", select_from_list(wepon_list))
+            self.print_string = self.print_string.replace(f"W{i}", select_from_list(weapon_list))
             self.print_string = self.print_string.replace(f"V{i}", select_from_list(verb_list))
             self.print_string = self.print_string.replace(f"G{i}", select_from_list(good_adjective_list))
             self.print_string = self.print_string.replace(f"B{i}", select_from_list(bad_adjective_list))

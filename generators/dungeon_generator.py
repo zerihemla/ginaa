@@ -31,7 +31,7 @@ def numpy_plot(image):
     # plt.grid(True, which='both')
     plt.show()
 
-def generate_dungon(x_size, y_size):
+def generate_dungeon(x_size, y_size):
     A = np.zeros((y_size, x_size))
 
     for i in range(x_size):
@@ -45,7 +45,7 @@ if __name__ =="__main__":
     y_size = int(input("Enter Y Size: "))
 
 
-    A = generate_dungon(x_size, y_size)
+    A = generate_dungeon(x_size, y_size)
 
     # plotly_plot(A)
     numpy_plot(A)

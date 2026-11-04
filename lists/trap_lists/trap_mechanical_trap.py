@@ -9,6 +9,6 @@ mechanical_trap_list = [
 "The room begins filling with water after the doors slam shut",
 "The walls slowly begin closing inwards",
 "A large rolling boulder drops from the ceiling towards the party",
-"A bear falls from the celing onto the player that activated the trap",
+"A bear falls from the ceiling onto the player that activated the trap",
 "Bugs fly out from the walls to swarm a party member"
 ]

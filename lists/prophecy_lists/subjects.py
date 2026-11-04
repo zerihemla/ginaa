@@ -19,6 +19,6 @@ subject_list = [
     "sorcerer",
     "barron",
     "lord",
-    "pesant",
+    "peasant",
     "butcher",
 ]

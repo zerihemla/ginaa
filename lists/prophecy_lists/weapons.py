@@ -1,4 +1,4 @@
-wepon_list = [
+weapon_list = [
     "sword",
     "shield",
     "wand",

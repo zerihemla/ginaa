@@ -1,7 +1,7 @@
 general_funny_book_titles_list = [
  "Gone with the Gust of Air",
  "Moby Duck",
- "Frank-en-stien",
+ "Frank-en-stein",
  "Sheer-luck home",
  "War and .... more war",
  "Pride and General Dislike",

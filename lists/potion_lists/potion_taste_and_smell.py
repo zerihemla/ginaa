@@ -52,7 +52,7 @@ taste_and_smell_list = ["Nothing at all",
 				"Lilac and Gooseberries",
 				"A fresh baby",
 				"A new car",
-				"Cirtrus",
+				"Citrus",
 				"Leather",
 				"Metal",
 				"A forge",
@@ -97,5 +97,5 @@ taste_and_smell_list = ["Nothing at all",
 				"Music",
 				"The end of the world",
 				"Magically the worst thing to you",
-				"Magically the thing most desireable to you"
+				"Magically the thing most desirable to you"
 ]
