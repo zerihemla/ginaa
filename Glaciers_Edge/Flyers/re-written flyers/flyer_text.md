@@ -4,13 +4,13 @@ Plain text of the rewritten player handouts in this folder.
 
 ---
 
-## Aldrics Letter.docx (Chad's letter to Neb)
+## Aldrics Letter.docx (Aldric's letter to Neb)
 
 Father,
 
 If you're reading this, you've discovered I'm gone. Don't waste time looking for me in the usual places.
 
-You taught me that nobility means responsibility. That our family's wealth comes with obligation. But you never told me the TRUTH - that our fortune is built on a lie. That Cole Glass knew. That every Glass since has known. That you've always known.
+You taught me that nobility means responsibility. That our family's wealth comes with obligation. But you never told me the TRUTH - that our fortune is built on a lie. That Cole Frostmere knew. That every Frostmere since has known. That you've always known.
 
 You're planning to bury it. Bury the threat, bury half the town, bury me if I'm in the way. I know about the charges. I know about the "necessary sacrifices."
 
@@ -20,14 +20,14 @@ I've found miners who've seen what's down there. They understand what it is. It'
 
 Yes, the ritual has a cost. But what doesn't? Your plan costs half the town and destroys everything that makes this place worth saving. The economy. The mines. Our family's entire legacy turned to rubble and guilt.
 
-At least my way offers a future. And maybe it's how a Glass finally pays back what we took.
+At least my way offers a future. And maybe it's how a Frostmere finally pays back what we took.
 
 I'm not asking for your blessing. I'm not even asking for your understanding. I'm just asking that when you find this, you remember that I'm doing what YOU taught me - protecting people at any cost.
 
 Even if that cost is me.
 
 Your son,
-Chad
+Aldric
 
 ---
 

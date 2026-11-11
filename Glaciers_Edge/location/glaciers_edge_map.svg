@@ -85,7 +85,7 @@
   <text x="380" y="248" class="label">Forward Base</text>
   <text x="380" y="266" class="sub">at the glacier entrance</text>
 
-  <!-- 2. Neb Glass's Glass House -->
+  <!-- 2. Neb Frostmere's Glass House -->
   <g transform="translate(190,250)">
     <polygon points="-45,30 -45,-10 0,-45 45,-10 45,30" fill="#bfe3f0" stroke="#3b7a96" stroke-width="2.5" opacity="0.95"/>
     <line x1="-45" y1="-10" x2="45" y2="-10" stroke="#3b7a96" stroke-width="1.5"/>
@@ -93,7 +93,7 @@
     <line x1="-22" y1="-28" x2="-22" y2="30" stroke="#3b7a96" stroke-width="1"/>
     <line x1="22" y1="-28" x2="22" y2="30" stroke="#3b7a96" stroke-width="1"/>
   </g>
-  <text x="190" y="305" class="label">Neb Glass's Glass House</text>
+  <text x="190" y="305" class="label">Neb Frostmere's Glass House</text>
 
   <!-- 3. 'Tough Enough' Blacksmith -->
   <g transform="translate(900,270)">
