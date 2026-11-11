@@ -1,0 +1,48 @@
+1. Bugs worth fixing now
+Treasure filter rejects valid results. In treasure_generator.py:61 the check is len(filtered_list2) > 1 when it should be >= 1 (or just if filtered_list2:). Six filter combinations have exactly one item: Ring+Common, Ring+Legendary, Book+Legendary, Potion+Legendary, Potion+Mundane and Quest Hook+Mundane. For all of these the app wrongly says "Filter too restrictive."
+"Save" damages some file paths. ginaa.py:313 does split(".")[0], so a path like C:\Users\cody.glad\notes.txt turns into C:\Users\cody. Use os.path.splitext instead, write with encoding="utf-8", and use a with open(...) block. The default folder ./local_test_data probably doesn't exist on users' machines either.
+Book button with no categories checked prints just a divider line and nothing else. It should either show a message or treat "nothing checked" as "all categories".
+Treasure category "Potion" can't be picked. The table has 29 potions, but the GUI has no checkbox for that category.
+Broken standalone entry points:
+book_generator.py's __main__ calls setGeneralBook(), which doesn't exist.
+side_quest_generator.py runs code at import time and imports npc_generator in a way that only works from inside generators/.
+dungon_generator.py's numpy_plot ignores its argument and reads a global A.
+A stray print(calc_list_num) in npc_generator.py:72 is debug output left in.
+trap_generator.py only gets access to random because helper_func happens to import it and the file uses import *. It works, but it breaks easily.
+
+
+2. Finish half-built features
+The Random Magic Item and Random Corrupted Item buttons are wired up but print "not yet functional." They're the most visible gap in the UI. The treasure table's magic items, or the adjective and condition lists, would give you a quick first version.
+Side quest generator. There's a stub file. It would combine nicely with the NPC, tavern, item and prophecy generators you already have.
+Dungeon generation. There are three separate attempts: generators/dungon_generator.py, claude_dungon/, and a 1,600-line Perl script. I'd pick one (the Claude class version seems furthest along), delete or archive the others, and decide whether it belongs in the GUI.
+Age by race. Your own TODO comment in npc_generator.py:122 says age should depend on race. Right now a 900-year-old halfling can happen.
+
+
+3. Repo hygiene (quick wins)
+Remove tracked junk: lists/__pycache__/*.pyc and the .idea/ files are committed even though .gitignore excludes them. git rm -r --cached lists/__pycache__ .idea fixes that.
+Remove the sys.path.append("../") lines from every generator. The path is relative to the current working directory, not the file, so it does nothing useful. Running modules as python -m generators.npc_generator from the repo root is the reliable approach.
+Remove dead code: the commented-out PyQt imports "copied straight from RCade," the commented debug blocks in the NPC generator, and the duplicated body of _find_highest_number in the prophecy generator.
+Pin versions in requirements.txt, at least PyQt5 and pyinstaller, so builds can be reproduced.
+Expand the README with a screenshot, the list of generators, and the run and build commands. Fold setup_steps.txt into it.
+
+
+4. Structural improvements (medium effort, big payoff)
+Add a common generator interface. Every generator repeats the same pattern of "---" defaults, get_text() and print_attributes(), with inconsistent names (setRandomAttributes vs generate_attributes, get_text vs get_string). One small base class or protocol would make each new generator a few lines.
+Replace the if box.isChecked(): list.append(...) chains in the treasure and book handlers with a mapping from checkbox to value. That's about 40 fewer lines in ginaa.py.
+Move the lists out of .py files into JSON, YAML or plain text. Content is most of this project, and data files are easier to edit (including by non-programmers), check, and contribute to. helper_scripts/ hints you've already felt this pain.
+Fix the spelling in identifiers and filenames if you're comfortable: dungon, tresure, qwirk, occurance, wepons, catigory, encouter. It's cosmetic but makes searching harder. Do it in one commit so the history stays readable.
+
+
+5. Tests and checks
+There are no tests at all. A small pytest suite would catch most of the issues above:
+
+each generator produces non-empty text without crashing
+the NPC parallel lists stay the same length (they currently line up at 101/61/61/61, but one typo breaks story mode)
+every treasure entry uses a known category and rarity
+every prophecy template token gets replaced
+A GitHub Action could run these and also run scripts/build.py on Windows, macOS and Linux. That would also give you downloadable builds for all three, since PyInstaller can't cross-compile.
+
+6. Nice-to-have features
+Copy-to-clipboard and "reroll last" buttons.
+A seed field, so a result can be reproduced.
+Weighted rarity for treasure rolls, so Legendary doesn't come up as often as Common when everything is checked.
