@@ -780,7 +780,7 @@ These are written in-world for the players to read. The flyers and Aldric’s le
 
 ## Goodnight, Glacier’s Edge (Children’s Book)
 
-*GM note: found in the children’s corner of the City Library, no roll needed. The last page holds the mayor’s sleeper word, and a few earlier pages quietly hint at the bell, the fire weakness, and the Frostmere family. Bracketed text describes the art, so you can describe it or sketch it. Print one page per sheet and staple them, or hand it over as one sheet.*
+*GM note: found in the children’s corner of the City Library, no roll needed. The last page holds the mayor’s sleeper word, and a few earlier pages quietly hint at the bell, the fire weakness, and the Frostmere family. Bracketed text describes the art. The print-ready player version, with no GM notes, is `Flyers/re-written flyers/Goodnight Glaciers Edge.docx`.*
 
 > **GOODNIGHT, GLACIER’S EDGE**
 > *A Bedtime Story*
