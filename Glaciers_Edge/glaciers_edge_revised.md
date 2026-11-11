@@ -712,7 +712,7 @@ Numbers are tuned for three level 3 PCs (Tier 2). Minions have no HP track: they
 
 # Appendix C: Handouts
 
-These are written in-world for the players to read. The flyers and Aldric’s letter are in the Flyers folder. The GM note above each handout says where the party finds it.
+These are written in-world for the players to read. The GM note above each handout says where the party finds it. Print-ready player copies of every handout, with no GM notes, are in `Flyers/re-written flyers/`: `Visit Glaciers Edge.docx`, `The Sleeper Under the Ice.docx`, `Goodnight Glaciers Edge.docx` (plus a one-page text-only version), `Harvest Charter.docx`, and `Matriarchs Ledger.docx`, alongside the faction flyers and Aldric’s letter.
 
 ## Visit Glacier’s Edge (Tourism Flyer)
 

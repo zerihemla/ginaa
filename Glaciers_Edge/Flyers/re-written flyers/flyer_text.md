@@ -152,3 +152,110 @@ Will you cower with the guilty? Or will you stand with the pure?
 The faithful gather beneath the great bell. Bring only your grief and your truth. Leave behind their BLOOD MONEY and LIES.
 
 We meet in the town chapel on Tuesdays at 7pm. Bring a friend! We have Treats!
+
+---
+
+## Visit Glaciers Edge.docx (tourism flyer)
+
+**VISIT GLACIER’S EDGE!**
+***Where the Fun Never Melts!***
+
+*Brought to you by the Glacier’s Edge Town Council and the Merchants Guild*
+
+- **Tour the Frostglass Mines!** See the glittering heart of the glacier up close. *(Mind the cracks!)*
+- **Make a Wish at the Fountain of Mixed Blessings!** Ask our friendly keeper, Orm Alein. One wish per visitor. Results may vary.
+- **Marvel at the Frostmere Glass House,** the only home on the frontier built of solid frostglass! *(Viewing from the street only.)*
+- **Hear the Great Bell of the Cathedral,** rung every evening by the Meltwater Church. Free sermons! Free treats!
+- **Raise a Mug at the Spider’s Inn!** Gus pours the coldest ale this side of the mountains. Stay for Old Wick’s tall tales!
+- **Under the Weather?** Visit Bones and Clones People Repair: *“Good as New, or a New You!”*
+- **Stock Up at ‘Food n Stuff’!** Everything you need, and stuff!
+- **Big Tam’s ‘Tough Enough’ Blacksmith.** If it isn’t tough enough, Tam will make it tougher.
+- **Read a While at the City Library.** Children’s corner open daily.
+
+*A message from Mayor Dunmore:* “Glacier’s Edge has been a safe and prosperous town for nearly a hundred years, and it always will be. For the good of the town, come and stay!”
+
+<small>Reports of tremors are greatly exaggerated. Mining accidents are rare and fully insured.</small>
+
+---
+
+## The Sleeper Under the Ice.docx (Old Wick's song)
+
+*Before the town, before the mine,*
+*Before the first fool drew a line,*
+*The old folk sang the frozen king*
+*To sleep beneath the glacier’s wing.*
+
+*They built his bed of blue and white,*
+*They bound him there with words of might,*
+*And warned: “Who digs into his tomb*
+*Unlocks the door and lets him loom.”*
+
+*He hates the hearth, he hates the flame,*
+*The kindled coal that speaks his name.*
+*Where braziers burn and embers glow,*
+*His wounds won’t close, his ice won’t grow.*
+
+*He hates the bell, he hates its song.*
+*One silver note, both loud and long,*
+*Will crack the armor on his chest*
+*And shake the frost that guards him best.*
+
+*So cut him with the glass he grew,*
+*His own heart’s crystal cuts him through.*
+*And mock him well, for he is proud:*
+*He’ll chase the one who laughs aloud.*
+
+*But heed the last verse, child, and weep:*
+*The souls he takes, he does not keep.*
+*Each one he kills goes down below,*
+*To fires the Hells have banked for slow.*
+
+*So speak the words and keep him bound,*
+*Or ring the bell and bring him down,*
+*But never dig where old folk said,*
+*Or you’ll be counted with the dead.*
+
+---
+
+## Harvest Charter.docx (Merchants Guild contract)
+
+**MERCHANTS GUILD OF GLACIER’S EDGE**
+**HARVEST CHARTER No. 113**
+
+This Charter is entered into by the Merchants Guild (“the Guild”) and the undersigned (“the Contractor”).
+
+1. **Loan of Equipment.** The Guild lends the Contractor up to four (4) Frostbane Chains (“the Equipment”). The Equipment remains Guild property at all times. Equipment that is melted, reforged, or otherwise made into “not chains” will be billed at full replacement value.
+2. **The Asset.** The Contractor agrees that the entity beneath the glacier (“the Asset”) shall be delivered to the Guild ALIVE, restrained, and harvestable.
+3. **Harvest Rights.** All parts, fluids, frostglass, and byproducts of the Asset belong to the Guild, now and in perpetuity. The Asset’s regeneration is the Asset’s own concern.
+4. **Prohibited Outcomes.** The Contractor shall not bury the Asset, kill the Asset, or bind the Asset on behalf of any other party. Any such outcome is a Breach.
+5. **Breach.** In the event of Breach, the Guild may protect its Asset by any means, including the full force of Guild Security.
+6. **Compensation.** A share of every harvest, payable upon harvest, as determined by the Guild.
+7. **Continuity.** Should the Contractor die in the performance of this Charter, all obligations pass to the Contractor’s estate, heirs, and soul, where applicable.
+
+Signed: ______________________ (Contractor)
+
+Witnessed: *Recruiting Officer Mallick*
+
+<small>The Guild accepts no liability for glaciers, elementals, divine punishment, or Acts of Tyrant.</small>
+
+---
+
+## Matriarchs Ledger.docx (page from Mother Seraphine's ledger)
+
+**INFERNAL REGISTRY OF SOULS**
+**Glacier’s Edge Office, Collector: Seraphine**
+
+| Quarterly quota | Collected | Shortfall |
+|---|---|---|
+| 500 souls | 88 souls | **412 souls** |
+
+*(In red ink, in another hand:)* **Shortfall noted. Third warning. Explain, or be explained. Accounts Below.**
+
+**Notes:**
+- The Sleeper’s binding holds: all slain by Him come to us. When He wakes, the quota fills itself.
+- Purple draught: 300 doses brewed. Once they are weak to the cold, He will do the rest.
+- Vera Stone: grief makes the best congregants. Keep her close.
+- Town Hall: D. leans our way. Keep him sweet. The words that still him are “Goodnight moon, goodnight mayor.” Do not let the miners learn them.
+- The bell must not be rung before He is free.
+
+*(Signed with a sigil that looks like a candle flame burning upside down.)*
