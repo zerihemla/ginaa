@@ -1,0 +1,231 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 850" width="1100" height="850" font-family="'Palatino Linotype', Palatino, Georgia, serif">
+  <defs>
+    <radialGradient id="parch" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#f4e8c8"/>
+      <stop offset="80%" stop-color="#e6d3a3"/>
+      <stop offset="100%" stop-color="#c9ad74"/>
+    </radialGradient>
+    <linearGradient id="ice" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eef7fb"/>
+      <stop offset="100%" stop-color="#a9d3e6"/>
+    </linearGradient>
+    <style>
+      .road { fill: none; stroke: #b89a68; stroke-width: 22; stroke-linecap: round; stroke-linejoin: round; }
+      .roadEdge { fill: none; stroke: #8a6d43; stroke-width: 26; stroke-linecap: round; stroke-linejoin: round; }
+      .bldg { fill: #c9a77a; stroke: #4a3520; stroke-width: 2; }
+      .roof { fill: #7a4b2a; stroke: #4a3520; stroke-width: 2; }
+      .label { font-size: 17px; font-weight: bold; fill: #2b1d0e; text-anchor: middle;
+               paint-order: stroke; stroke: #f4e8c8; stroke-width: 5px; stroke-linejoin: round; }
+      .sub { font-size: 13px; font-style: italic; fill: #4a3520; text-anchor: middle;
+             paint-order: stroke; stroke: #f4e8c8; stroke-width: 4px; stroke-linejoin: round; }
+      .district { font-size: 22px; letter-spacing: 6px; fill: #6b5233; opacity: 0.55; text-anchor: middle; font-style: italic; }
+    </style>
+  </defs>
+
+  <!-- Parchment -->
+  <rect width="1100" height="850" fill="url(#parch)"/>
+  <rect x="14" y="14" width="1072" height="822" fill="none" stroke="#5a4126" stroke-width="3"/>
+  <rect x="22" y="22" width="1056" height="806" fill="none" stroke="#5a4126" stroke-width="1"/>
+
+  <!-- The Glacier -->
+  <path d="M22,22 H1078 V150 C1000,175 940,140 870,172 C800,200 720,160 640,190 C600,205 580,215 550,222
+           C520,215 500,205 460,190 C380,160 300,198 230,170 C160,145 90,178 22,155 Z"
+        fill="url(#ice)" stroke="#5b8fa8" stroke-width="3"/>
+  <g stroke="#7fb3cc" stroke-width="2" fill="none">
+    <path d="M120,60 l40,35 l-15,30"/><path d="M300,40 l-20,50 l35,40"/><path d="M780,50 l30,45 l-25,35"/>
+    <path d="M950,70 l-35,30 l20,30"/><path d="M640,40 l-25,40 l20,45"/>
+  </g>
+  <!-- The great crack -->
+  <path d="M550,40 L538,90 L560,130 L542,175 L552,222" fill="none" stroke="#2f6f8f" stroke-width="4"/>
+  <text x="550" y="78" class="label" font-size="30" letter-spacing="10" style="font-size:30px">THE GLACIER</text>
+
+  <!-- Roads -->
+  <g>
+    <!-- Glacier Road (north-south spine) -->
+    <path class="roadEdge" d="M550,235 C560,300 535,360 550,430 C560,500 545,560 550,640 L550,790"/>
+    <!-- East-west main street -->
+    <path class="roadEdge" d="M110,450 C250,440 380,455 550,450 C720,445 850,455 990,445"/>
+    <!-- Market street -->
+    <path class="roadEdge" d="M200,660 C330,650 450,665 550,650 C660,640 780,655 900,645"/>
+    <!-- North street -->
+    <path class="roadEdge" d="M230,320 C350,305 450,330 545,320 C650,310 760,330 880,315"/>
+    <!-- Side lanes -->
+    <path class="roadEdge" d="M300,450 C295,520 300,600 290,660"/>
+    <path class="roadEdge" d="M830,450 C835,520 825,590 840,650"/>
+
+    <path class="road" d="M550,235 C560,300 535,360 550,430 C560,500 545,560 550,640 L550,790"/>
+    <path class="road" d="M110,450 C250,440 380,455 550,450 C720,445 850,455 990,445"/>
+    <path class="road" d="M200,660 C330,650 450,665 550,650 C660,640 780,655 900,645"/>
+    <path class="road" d="M230,320 C350,305 450,330 545,320 C650,310 760,330 880,315"/>
+    <path class="road" d="M300,450 C295,520 300,600 290,660"/>
+    <path class="road" d="M830,450 C835,520 825,590 840,650"/>
+  </g>
+  <text x="575" y="285" class="sub" transform="rotate(80 575 285)">Glacier Road</text>
+
+  <!-- District names -->
+  <text x="550" y="370" class="district">NORTH END</text>
+  <text x="300" y="802" class="district">MARKET DISTRICT</text>
+
+  <!-- South gate (lockdown) -->
+  <g transform="translate(550,800)">
+    <rect x="-40" y="-10" width="80" height="10" fill="#6b4a2a" stroke="#3a2614" stroke-width="2"/>
+    <line x1="-34" y1="-10" x2="-24" y2="0" stroke="#3a2614" stroke-width="2"/>
+    <line x1="-10" y1="-10" x2="0" y2="0" stroke="#3a2614" stroke-width="2"/>
+    <line x1="14" y1="-10" x2="24" y2="0" stroke="#3a2614" stroke-width="2"/>
+  </g>
+  <text x="680" y="805" class="sub">South Gate (closed by lockdown)</text>
+
+  <!-- 1. Forward Base at the glacier entrance -->
+  <g transform="translate(550,250)">
+    <path d="M-70,10 l18,-30 l18,30 z" fill="#a8865a" stroke="#4a3520" stroke-width="2"/>
+    <path d="M40,10 l18,-30 l18,30 z" fill="#a8865a" stroke="#4a3520" stroke-width="2"/>
+    <circle cx="-95" cy="5" r="6" fill="#555" stroke="#222"/>
+    <circle cx="95" cy="5" r="6" fill="#555" stroke="#222"/>
+  </g>
+  <text x="380" y="248" class="label">Forward Base</text>
+  <text x="380" y="266" class="sub">at the glacier entrance</text>
+
+  <!-- 2. Neb Glass's Glass House -->
+  <g transform="translate(190,250)">
+    <polygon points="-45,30 -45,-10 0,-45 45,-10 45,30" fill="#bfe3f0" stroke="#3b7a96" stroke-width="2.5" opacity="0.95"/>
+    <line x1="-45" y1="-10" x2="45" y2="-10" stroke="#3b7a96" stroke-width="1.5"/>
+    <line x1="0" y1="-45" x2="0" y2="30" stroke="#3b7a96" stroke-width="1.5"/>
+    <line x1="-22" y1="-28" x2="-22" y2="30" stroke="#3b7a96" stroke-width="1"/>
+    <line x1="22" y1="-28" x2="22" y2="30" stroke="#3b7a96" stroke-width="1"/>
+  </g>
+  <text x="190" y="305" class="label">Neb Glass's Glass House</text>
+
+  <!-- 3. 'Tough Enough' Blacksmith -->
+  <g transform="translate(900,270)">
+    <rect x="-38" y="-18" width="76" height="40" class="bldg"/>
+    <polygon points="-44,-18 0,-44 44,-18" class="roof"/>
+    <rect x="18" y="-50" width="12" height="24" fill="#555" stroke="#222" stroke-width="1.5"/>
+    <path d="M24,-54 q-8,-10 0,-18 q8,-8 0,-16" fill="none" stroke="#777" stroke-width="2"/>
+    <!-- anvil -->
+    <path d="M-14,8 h22 l-4,6 h-6 v6 h-6 v-6 h-6 z" fill="#333"/>
+  </g>
+  <text x="900" y="312" class="label">'Tough Enough' Blacksmith</text>
+
+  <!-- 4. Bones and Clones People Repair -->
+  <g transform="translate(960,390)">
+    <rect x="-40" y="-22" width="80" height="44" class="bldg"/>
+    <polygon points="-46,-22 0,-46 46,-22" class="roof"/>
+    <rect x="-7" y="-14" width="14" height="30" fill="#b03a2e"/>
+    <rect x="-15" y="-6" width="30" height="14" fill="#b03a2e"/>
+  </g>
+  <text x="960" y="432" class="label">Bones and Clones</text>
+  <text x="960" y="430" dy="16" class="sub">People Repair</text>
+
+  <!-- 5. Central Grass Area & Fountain -->
+  <ellipse cx="550" cy="520" rx="105" ry="48" fill="#9fbf6a" stroke="#5c7a33" stroke-width="2.5"/>
+  <circle cx="550" cy="520" r="20" fill="#9fd0e6" stroke="#3b7a96" stroke-width="2.5"/>
+  <circle cx="550" cy="520" r="6" fill="#eef7fb" stroke="#3b7a96" stroke-width="1.5"/>
+  <text x="550" y="590" class="label">Central Grass Area</text>
+  <text x="550" y="590" dy="16" class="sub">Fountain of Mixed Blessings</text>
+
+  <!-- 6. Town Hall -->
+  <g transform="translate(400,395)">
+    <rect x="-55" y="-20" width="110" height="45" class="bldg"/>
+    <polygon points="-62,-20 0,-50 62,-20" class="roof"/>
+    <g fill="#e6d3a3" stroke="#4a3520" stroke-width="1.5">
+      <rect x="-42" y="-14" width="8" height="34"/><rect x="-20" y="-14" width="8" height="34"/>
+      <rect x="12" y="-14" width="8" height="34"/><rect x="34" y="-14" width="8" height="34"/>
+    </g>
+    <circle cx="0" cy="-33" r="7" fill="#e6d3a3" stroke="#4a3520" stroke-width="1.5"/>
+  </g>
+  <text x="400" y="438" class="label">Town Hall</text>
+
+  <!-- 7. Town Prison -->
+  <g transform="translate(200,530)">
+    <rect x="-42" y="-24" width="84" height="48" fill="#8f8a80" stroke="#3a3530" stroke-width="2"/>
+    <g stroke="#2b2b2b" stroke-width="2.5">
+      <line x1="-22" y1="-12" x2="-22" y2="10"/><line x1="-14" y1="-12" x2="-14" y2="10"/>
+      <line x1="14" y1="-12" x2="14" y2="10"/><line x1="22" y1="-12" x2="22" y2="10"/>
+    </g>
+    <rect x="-42" y="-30" width="84" height="8" fill="#6f6a62" stroke="#3a3530" stroke-width="2"/>
+  </g>
+  <text x="200" y="574" class="label">Town Prison</text>
+
+  <!-- 8. Town Chapel (at the Cathedral) -->
+  <g transform="translate(710,385)">
+    <rect x="-50" y="-15" width="100" height="45" fill="#d8ccb4" stroke="#4a3520" stroke-width="2"/>
+    <polygon points="-56,-15 0,-38 56,-15" fill="#5d4a6e" stroke="#4a3520" stroke-width="2"/>
+    <rect x="-14" y="-80" width="28" height="55" fill="#d8ccb4" stroke="#4a3520" stroke-width="2"/>
+    <polygon points="-18,-80 0,-108 18,-80" fill="#5d4a6e" stroke="#4a3520" stroke-width="2"/>
+    <!-- the bell -->
+    <path d="M-7,-48 q0,-14 7,-14 q7,0 7,14 l3,4 h-20 z" fill="#c8a03c" stroke="#5a4210" stroke-width="1.5"/>
+    <path d="M0,10 v20 M-10,18 a10,10 0 0 1 20,0" fill="none" stroke="#4a3520" stroke-width="2"/>
+  </g>
+  <text x="710" y="438" class="label">Town Chapel</text>
+  <text x="710" y="436" dy="16" class="sub">at the Cathedral</text>
+
+  <!-- 9. City Library -->
+  <g transform="translate(900,550)">
+    <rect x="-45" y="-22" width="90" height="46" class="bldg"/>
+    <polygon points="-51,-22 0,-46 51,-22" class="roof"/>
+    <!-- open book -->
+    <path d="M-20,0 q10,-6 20,0 q10,-6 20,0 v14 q-10,-6 -20,0 q-10,-6 -20,0 z" fill="#f4e8c8" stroke="#4a3520" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="0" y2="14" stroke="#4a3520" stroke-width="1.5"/>
+  </g>
+  <text x="900" y="594" class="label">City Library</text>
+
+  <!-- 10. The Spider's Inn / Tavern -->
+  <g transform="translate(200,690)">
+    <rect x="-48" y="-22" width="96" height="46" class="bldg"/>
+    <polygon points="-54,-22 0,-48 54,-22" class="roof"/>
+    <rect x="-10" y="2" width="20" height="22" fill="#5a3b1f" stroke="#2b1d0e" stroke-width="1.5"/>
+    <!-- spider sign -->
+    <line x1="48" y1="-12" x2="68" y2="-12" stroke="#2b1d0e" stroke-width="2"/>
+    <line x1="64" y1="-12" x2="64" y2="-4" stroke="#2b1d0e" stroke-width="1"/>
+    <g transform="translate(64,2)" stroke="#2b1d0e" stroke-width="1.5" fill="#2b1d0e">
+      <circle r="4"/><path d="M-4,-2 l-6,-4 M-4,0 l-7,0 M-4,2 l-6,4 M4,-2 l6,-4 M4,0 l7,0 M4,2 l6,4" fill="none"/>
+    </g>
+  </g>
+  <text x="200" y="736" class="label">The Spider's Inn</text>
+
+  <!-- 11. Merchants Guild Recruiting Office -->
+  <g transform="translate(410,700)">
+    <rect x="-50" y="-22" width="100" height="46" class="bldg"/>
+    <polygon points="-56,-22 0,-46 56,-22" fill="#3d5a3a" stroke="#4a3520" stroke-width="2"/>
+    <circle cx="0" cy="2" r="11" fill="#d4af37" stroke="#7a5c10" stroke-width="2"/>
+    <text x="0" y="7" font-size="13" font-weight="bold" fill="#7a5c10" text-anchor="middle">G</text>
+  </g>
+  <text x="410" y="744" class="label">Merchants Guild</text>
+  <text x="410" y="742" dy="16" class="sub">Recruiting Office</text>
+
+  <!-- 12. 'Food n Stuff' General Store -->
+  <g transform="translate(690,700)">
+    <rect x="-45" y="-22" width="90" height="46" class="bldg"/>
+    <polygon points="-51,-22 0,-46 51,-22" class="roof"/>
+    <!-- awning -->
+    <g stroke="#4a3520" stroke-width="1">
+      <rect x="-40" y="-8" width="16" height="10" fill="#b03a2e"/><rect x="-24" y="-8" width="16" height="10" fill="#f4e8c8"/>
+      <rect x="-8" y="-8" width="16" height="10" fill="#b03a2e"/><rect x="8" y="-8" width="16" height="10" fill="#f4e8c8"/>
+      <rect x="24" y="-8" width="16" height="10" fill="#b03a2e"/>
+    </g>
+    <!-- barrel -->
+    <rect x="52" y="4" width="14" height="20" rx="4" fill="#8a5a2b" stroke="#3a2614" stroke-width="1.5"/>
+  </g>
+  <text x="690" y="744" class="label">'Food n Stuff'</text>
+  <text x="690" y="742" dy="16" class="sub">General Store</text>
+
+  <!-- Market square marker -->
+  <circle cx="550" cy="650" r="26" fill="#d9c7a0" stroke="#8a6d43" stroke-width="2"/>
+  <text x="550" y="655" font-size="12" font-style="italic" fill="#4a3520" text-anchor="middle">Market</text>
+
+  <!-- Title cartouche -->
+  <g transform="translate(40,40)">
+    <rect width="230" height="70" rx="8" fill="#f4e8c8" stroke="#5a4126" stroke-width="2.5"/>
+    <text x="115" y="34" font-size="28" font-weight="bold" fill="#2b1d0e" text-anchor="middle">Glacier's Edge</text>
+    <text x="115" y="56" font-size="13" font-style="italic" fill="#4a3520" text-anchor="middle">A frontier mining town</text>
+  </g>
+
+  <!-- Compass rose -->
+  <g transform="translate(1010,770)">
+    <circle r="34" fill="#f4e8c8" stroke="#5a4126" stroke-width="2"/>
+    <polygon points="0,-30 7,0 0,30 -7,0" fill="#5a4126"/>
+    <polygon points="-30,0 0,-7 30,0 0,7" fill="#a8865a"/>
+    <polygon points="0,-30 7,0 -7,0" fill="#2b1d0e"/>
+    <text y="-38" font-size="16" font-weight="bold" fill="#2b1d0e" text-anchor="middle">N</text>
+  </g>
+</svg>
