@@ -31,7 +31,7 @@ Aldric
 
 ---
 
-## Frostbound Compact Flyer.docx (Miners Compact)
+## Miners Compact Flyer.docx
 
 *In corners where the lamplight dies, Where crystal walls reflect our eyes, The answer waits for those who see— What's bound can serve, what sleeps can be.*
 
@@ -67,7 +67,7 @@ We look forward to you finding us. - The Miners Compact
 
 ---
 
-## Merchant Consortium Flyer.docx (Merchants Guild)
+## Merchants Guild Flyer.docx
 
 **SECURITY. OPPORTUNITY. SURVIVAL.**
 **PREMIER PROTECTION CONTRACTS NOW AVAILABLE**
@@ -118,7 +118,7 @@ Bring proof of identity and any relevant experience.
 
 ---
 
-## THE MELTWATER CULT.docx (Meltwater Church)
+## Meltwater Church Flyer.docx
 
 **THE MELTWATER CHURCH**
 

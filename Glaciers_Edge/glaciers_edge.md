@@ -54,7 +54,7 @@ No essential clue should be locked behind a single location. If the party hasn�
 
 ## Encounter Plan
 
-A normal fight at this level is about 11 Battle Points (3 per PC + 2): a Minion group equal to the party size is 1 point, a Standard or Ranged is 2, a Leader is 3, a Bruiser is 4, and a Solo is 5. You won’t need every encounter. Pick three or four of A to E, and always run the Finale.
+A normal fight at this level is about 11 Battle Points (3 per PC + 2): a Minion group equal to the party size is 1 point, a Standard or Ranged is 2, a Leader is 3, a Bruiser is 4, and a Solo is 5. You won’t need every encounter. Pick three or four of A to I, and always run the Finale.
 
 | **\#** | **Encounter**            | **Trigger**                              | **Foes**                                                                  | **Points**    |
 |--------|--------------------------|------------------------------------------|---------------------------------------------------------------------------|---------------|
@@ -64,7 +64,10 @@ A normal fight at this level is about 11 Battle Points (3 per PC + 2): a Minion 
 | D      | Tavern brawl (optional)  | Arriving at the Inn                      | 3 drunk Cult Zealots (1 Minion group)                                     | 1             |
 | E      | Church confrontation     | Investigating the Town Church            | Matriarch and 6 Zealots. She escapes when hurt and returns in the Finale. | about 5       |
 | F      | Fire at Bones and Clones | Arriving at the clinic                   | Environmental: a Consequence Countdown, no foes                           | 0             |
-| G      | The Finale               | Tick 10                                  | Frozen Tyrant, Ice Pylons, summoned Elementals                            | about 8 to 11 |
+| G      | Vacation home burglary   | Arriving at Neb’s Third Vacation Home (weird encounter 5) | 3 Cult Zealots (1 Minion group) in a cellar full of explosives | 1             |
+| H      | The Souvenir             | Arriving at Neb’s Third Vacation Home (weird encounter 4) | 1 thawing Ice Elemental heading for the charges           | 1             |
+| I      | Compact Raid             | Compact Home Base, 2 Fear                | 1 Town Guard Squad and 3 Cult Zealots (2 Minion groups) and a Progress Countdown (3) | 2 |
+| Finale | The Tyrant Breaks Free   | Tick 10                                  | Frozen Tyrant, Ice Pylons, summoned Elementals. Add the Guild’s mercenaries if a signed Harvest Charter is in play. | about 8 to 11 |
 
 # Background
 
@@ -319,6 +322,8 @@ The Town Church is the home of the Meltwater Church. When the adventurers enter,
 
 - **Encounter E:** the Matriarch uses Charm and rallies Zealots. When she is badly hurt she vanishes in smoke and returns in the Finale.
 
+- **Vera Stone:** a grieving woman sits in the back pew, holding her daughter’s unlit mining lamp. She is the “V.S.” on the Church’s flyer, and the most devoted face in the congregation. If the party shows her proof of what the Matriarch is (the ledger page, the brimstone, or the Matriarch fleeing in smoke), her faith breaks. She tells the party where the potion will be handed out, slips them the ledger if they don’t have it, and becomes an Ally Token in the Finale.
+
 **Spend Fear:**
 
 - **1 Fear, A Warm Cup:** a smiling Zealot offers a PC a cup of the purple potion as hospitality. Refusing without offense takes a Presence roll (Difficulty 14). On a failure the cult turns cold, and Encounter E can start early. A PC who drinks marks 1 extra HP the first time they take magic damage from an ice creature.
@@ -375,6 +380,8 @@ The blacksmith, Big Tam, has one goal, which is to keep the town alive at any co
 
 - **Frostglass Edge:** he can edge a weapon if given a frostglass slab.
 
+- **Winning him over:** if the party resolves Encounter C without killing anyone, Big Tam is grateful and becomes an Ally Token in the Finale.
+
 - **Time:** one scene of crafting, which ticks the Thaw once, covers everything the party brings at the same time. Bring it all at once or pay for each trip.
 
 **Spend Fear:**
@@ -422,17 +429,30 @@ Everything the party did before the Finale should change this scene. Give them t
 |---------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Talked Neb down and took the charges              | Charges and grenades are available. The Bury countdown starts at 2.                                                                                                     |
 | Found the Binding tome or allied with the Compact | Once per fight, a PC can speak a **Binding Word** (Knowledge, Difficulty 15): the Tyrant loses its next spotlight. The Bind countdown starts at 2, and Aldric is present. |
-| Got the chains from the Merchants                 | Up to 4 Frostbane Chains. Every chain made into a lance is one fewer chain.                                                                                             |
+| Got the chains from the Merchants                 | Up to 4 Frostbane Chains. Every chain made into a lance is one fewer chain. All four are needed for the easiest Chain It ending.                                         |
 | Forged weapons                                    | Lances, the Bell, and the Frostglass Edge all strip Rime Armor.                                                                                                         |
 | Built braziers                                    | Braziers hold ground against Chill, Regenerate, and Pylons.                                                                                                             |
 | Destroyed or exposed the purple potion            | If the potion reached the crowd at Tick 8, the Whiteout starts with 2 ticks already marked.                                                                             |
 | Exposed the Matriarch                             | Her Silver Tongue is off, and she doesn’t get a surprise appearance.                                                                                                    |
 | Silenced the mayor’s clone                        | A Guard squad fights alongside the party (1 Ally Token).                                                                                                                |
-| Broke the Harvest Charter                         | A Mercenary Captain and 3 Guild Mercenaries arrive to protect the Guild’s asset. To keep the fight at its budget, remove one Ice Pylon and one Elemental summon.           |
+| Signed the Harvest Charter                        | If the party goes for Chain It, the Mercenary Captain and 3 Guild Mercenaries fight on their side (1 Ally Token, and the Harvest Chains countdown starts at 2). If they go for any other ending, the Charter is broken and the mercenaries fight against them: remove one Ice Pylon and one Elemental summon to keep the fight at its budget. |
 
 ### Ally Tokens
 
-Each ally the party earned (Orm, the store’s townsfolk, Aldric, the blacksmith, the Guard, the clinic) is 1 Ally Token, up to 3 total. Once per token during the Finale, a player can spend one to **grant advantage on a roll, clear 2 Stress, or ask the ally to take one hit** for a PC. This is how winning people over pays off at the climax.
+Each ally the party earned is 1 Ally Token, up to 3 total:
+
+| **Ally**                  | **How the party earns them**                                               |
+|---------------------------|----------------------------------------------------------------------------|
+| Orm Alein                 | Free him from the Guards in Encounter B.                                   |
+| The store’s townsfolk     | Calm them or open a gate for them at ‘Food n Stuff’ (Presence, Difficulty 13). |
+| Aldric Frostmere          | Find him at the Compact Home Base and win the Compact over.                |
+| Big Tam                   | Resolve Encounter C at the blacksmith without killing anyone.              |
+| Vera Stone                | Show her proof of what the Matriarch really is.                            |
+| The Guard                 | Silence the mayor with his sleeper word.                                   |
+| Bones and Clones          | Save the clinic from the fire.                                             |
+| The Guild’s mercenaries   | Go for Chain It with a signed Harvest Charter.                             |
+
+Once per token during the Finale, a player can spend one to **grant advantage on a roll, clear 2 Stress, or ask the ally to take one hit** for a PC. This is how winning people over pays off at the climax.
 
 ## The Arena: The Shattered Prison
 
@@ -488,7 +508,23 @@ If she escaped, she arrives when the Tyrant enters Phase 2, or when the first PC
 
 - **The shape of it:** break Rime, hit it, and keep the Pylons down. Use chains to pin it, braziers to stop its regeneration, and the Bell to open it up. Spotlight the players’ prep.
 
-- **Epilogue:** the Tyrant shatters and frostglass pours out of the ground. The Merchants move in at once. If the party signed the Harvest Charter, its terms come due.
+- **Epilogue:** the Tyrant shatters and frostglass pours out of the ground. The Merchants move in at once. If the party signed the Harvest Charter, killing the Tyrant is a Breach: the Guild sends its lawyers, then its mercenaries, and the party’s names go on a list.
+
+## Ending D: Chain It
+
+**Requires:** the Frostbane Chains. All four must still be chains, so any chain forged into a lance makes this ending harder. **Feel:** a tug-of-war with a god, and a deal with the devil you can see.
+
+- **The deal:** this is the only ending that keeps the Harvest Charter. If the party signed it and goes for Chain It, the Mercenary Captain and Guild Mercenaries arrive on the party’s side instead of against it. They count as 1 Ally Token and start the countdown at 2. If the party goes for any other ending, the Charter is broken and the mercenaries fight them (see Prep Pays Off).
+
+- **Progress Countdown (6): The Harvest Chains.** Each success advances it by 1: fix a chain on the Tyrant (Strength, Difficulty 14), anchor a fixed chain to bedrock or the scaffold (Finesse, Difficulty 13), or keep it from regenerating by lighting a brazier in its Close range (Instinct, Difficulty 12). Each time the Tyrant takes the spotlight it breaks a chain as usual, and that undoes 1 tick unless a PC re-fixes it before the GM’s next turn.
+
+- **Fewer chains:** with only three chains, the countdown is 8. With two or fewer, this ending can’t be reached. The Tyrant can only be fully Restrained with all four.
+
+- **Complications:** the Tyrant targets whoever holds the chains with Ice Prison and Spear of Ice. The Matriarch wants it free: she tries to Charm a chain-holder into letting go. If the Compact is present, Shale protests loudly that this is cruelty, not containment.
+
+- **The finish:** when the countdown fills, the fourth chain locks and the Tyrant goes down to one knee, fully Restrained. The mercenaries hammer in the anchors. Mallick arrives with a ledger.
+
+- **Epilogue:** the town is saved and rich beyond measure. The Guild harvests frostglass from the Tyrant’s body every season and lets it regrow. Glacier’s Edge booms, the mines are safe, and every night the whole town hears the screaming from the glacier. Nobody talks about it. The tourism flyers get a new line: *“Now with Guaranteed Harvests!”*
 
 ## Failure: Winter Falls
 
@@ -496,7 +532,7 @@ If the party isn’t ready when the Thaw hits 10, the Tyrant breaks out with Rim
 
 ## Mixed Endings
 
-Any combination works. Chain it, then bury it. Bind it, then kill it. Each completed objective gives its starting ticks and effects. Describe the combined epilogue by stacking the costs.
+Any combination works. Chain it, then bury it. Bind it, then kill it. (Anything that ends with the Tyrant buried, bound for the Compact, or dead breaks a signed Harvest Charter.) Each completed objective gives its starting ticks and effects. Describe the combined epilogue by stacking the costs.
 
 ## Dials
 
@@ -703,6 +739,7 @@ Numbers are tuned for three level 3 PCs (Tier 2). Minions have no HP track: they
 | Sound the Whistle  | Consequence | 4         | Each round after it starts. At 0, a second Guard squad arrives.                             |
 | Church Informant   | Consequence | 3         | Spider’s Inn Fear move. Significant PC actions. At 0, Guards and Zealots search the inn.     |
 | The Wind Chimes    | Consequence | 3         | Vacation Home Fear move. Each PC action. At 0, one charge detonates (3d10 within Close).     |
+| The Harvest Chains | Progress    | 6         | Chain It ending. Successful chain, anchor, and brazier rolls. Each chain the Tyrant breaks undoes 1 tick. At 0, the Tyrant is chained for the Guild. (8 steps with only three chains.) |
 | Compact Raid       | Progress    | 3         | Compact Home Base Fear move. Successful rolls. If unfilled when the fight ends, lose Aldric or the tome. |
 
 ## Difficulty Guide (Tier 2)
@@ -728,7 +765,7 @@ Numbers are tuned for three level 3 PCs (Tier 2). Minions have no HP track: they
 
 # Appendix C: Handouts
 
-These are written in-world for the players to read. The GM note above each handout says where the party finds it. Print-ready player copies of every handout, with no GM notes, are in `Flyers/re-written flyers/`: `Visit Glaciers Edge.docx`, `The Sleeper Under the Ice.docx`, `Goodnight Glaciers Edge.docx` (plus a one-page text-only version), `Harvest Charter.docx`, and `Matriarchs Ledger.docx`, alongside the faction flyers and Aldric’s letter.
+These are written in-world for the players to read. The GM note above each handout says where the party finds it. Print-ready player copies of every handout, with no GM notes, are in `Flyers/re-written flyers/`: `Visit Glaciers Edge.docx`, `The Sleeper Under the Ice.docx`, `Goodnight Glaciers Edge.docx` (plus a one-page text-only version), `Harvest Charter.docx`, and `Matriarchs Ledger.docx`, alongside the faction flyers (`Miners Compact Flyer.docx`, `Merchants Guild Flyer.docx`, `Meltwater Church Flyer.docx`) and `Aldrics Letter.docx`. A one-page GM cheat sheet is in `GM Cheat Sheet.docx` next to this document.
 
 ## Visit Glacier’s Edge (Tourism Flyer)
 
