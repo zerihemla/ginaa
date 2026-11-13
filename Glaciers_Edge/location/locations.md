@@ -18,7 +18,7 @@ See `glaciers_edge_map.png` (or `glaciers_edge_map.svg`) for the town map.
 | Place | What you know about it |
 |---|---|
 | **Town Hall** | Mayor Dunmore's seat, and the headquarters of the lockdown. |
-| **Town Chapel** (at the Cathedral) | Home of the Meltwater Church. Its great bell can be heard across town. |
+| **Town Church** | Home of the Meltwater Church. Its great bell can be heard across town. |
 | **Central Grass Area** | The town green, with the Fountain of Mixed Blessings at its center. Each person may only use the fountain once. |
 | **Town Prison** | A small jail with three cells. Lately the guard has been filling them with lockdown breakers. |
 | **City Library** | A small library, mostly fiction and children's books. |
@@ -31,3 +31,4 @@ See `glaciers_edge_map.png` (or `glaciers_edge_map.svg`) for the town map.
 | **The Spider's Inn** | A tavern with a spider on its sign. The innkeeper, Gus, is gruff and doesn't like talking to people. |
 | **Merchants Guild Recruiting Office** | The Guild is hiring fighters, scouts, and anyone who can handle the cold. |
 | **'Food n Stuff' General Store** | The general store, crowded these days with townsfolk who can't get out. |
+| **Frostmere Vacation Home (No. 3)** | One of Neb Frostmere's vacation homes, always shuttered. Nobody has ever seen him vacation in it. The fenced-off crater two lots down is where No. 2 used to be. |

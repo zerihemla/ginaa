@@ -151,7 +151,80 @@ Will you cower with the guilty? Or will you stand with the pure?
 
 The faithful gather beneath the great bell. Bring only your grief and your truth. Leave behind their BLOOD MONEY and LIES.
 
-We meet in the town chapel on Tuesdays at 7pm. Bring a friend! We have Treats!
+We meet at the town church on Tuesdays at 7pm. Bring a friend! We have Treats!
+
+---
+
+## Goodnight Glaciers Edge.docx (children's book from the City Library; also a one-page Text Only version)
+
+*Each page of the picture version has a picture box. The italic line in brackets is that picture's caption. The text-only version has the same words without the pictures.*
+
+**Cover:** GOODNIGHT, GLACIER'S EDGE. *A Bedtime Story.*
+*[The whole town tucked in at the foot of a great blue glacier, under a sky full of stars.]*
+
+**Inside cover (bookplate):** This book belongs to the City Library of Glacier's Edge. Donated by the Frostmere Family. "Profit Before Prudence"
+
+**Page 1**
+The sun slips down behind the ice,
+and all of Glacier's Edge feels sleepy.
+*[A little child in a nightcap waves from a window. Behind the town, the glacier glows pink in the sunset.]*
+
+**Page 2**
+Goodnight, glacier, tall and white.
+Please stay sleeping through the night.
+*[The glacier fills the page. Deep in the ice is a big, gentle face with its eyes shut.]*
+
+**Page 3**
+Goodnight, mine, and goodnight, picks.
+Goodnight, miners, home by six.
+*[Miners with candles on their helmets march home, waving their picks.]*
+
+**Page 4**
+Goodnight, fountain, splish and splash.
+One wish each, so don't be rash!
+*[A smiling fountain keeper flips a coin into the sparkling water.]*
+
+**Page 5**
+Goodnight, bell up in the tower.
+Hush now, it's past ringing hour.
+(If ever the big ice wakes in fright,
+Ring loud, ring long, with all your might!)
+*[The church bell hangs in its tower. Tiny cracks run through the ice nearby.]*
+
+**Page 6**
+Goodnight, glass house, shining bright.
+Goodnight, Great-Grandpa Cole, sleep tight.
+*[A shining house made all of glass. Through its walls you can see a stern old portrait.]*
+
+**Page 7**
+Goodnight, inn with the spider sign.
+Goodnight, stories, line by line.
+*[An old man with a cane tells a story to a cozy crowd. A fat spider listens from the bar.]*
+
+**Page 8**
+Goodnight, forge, and goodnight, fire.
+Keep us warm as snow climbs higher.
+The cold can never cross the flame,
+So keep it lit, and say its name.
+*[A big, kind blacksmith banks the forge. Frost creeps up the windows but stops at the warm glow.]*
+
+**Page 9**
+Goodnight, market. Goodnight, square.
+Goodnight, Town Hall, and all who are there.
+*[Lamps go out one by one around the market. A tall, smiling man in a sash stands on the Town Hall steps.]*
+
+**Page 10** *(dog-eared; penciled in the margin: "for emergencies only")*
+**Goodnight moon, goodnight mayor.**
+*[The mayor in his nightcap, eyes closed, standing perfectly still, like a wind-up toy that has run down.]*
+
+**Back page**
+*Hush now. Everything sleeps.*
+*Everything.*
+*And the big one under the ice*
+*sleeps most of all.*
+*[The whole town asleep under the stars. Deep in the glacier, one enormous eye is just barely open.]*
+
+*The End*
 
 ---
 
@@ -165,7 +238,7 @@ We meet in the town chapel on Tuesdays at 7pm. Bring a friend! We have Treats!
 - **Tour the Frostglass Mines!** See the glittering heart of the glacier up close. *(Mind the cracks!)*
 - **Make a Wish at the Fountain of Mixed Blessings!** Ask our friendly keeper, Orm Alein. One wish per visitor. Results may vary.
 - **Marvel at the Frostmere Glass House,** the only home on the frontier built of solid frostglass! *(Viewing from the street only.)*
-- **Hear the Great Bell of the Cathedral,** rung every evening by the Meltwater Church. Free sermons! Free treats!
+- **Hear the Great Bell of the Town Church,** rung every evening by the Meltwater Church. Free sermons! Free treats!
 - **Raise a Mug at the Spider’s Inn!** Gus pours the coldest ale this side of the mountains. Stay for Old Wick’s tall tales!
 - **Under the Weather?** Visit Bones and Clones People Repair: *“Good as New, or a New You!”*
 - **Stock Up at ‘Food n Stuff’!** Everything you need, and stuff!
