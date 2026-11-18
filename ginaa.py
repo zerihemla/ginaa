@@ -224,8 +224,6 @@ class GinaaQtApp(Ui_Ginaa_GUI, QtWidgets.QMainWindow):
     ####BOOK FUNCTIONS#####################
     #######################################
     def generate_book_button_clicked(self):
-        book = GeneratedBook()
-
         selected_category_list = []
 
         if self.funny_books_box.isChecked():
@@ -240,9 +238,19 @@ class GinaaQtApp(Ui_Ginaa_GUI, QtWidgets.QMainWindow):
         if self.evil_wizard_books_box.isChecked():
             selected_category_list.append("evil_wizard_book_titles")
 
-        book.set_book_from_random_categories(selected_category_list)
-        text = book.get_text()
-        self.print_to_console(text)
+        if self.childrens_books_box.isChecked():
+            selected_category_list.append("childrens_book_titles")
+
+        if self.history_books_box.isChecked():
+            selected_category_list.append("history_and_lore_book_titles")
+
+        if self.romance_books_box.isChecked():
+            selected_category_list.append("romance_and_poetry_book_titles")
+
+        for i in range(self.num_books_box.value()):
+            book = GeneratedBook()
+            book.set_book_from_random_categories(selected_category_list)
+            self.print_to_console(book.get_text())
 
 
     #######################################

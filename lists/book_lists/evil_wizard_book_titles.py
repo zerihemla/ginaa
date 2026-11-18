@@ -4,6 +4,18 @@ evil_wizard_book_title_list = [
 	"Why you should charm your friends!",
 	"100 cantrips to prank your friends",
 	"How to know when ogre toe nails are ripe.",
-	"Are you a witch? A self help guide."
+	"Are you a witch? A self help guide.",
+	"Polymorph Your Problems Away (Especially the Ones That Talk Back)",
+	"My Tower, My Rules: Setting Boundaries With Adventurers",
+	"Phylactery Feng Shui: Hiding Your Soul With Style",
+	"So Your Apprentice Is Plotting Against You",
+	"Dark Rituals for Busy Schedules: Summoning in Under 10 Minutes",
+	"The Moat Is Half Full: Positive Thinking for Overlords",
+	"Bad Omens and How to Manufacture Them",
+	"Monologue Like You Mean It: Public Speaking for the Diabolical",
+	"Familiar Problems: When Your Cat Knows Too Much",
+	"Curses for Every Occasion, a Greeting Card Collection",
+	"Why Won't the Hero Just Stay Dead?",
+	"The Lich's Guide to Retirement Planning (Forever Is a Long Time)",
 
 ]

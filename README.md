@@ -10,7 +10,7 @@ Ginaa stands for "Ginaa is not an acronym." It's a desktop app that generates ra
 - **Potions:** label, bottle, color, look, smell, taste, strength, effect, and an optional side effect.
 - **Treasure:** filtered by rarity and category, with as many results as you ask for.
 - **Traps:** mechanical, magical, or a chaotic mix.
-- **Books:** title, color, condition, and smell, from several title lists.
+- **Books:** title, author, color, binding, size, condition, smell, language, and accuracy, with a chance of marginalia, something tucked inside, or a magical oddity. Titles come from seven lists (general, funny, evil, evil wizard, children's, history and lore, romance and poetry). Generate up to 20 at once to stock a shelf.
 - **Prophecies, wild magic effects, creepy and random occurrences, and combat spice.**
 
 Use **Save** to write everything in the output window to a `.txt` file.

@@ -26,5 +26,15 @@ general_evil_book_titles_list = [
 	"How to roast your friends and other seasoning tips",
 	"The day I lost my face by the former lord big Lips",
 	"Are you ready to command an undead army? 10 helpful tips",
+	"Hostile Takeovers: Overthrowing Kingdoms for Fun and Profit",
+	"Henchmen Wanted: Writing Job Posts That Attract the Wrong Kind",
+	"Lair Decor on a Budget: Skulls, Candles and Dramatic Lighting",
+	"The Art of the Evil Laugh, With Exercises",
+	"Blackmail Basics: Secrets Are a Currency",
+	"Poisoned Apples and Other Seasonal Recipes",
+	"Breaking Spirits, Not Bones: Intimidation Made Easy",
+	"Dungeon Hospitality: Making Prisoners Feel Unwelcome",
+	"The Villain's Calendar of Ominous Dates",
+	"Betrayal: When, Who, and How Often",
 
 	]
