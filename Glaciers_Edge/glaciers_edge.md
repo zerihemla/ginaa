@@ -1,15 +1,5 @@
 # Glacier’s Edge
 
-*A Daggerheart one-shot for three level 3 characters*
-
-# At a Glance
-
-**Party:** 3 PCs, level 3 (Tier 2). **Runtime:** about 3 to 4 hours. **Battle Points per fight:** 11 (3 per PC + 2).
-
-**Premise:** A frontier mining town sits at the foot of a glacier that is really a prison for an ancient ice elemental. Decades of mining have weakened it. Four factions each push a different answer, and the party can pick one, mix them, or invent their own. A countdown (the Thaw) keeps the open investigation under pressure, and the session ends with the monster breaking free.
-
-**Session shape:** Opening scene, open investigation (the Thaw ticks as the party moves), then the Finale. Run three or four of the optional encounters and always run the Finale.
-
 # Running the Session
 
 ## Opening Scene
@@ -20,7 +10,7 @@ Start in motion. The party is in the market when the first big tremor hits. A be
 
 ## The Thaw (Consequence Countdown, 10)
 
-Put a 10-step Consequence Countdown on the table called **The Thaw**. Tick it when:
+Put a 12-step Consequence Countdown on the table called **The Thaw**. Tick it when:
 
 - the party finishes a scene at a location and moves on, or
 
@@ -30,11 +20,14 @@ Neb’s watch shows the current tick. If the party doesn’t have it, describe t
 
 | **Tick** | **What happens**                                                                                                                                                                                     |
 |----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2        | **First incident.** Ice elementals burst into the street (Encounter A).                                                                                                                              |
-| 4        | **Lockdown tightens.** The Guard starts arresting people on sight (Encounter B, or arrest at Town Hall).                                                                                             |
+| 10        | **First incident.** Ice elementals burst into the street (the Street Ambush, below).                                                                                                                              |
+| 8        | **Lockdown tightens.** The Guard starts arresting people on sight (the Fountain Arrest, or an arrest at Town Hall).                                                                                             |
 | 6        | **Frost spreads.** The north streets freeze and shops close. Starting a scene in the north end costs 1 Stress unless warmed. Resting is no longer safe.                                              |
-| 8        | **Point of no return.** Neb moves the charges to the glacier (unless he was talked down). The Church starts handing out its purple potions. The Merchants line up mercenaries at the glacier mouth. |
-| 10       | **The Tyrant breaks free.** Go to the Finale.                                                                                                                                                        |
+| 4        | **The Matriarch’s Sermon.** The Matriarch preaches at the Fountain, and frightened townsfolk flock to the Church. From now on, any Ally Token the party hasn’t earned yet also takes a Presence roll (Difficulty 14) to pull that ally away from the Church. Showing the ally proof of what the Matriarch really is skips the roll. A PC who confronts her mid-sermon can break the spell for the whole town (Presence, Difficulty 16), but on a failure the crowd turns on them. |
+| 2        | **Point of no return.** Neb moves the charges to the glacier (unless he was talked down). The Church starts handing out its purple potions. The Merchants line up mercenaries at the glacier mouth. |
+| 0       | **The Tyrant breaks free.** Go to the Finale.                                                                                                                                                        |
+
+**Street Ambush** (about 3 Battle Points): wherever the party is when the Thaw hits 10, the cobbles split and 6 Ice Elementals (2 Minion groups) claw their way out, leaving 2 Ice Crystal hazards in the cracks. It’s the party’s first look at what’s coming.
 
 **Pacing:** if the party is moving fast, add a tick for dawdling. If they are stuck, skip one. Aim to start the Finale around the 2.5 hour mark.
 
@@ -52,22 +45,12 @@ No essential clue should be locked behind a single location. If the party hasn�
 | The mayor’s sleeper word (“Goodnight moon, goodnight mayor”)                  | Bones and Clones order book (in the burning basement); Library children’s corner (a hint); Compact bookshelves; a jailed Town Hall clerk in the Prison; the Matriarch’s ledgers | The clinic made the mayor. See Bones and Clones                     |
 | The Matriarch is a succubus and the Tyrant’s victims are Hell-bound | Storyteller; Town Church (brimstone, her ledger); Compact books                                                | Removes her Silver Tongue advantage                                 |
 
-## Encounter Plan
+## Encounters
 
-A normal fight at this level is about 11 Battle Points (3 per PC + 2): a Minion group equal to the party size is 1 point, a Standard or Ranged is 2, a Leader is 3, a Bruiser is 4, and a Solo is 5. You won’t need every encounter. Pick three or four of A to I, and always run the Finale.
+A normal fight at this level is about 11 Battle Points (3 per PC + 2): a Minion group equal to the party size is 1 point, a Standard or Ranged is 2, a Leader is 3, a Bruiser is 4, and a Solo is 5. You won’t need every encounter. Each one is written up where it happens, with its Battle Points. Run three or four as the party moves through town, and always run the Finale.
 
-| **\#** | **Encounter**            | **Trigger**                              | **Foes**                                                                  | **Points**    |
-|--------|--------------------------|------------------------------------------|---------------------------------------------------------------------------|---------------|
-| A      | Street ambush            | Tick 2                                   | 6 Ice Elementals (2 Minion groups) and 2 Ice Crystal hazards              | about 3       |
-| B      | Fountain arrest          | Tick 4, or arriving at the Central Grass | Guard Sergeant and 6 Guards (2 Minion groups). Can be resolved socially.  | about 5       |
-| C      | Blacksmith robbery       | Arriving at the smithy                   | 3 Desperate Townsfolk (1 Minion group). Mostly social.                    | 1             |
-| D      | Tavern brawl (optional)  | Arriving at the Inn                      | 3 drunk Cult Zealots (1 Minion group)                                     | 1             |
-| E      | Church confrontation     | Investigating the Town Church            | Matriarch and 6 Zealots. She escapes when hurt and returns in the Finale. | about 5       |
-| F      | Fire at Bones and Clones | Arriving at the clinic                   | Environmental: a Consequence Countdown, no foes                           | 0             |
-| G      | Vacation home burglary   | Arriving at Neb’s Third Vacation Home (weird encounter 5) | 3 Cult Zealots (1 Minion group) in a cellar full of explosives | 1             |
-| H      | The Souvenir             | Arriving at Neb’s Third Vacation Home (weird encounter 4) | 1 thawing Ice Elemental heading for the charges           | 1             |
-| I      | Compact Raid             | Compact Home Base, 2 Fear                | 1 Town Guard Squad and 3 Cult Zealots (2 Minion groups) and a Progress Countdown (3) | 2 |
-| Finale | The Tyrant Breaks Free   | Tick 10                                  | Frozen Tyrant, Ice Pylons, summoned Elementals. Add the Guild’s mercenaries if a signed Harvest Charter is in play. | about 8 to 11 |
+- **The Thaw:** the Street Ambush.
+- **Locations:** the Fountain Arrest (Central Grass), the Blacksmith Robbery (‘Tough Enough’), the Tavern Brawl (Spider’s Inn), the Church Confrontation (Town Church), the Clinic Fire (Bones and Clones), the Souvenir and the Church Burglars (Neb’s Third Vacation Home), and the Raid (Compact Home Base).
 
 # Background
 
@@ -121,6 +104,8 @@ A frontier mining town built at the base of an ancient glacier, about 80 to 100 
 
 - **Five years ago, the Deep Delve:** the Merchants Guild funded aggressive deep mining that breached a critical seal. They saw the warning signs and pushed on for profit. This started the final countdown.
 
+- **Two years ago, the mayor died:** Mayor Bram Dunmore was a miner’s son the Frostmeres bankrolled and owned. He hated them but was too afraid to cross them, and he signed every “mining accident” report. When he finally went into the deep tunnels to see for himself, he died of glacier sickness. A mayor killed by the glacier would expose everything, so Neb paid Bones and Clones for a copy.
+
 - **The past year:** tremors and strange sounds from the glacier, miners reporting visions in the ice, small ice elementals appearing, unnatural temperature drops, miners going mad or disappearing, and leadership covering it all up as “mining accidents.”
 
 # The Factions
@@ -137,7 +122,7 @@ The Compact believes the town needs the glacier and the mines to survive, and is
 
 ## The Noble’s Demolition Plan
 
-Neb Frostmere is the great-great-grandson of Cole Frostmere, who found the mines. He inherited the mine and its wealth and was warned of the dangers. For generations his family covered up the truth. Now he is fed up and ready to act.
+Neb Frostmere is the great-great-grandson of Cole Frostmere, who found the mines. He inherited the mine and its wealth and was warned of the dangers. For generations his family covered up the truth. Two years ago he bought a copy of the dead mayor to keep it buried, and watching that go wrong is what finally broke him. Now he is fed up and ready to act.
 
 Neb has a large stock of alchemical explosives. Set off in the glacier, they will collapse it onto the monster and bury it forever. They will also destroy the town’s economic foundation and about half its buildings. He is willing to make the “necessary sacrifices” and believes this is the only certain solution.
 
@@ -179,6 +164,8 @@ Each location also has two **Spend Fear** options: a 1 Fear complication and a 2
 
 ## Neb Frostmere’s Glass House
 
+> **Read aloud:** The house rises out of the snow like a chandelier someone forgot to hang, every wall a sheet of frostglass throwing the grey daylight back as shivering rainbows. Through three rooms of glass, you can see a man in a velvet dressing gown wearing a groove into the floor with his pacing. As you step onto the porch, the whole building gives a faint, nervous chime, like a wineglass touched by a fingertip. The door flies open before you can knock.
+
 Neb lives in a house made mostly of frostglass. It is extremely expensive and a sign of his wealth. When the party first meets him he is frantic about getting his son back. When pressed, he reveals his plan to destroy the glacier at the risk of the whole town. He doesn’t think this is a big deal, but it is.
 
 - **Talking him down:** he will stand down only if the party promises to take care of the awakening monster another way (Presence roll, Difficulty 13, or 15 if they have no concrete plan). In return he gives them his watch, which shows the Thaw.
@@ -189,7 +176,9 @@ Neb lives in a house made mostly of frostglass. It is extremely expensive and a 
 
 - **A free sonic hint:** the house hums and rings when the glacier shakes.
 
-- **If ignored:** at Tick 8 he moves the charges to the glacier himself.
+- **The mayor:** shown the order book, Neb admits he paid for the clone and for the word that makes him afraid. He will say so to the mayor’s face, which counts as proof for talking the mayor around.
+
+- **If ignored:** at Tick 2 he moves the charges to the glacier himself.
 
 **Spend Fear:**
 
@@ -197,6 +186,8 @@ Neb lives in a house made mostly of frostglass. It is extremely expensive and a 
 - **2 Fear, Desk Sample:** a Glacierbreaker grenade Neb left on his desk starts to hiss. The PCs get one action to deal with it: defuse it (Finesse, Difficulty 13) or throw it outside (Agility, Difficulty 12). Otherwise it goes off: 2d6+2 physical to everything within Very Close (Agility Reaction Roll, Difficulty 13, for half), a frostglass wall shatters, and Neb panics and won’t talk until calmed (Presence, Difficulty 13).
 
 ## Neb Frostmere’s Third Vacation Home
+
+> **Read aloud:** Halfway down a quiet Market District street stands a tall townhouse with every shutter nailed closed and a hand-painted sign on the door that reads, cheerfully, VACATION. Two lots down, a fenced-off crater still smokes, its edges glazed black and glassy. The neighbors’ curtains twitch as you pass, then snap shut. Somewhere inside the house, something is softly tinkling.
 
 A tall, shuttered townhouse on a quiet street in the Market District, a short walk from Neb’s main house. Neb has never once vacationed in it. Since his second vacation home exploded (the fenced-off crater is two lots down the street), this one holds every Glacierbreaker he owns. The neighbors have stopped asking.
 
@@ -217,8 +208,8 @@ Roll a d6 or pick one when the party arrives. Each one is strange first and dang
 | 1 | **The Aunt Who Won’t Leave.** Neb’s elderly great-aunt, Prudence Frostmere, lives here and is certain it’s her house. She insists on serving tea before anyone touches anything, and she is keeping her feet warm under a quilt draped over a crate of charges. Coaxing her away from it takes a Presence roll (Difficulty 13). On a failure, she agrees only if the party takes her with them, and she brings the quilt. |
 | 2 | **Squatters.** Three desperate townsfolk (1 Minion group of Desperate Townsfolk) are camping in the parlor. They are using a crate of charges as a dinner table and cooking on a camp stove right next to it. They want a way out of town, not a fight. If a fight starts anyway, roll a d6 at the start of each GM turn: on a 1, the stove tips and the crate catches. |
 | 3 | **The Fuse Ferret.** Neb’s prize ferret, trained to sniff out sparks, has gotten loose and hoarded every fuse in the house inside the walls. Without fuses, the charges can’t be set. Catching it is a short chase (Agility, Difficulty 13), or a PC can lure it out with something shiny (Instinct, Difficulty 12). If the party gives up, placing a charge later takes an improvised fuse (Finesse, Difficulty 15). |
-| 4 | **The Souvenir.** In the parlor stands a glass display case holding a small ice elemental that Cole Frostmere bottled as a curiosity a century ago. It is thawing. When the party walks in, the glass cracks and it breaks loose (1 Ice Elemental). It heads straight for the cellar. If it reaches the charges, its Shatter sets off a crate. If it is still alive at the end of the second round, it lets out a shriek the glacier answers: tick the Thaw. |
-| 5 | **Church Burglars.** Three Cult Zealots (1 Minion group) are already inside, carrying the charges out the back to dump them in the river. The Church wants the Tyrant free, and the charges are the surest way to stop it. The cellar is a terrible place for a fight: use the Explosives Nearby rule above. If the Zealots get away with a crate, the party has one fewer charge. |
+| 4 | **The Souvenir (1 Battle Point).** In the parlor stands a glass display case holding a small ice elemental that Cole Frostmere bottled as a curiosity a century ago. It is thawing. When the party walks in, the glass cracks and it breaks loose (1 Ice Elemental). It heads straight for the cellar. If it reaches the charges, its Shatter sets off a crate. If it is still alive at the end of the second round, it lets out a shriek the glacier answers: tick the Thaw. |
+| 5 | **Church Burglars (1 Battle Point).** Three Cult Zealots (1 Minion group) are already inside, carrying the charges out the back to dump them in the river. The Church wants the Tyrant free, and the charges are the surest way to stop it. The cellar is a terrible place for a fight: use the Explosives Nearby rule above. If the Zealots get away with a crate, the party has one fewer charge. |
 | 6 | **Ready for a Vacation.** Every room is crammed with unused holiday gear: beach chairs, a rowboat, a stuffed walrus, a crate of two hundred sun hats, all labeled “VACATION.” Finding the cellar door under it all takes an Instinct roll (Difficulty 12). On a failure, the search ticks the Thaw. On a success with Hope, the party also turns up something useful: a frostglass hand mirror (enough for a Frostglass Edge), a cask of lamp oil (supplies for one Heartfire Brazier), or a brass spyglass. |
 
 **Spend Fear:**
@@ -227,6 +218,8 @@ Roll a d6 or pick one when the party arrives. Each one is strange first and dang
 - **2 Fear, The Wind Chimes:** a tremor sets off the dozens of frostglass wind chimes Neb hung “for ambience,” and the charges start to hum along with them. Start a Consequence Countdown (3) that ticks at the end of each PC action. At 0, one charge detonates: 3d10 physical to everything within Close (Agility Reaction Roll, Difficulty 15, for half). Muffling the chimes (Instinct, Difficulty 13) or getting every charge out of the house stops it.
 
 ## The Spider’s Inn / Tavern
+
+> **Read aloud:** Warm air hits you like a shove: pipe smoke, wet wool, and a stew that’s been simmering since sometime last week, though nearly every chair is upturned on an empty table and cobwebs thick as lace drape the silent rafters. Behind the bar, a slab of a man polishes the same glass and stares at you like you’ve tracked in something worse than snow. The only other soul here is a wizened old man hunched by the fire, his beard yellowed with pipe smoke, telling a story to a black cat sitting on a chair. “…and the ice, see, it *remembers*,” he croaks.
 
 The Spider’s Inn is the hiding place of the Miners Compact. The Church, which controls most of the town, doesn’t look kindly on them. The innkeeper, Gus, is gruff and surly and doesn’t like talking to people. There is also an old storyteller, Old Wick, who can explain more about the monster.
 
@@ -238,14 +231,16 @@ The Spider’s Inn is the hiding place of the Miners Compact. The Church, which 
 
 - **Old Wick, the storyteller:** tells the legend as a tall tale. Each truth in it is a clue: the imprisonment, the sonic weakness (the bell song), and the Hell-bound dead.
 
-- **Optional Encounter D, tavern brawl:** a few Meltwater Church members come in drunk and start harassing Gus. Use bar stools and the cellar door as terrain. Drunk Cultists are loose with their tongues, which is how the party learns about the potion.
+- **Encounter, Tavern Brawl (optional, 1 Battle Point):** 3 drunk Cult Zealots (1 Minion group) come in and start harassing Gus. Use bar stools and the cellar door as terrain. Drunk Cultists are loose with their tongues, which is how the party learns about the potion.
 
 **Spend Fear:**
 
-- **1 Fear, Gus Clams Up:** Gus decides he doesn’t like the PCs’ faces. The next roll to get into the cellar has Disadvantage unless they do him a favor first, such as throwing out a drunk or fixing the stuck cellar door.
-- **2 Fear, Church Informant:** someone in the common room is a Church spy, and they slip out. Start a Consequence Countdown (3) that ticks each time the PCs take a significant action here. At 0, a Town Guard Squad and 3 Cult Zealots arrive to search the inn, and the Compact seals the cellar for the rest of the scene. Catching the spy before they leave (Instinct to spot them, Difficulty 14) stops it.
+- **1 Fear, Gus Clams Up:** Gus decides he doesn’t like the PCs’ faces. The next roll to get into the cellar has Disadvantage unless they do him a favor first, such as hauling in a frozen keg from the yard or fixing the stuck cellar door.
+- **2 Fear, Church Informant:** a pale face in a white hood has been watching through the frosted front window, and it ducks away when a PC looks up. The party’s arrival at the Compact’s hideout is about to be reported. Start a Consequence Countdown (3) that ticks each time the PCs take a significant action here. At 0, a Town Guard Squad and 3 Cult Zealots arrive to search the inn, and the Compact seals the cellar for the rest of the scene. Catching the spy in the empty street (Instinct to pick out their tracks in the snow, Difficulty 14, then Agility to run them down, Difficulty 12) stops it.
 
 ## The City Library
+
+> **Read aloud:** The library is a single narrow hall that smells of dust, glue, and candle stubs, its shelves bowed under penny romances and adventure novels with weathered covers. A ceramic goose wearing reading spectacles mans the empty front desk. In the far corner, a ring of tiny chairs circles a rug painted with a map of the town, the glacier drawn as a smiling, sleeping face. Above you, the ice on the roof creaks like a page being turned.
 
 The library isn’t large. This isn’t a city of knowledge, so it mostly has fiction and children’s books. Look closer, though, and the truth is hidden in them.
 
@@ -262,9 +257,11 @@ The library isn’t large. This isn’t a city of knowledge, so it mostly has fi
 
 ## City’s Central Grass Area
 
-The central grass area has the Fountain of Mixed Blessings, which can only be used once by any person who visits. When the party arrives, the fountain’s keeper, Orm Alein, is being arrested by the town guard. This is where **Encounter B** happens.
+> **Read aloud:** The square should be a sheet of white, but the grass around the fountain is stubbornly, impossibly green, and it steams in the cold. The Fountain of Mixed Blessings gurgles at its center, its water flashing gold one moment and bruise-purple the next. A crowd surges and shouts as guards in blue cloaks drag a dripping old man away from the basin by his elbows. “Heads!” he bellows at no one in particular. “It was heads!”
 
-- **The scene:** Sergeant Odo Trask and two squads of Guards, a panicking crowd, and the fountain in the middle. Intervening can be a fight, a Presence roll to talk the Guards down, or a distraction. Orm, if freed, becomes an ally (1 Ally Token) and can tell them what he knows about the fountain.
+The central grass area has the Fountain of Mixed Blessings, which can only be used once by any person who visits. When the party arrives, the fountain’s keeper, Orm Alein, is being arrested by the town guard.
+
+- **Encounter, Fountain Arrest (about 5 Battle Points):** Sergeant Odo Trask (Guard Sergeant) and 6 Guards (2 Minion groups), a panicking crowd, and the fountain in the middle. If the party skips the Central Grass, this arrest can happen wherever they are once the Thaw hits 8. Intervening can be a fight, a Presence roll to talk the Guards down, or a distraction. Orm, if freed, becomes an ally (1 Ally Token) and can tell them what he knows about the fountain.
 
 If the party bathes an item in the fountain, it gains a boon and a curse. Roll a d6:
 
@@ -284,13 +281,20 @@ If the party bathes an item in the fountain, it gains a boon and a curse. Roll a
 
 ## Town Hall
 
-Town Hall holds a very busy mayor, Mayor Dunmore, trying to coordinate the lockdown and get the city under control. He is secretly sympathetic to the Meltwater Church. He does **not** want the party to stop the monster. He wants all those rich slobs to pay for their undeserved, unsustainable way of life and for their lies against the people of his town.
+> **Read aloud:** Town Hall is a fortress of paperwork: lockdown orders teeter in stacks on every bench, clerks sprint between doors with ink-black fingers, and the lobby clock has frozen at a quarter past panic. Every wall is papered with notices in fresh, furious print: CURFEW. NO EXIT. BY ORDER OF THE MAYOR. At the top of the grand staircase, a broad man in a sash barks orders at three people at once without ever looking up. Every guard in the room turns to watch you walk in.
+
+Mayor Bram Dunmore runs the lockdown with fearless energy. He is secretly sympathetic to the Meltwater Church and does **not** want the party to stop the monster. He wants the rich to pay for their lies, and the lockdown exists to keep them from escaping before the reckoning. He is a clone (see History) and doesn’t know it. He only knows he can’t remember how to be afraid.
 
 - **He will look for reasons to arrest the party.** An arrest isn’t a failure state. It is the Prison Escape scene (see Town Prison).
 
-- **The mayor is a clone.** There is a secret phrase, his sleeper word, that sends him into sleeper mode: **“Goodnight moon, goodnight mayor.”** When a PC speaks it, he goes still and the lockdown loses its head. For the rest of the session, Guard squads can be talked down with advantage, and the Guard counts as one Ally Token in the Finale.
+- **The sleeper word, “Goodnight moon, goodnight mayor,”** gives him back the fear the clinic couldn’t copy, and he becomes afraid of whoever spoke it. That PC can order him to end the lockdown, call off the Guard, or reveal the Church’s plans, and he obeys. It doesn’t wear off, and he remembers everything. Play it as what it is: controlling a man the way the Frostmeres did.
 
-- **Where the word is found:** see the Clue Web. The surest source is the order book at Bones and Clones, which made him.
+- **Talking him around** is the harder path. Show him proof of what he is (the order book, or Neb’s confession) and convince him to expose the Frostmeres instead of letting the whole town pay (Presence, Difficulty 15).
+
+- **Either way,** the lockdown loses its head. For the rest of the session, Guard squads can be talked down with advantage, and the Guard counts as one Ally Token in the Finale.
+
+- **The Matriarch knows the word too.** If the party starts winning him over, she can speak it first and make him her frightened puppet.
+
 
 **Spend Fear:**
 
@@ -298,6 +302,8 @@ Town Hall holds a very busy mayor, Mayor Dunmore, trying to coordinate the lockd
 - **2 Fear, Trumped-Up Charges:** the mayor finds his excuse. A Guard Sergeant and one Town Guard Squad arrive with a warrant. The party can go quietly (run the Prison Escape) or resist. Resisting is a fight in the Town Hall, and the Thaw ticks once.
 
 ## Town Prison
+
+> **Read aloud:** The prison is a squat stone box with three iron cells and a stove nobody has lit in days, so your breath fogs the moment you step inside. Two cells are crammed with townsfolk in nightclothes and work aprons, arrested for the crime of standing in the street. A frostglass seam runs down the back wall, glittering along a crack someone has been patiently picking at. The turnkey glances up from a game of solitaire, sighs, and reaches for the keys.
 
 The Town Prison has only three cells. Two are full of people the guards picked up off the street for breaking lockdown. The general attitude in town is that nobody wants to be here anymore and nobody likes the guards.
 
@@ -312,24 +318,28 @@ The Town Prison has only three cells. Two are full of people the guards picked u
 
 ## Town Church
 
+> **Read aloud:** The church smells of incense and candle wax, with something sharper underneath, like a freshly struck match. Pale-robed worshippers kneel in neat rows while, at the altar, a great copper pot bubbles with a violet brew that throws purple light across the stained glass. High above, the old bell gives a single low hum, though no one has touched it. A woman in white turns from the pot with a smile so warm you can feel it on your skin.
+
 The Town Church is the home of the Meltwater Church. When the adventurers enter, the cult members are brewing a big pot of purple potion. They say it’s a cold resistance potion, but on closer inspection it is a cold vulnerability potion that they plan to give to the town. The cult will not be happy if the party finds this out.
 
 - **Inspecting the potion:** Instinct or Knowledge roll (Difficulty 13). Success reveals what it is. Destroying the pot prevents the Tick 8 potion handout.
 
-- **The bell:** the bell above the church is a Shattering Bell. If it’s given to the blacksmith, he can make it into a weapon. The party can take it quietly or in the middle of **Encounter E**.
+- **The bell:** the bell in the church tower is a Shattering Bell. Once Big Tam forges it into a weapon, ringing it in the Finale strips up to 3 Rime, makes the Tyrant mark Stress, shatters Ice Crystals, Pylons, and Pools within Far, and breaks the Whiteout’s blindness (see Mythical Weapons). The Church knows what it is and guards it, since the Matriarch’s orders say it must not be rung before He is free. The party can take it quietly (Finesse, Difficulty 14, to lower it from the tower unseen) or in the middle of the Church Confrontation.
 
 - **The Matriarch:** the Church is run by Mother Seraphine, a very persuasive woman who is a succubus in disguise. A spell has been cast on the Frozen Tyrant: any person he kills is bound to the Hells. She is trying to reap souls to make up for a botched quota.
 
-- **Encounter E:** the Matriarch uses Charm and rallies Zealots. When she is badly hurt she vanishes in smoke and returns in the Finale.
+- **Encounter, Church Confrontation (about 5 Battle Points):** starts if the party exposes the potion, takes the bell, or turns on the Church. The Matriarch and 6 Cult Zealots (2 Minion groups). She uses Charm and rallies the Zealots. When she is badly hurt she vanishes in smoke and returns in the Finale.
 
 - **Vera Stone:** a grieving woman sits in the back pew, holding her daughter’s unlit mining lamp. She is the “V.S.” on the Church’s flyer, and the most devoted face in the congregation. If the party shows her proof of what the Matriarch is (the ledger page, the brimstone, or the Matriarch fleeing in smoke), her faith breaks. She tells the party where the potion will be handed out, slips them the ledger if they don’t have it, and becomes an Ally Token in the Finale.
 
 **Spend Fear:**
 
-- **1 Fear, A Warm Cup:** a smiling Zealot offers a PC a cup of the purple potion as hospitality. Refusing without offense takes a Presence roll (Difficulty 14). On a failure the cult turns cold, and Encounter E can start early. A PC who drinks marks 1 extra HP the first time they take magic damage from an ice creature.
+- **1 Fear, A Warm Cup:** a smiling Zealot offers a PC a cup of the purple potion as hospitality. Refusing without offense takes a Presence roll (Difficulty 14). On a failure the cult turns cold, and the Church Confrontation can start early. A PC who drinks marks 1 extra HP the first time they take magic damage from an ice creature.
 - **2 Fear, The Matriarch’s Gaze:** the Matriarch appears and uses Charm on a PC without marking a Stress. A Charmed PC also tells her the most important thing the party has learned so far, and she acts on it, for example by moving the bell or warning the mayor.
 
 ## \[Secret\] Miners Compact Home Base (under the tavern)
+
+> **Read aloud:** Past the cellar door, a narrow stair drops into a cave lit by dozens of mining lamps hung from the ceiling like low stars. Shelves cut straight into the rock sag under old leather books, a few of them muttering faintly to themselves. A dozen miners rise as one with picks in hand, and the room goes so quiet you can hear the glacier groaning through the stone. At the back, a thin young man with ink-stained hands clutches a book to his chest like a shield.
 
 When the party reaches the Compact, they find bookshelves of magical books and a group of wary, hunted miners. Aldric Frostmere is here.
 
@@ -342,13 +352,17 @@ When the party reaches the Compact, they find bookshelves of magical books and a
 **Spend Fear:**
 
 - **1 Fear, Frayed Nerves:** a jumpy miner is sure one of the PCs is a Church spy and says so loudly. The next roll to win the Compact over has Disadvantage until the party proves itself.
-- **2 Fear, Raid:** the Church has found the cellar. One Town Guard Squad and 3 Cult Zealots come down the stairs. Start a Progress Countdown (3) to get Aldric and the Binding tome out through the old mine tunnel. If the fight ends before it fills, the party loses one of the two (their choice): the tome burns, or Aldric is dragged to the Town Church.
+- **2 Fear, Raid (2 Battle Points):** the Church has found the cellar. One Town Guard Squad and 3 Cult Zealots (1 Minion group) come down the stairs. Start a Progress Countdown (3) to get Aldric and the Binding tome out through the old mine tunnel. If the fight ends before it fills, the party loses one of the two (their choice): the tome burns, or Aldric is dragged to the Town Church.
 
 ## Merchants Guild Recruiting Office
+
+> **Read aloud:** This is the warmest room in town, and it wants you to know it: a roaring hearth, thick rugs, and an ice-crystal chandelier worth more than the street outside. Glass cases along the walls show off frostglass goblets, crystal-tipped picks, and one shard of glowing blue ice labeled “Prime Specimen. Not For Sale.” A row of mercenaries lounges by the door, sharpening blades they clearly enjoy using. Behind a polished desk, a smiling recruiter already holding a contract in his hands.
 
 The Merchants Guild is concerned with making a profit, and that is just about it. They worry that if the glacier or the monster is destroyed, they may not be able to make frostglass or ice crystals. If the monster is contained, they can harvest monster parts from it again and again and let it regenerate. That would make the mines safer, but would cause the monster great agony.
 
 - **The offer:** Recruiting Officer Mallick offers the Frostbane Chains in exchange for a sworn favor (escort a shipment, scare the Compact) or a signed Harvest Charter that promises the Tyrant to them alive.
+
+- **The weapons:** the Guild’s cases are full of monster-hunting gear, but Mallick will only part with the four **Frostbane Chains**. Fixed on the Tyrant, they Restrain it, and all four are needed for the easiest Chain It ending. Big Tam can forge 2 chains into 1 **Sunfire Lance**, a fire weapon that strips Rime and burns through ice creatures, but every lance is two fewer chains (see Mythical Weapons). The Charter bills melted chains at full price, so forging them isn’t a breach. Killing the Tyrant with the lances is.
 
 - **The catch:** if the party breaks the Charter, the Merchants’ mercenaries show up at the Finale on the other side: a Mercenary Captain and 3 Guild Mercenaries (1 Minion group). See Appendix A.
 
@@ -358,6 +372,8 @@ The Merchants Guild is concerned with making a profit, and that is just about it
 - **2 Fear, Rival Bidder:** someone else has made the Guild a better offer for the chains. The party must outbid them (Presence, Difficulty 15, or a second sworn favor). Otherwise the Guild sells two of the four Frostbane Chains elsewhere, and the party can only get the remaining two.
 
 ## Forward Base (at the entrance to the glacier)
+
+> **Read aloud:** The road ends at a wall of blue ice taller than a cathedral, split down the middle by a crack that glows from somewhere deep inside. A Compact camp lies wrecked at its feet: tents flattened, braziers tipped and cold, picks scattered in the snow like dropped cutlery. The air tastes like metal, and every breath stings. Deep in the crack, something vast shifts, and the whole glacier lets out a long, grinding sigh.
 
 - **What’s here:** a ruined Miners Compact camp at the glacier mouth: unlit braziers, mining gear, sonic picks, and the first crack in the ice.
 
@@ -370,7 +386,11 @@ The Merchants Guild is concerned with making a profit, and that is just about it
 
 ## ‘Tough Enough’ Blacksmith
 
-When the party arrives, they find three townsfolk robbing the blacksmith. One is a townsman looking to take weapons to arm his friends so he can fight his way out of town. This is **Encounter C**, and it’s best resolved by talking (Presence, Difficulty 12) or by one decisive hit that makes the others reconsider.
+> **Read aloud:** You hear the smithy before you see it: the roar of the forge, angry shouting, and the clatter of steel hitting stone. Inside, three ragged townsfolk are stuffing swords into flour sacks, while a mountain of a man in a scorched leather apron blocks the door with a pair of tongs in one fist. Sparks drift through the air and hiss out in the snow blowing through the doorway. Nobody has noticed you yet.
+
+When the party arrives, they find three townsfolk robbing the blacksmith. One is a townsman looking to take weapons to arm his friends so he can fight his way out of town.
+
+- **Encounter, Blacksmith Robbery (1 Battle Point):** 3 Desperate Townsfolk (1 Minion group). It’s mostly social, and best resolved by talking (Presence, Difficulty 12) or by one decisive hit that makes the others reconsider.
 
 The blacksmith, Big Tam, has one goal, which is to keep the town alive at any cost. He helps the party make mythical weapons from what they bring him. If the party knows about the monster’s weaknesses, he can build up to three Heartfire Braziers.
 
@@ -380,16 +400,18 @@ The blacksmith, Big Tam, has one goal, which is to keep the town alive at any co
 
 - **Frostglass Edge:** he can edge a weapon if given a frostglass slab.
 
-- **Winning him over:** if the party resolves Encounter C without killing anyone, Big Tam is grateful and becomes an Ally Token in the Finale.
+- **Winning him over:** if the party resolves the robbery without killing anyone, Big Tam is grateful and becomes an Ally Token in the Finale.
 
 - **Time:** one scene of crafting, which ticks the Thaw once, covers everything the party brings at the same time. Bring it all at once or pay for each trip.
 
 **Spend Fear:**
 
 - **1 Fear, Overworked Forge:** the forge can’t keep up. One item isn’t ready until after the party’s next scene, unless a PC works the bellows (Strength, Difficulty 12, and mark 1 Stress).
-- **2 Fear, Light Fingers:** one of the Encounter C robbers got away with something, either a finished item or the frostglass slab. Their trail leads to the ‘Food n Stuff’ General Store, where the desperate townsfolk have it. Getting it back means a talk (Presence, Difficulty 13) or a fight.
+- **2 Fear, Light Fingers:** one of the robbers got away with something, either a finished item or the frostglass slab. Their trail leads to the ‘Food n Stuff’ General Store, where the desperate townsfolk have it. Getting it back means a talk (Presence, Difficulty 13) or a fight.
 
 ## ‘Food n Stuff’ General Store
+
+> **Read aloud:** The bell over the door gives a cracked little jingle, and twenty frightened faces snap toward you. The shelves are stripped to the boards, and the floor has become a camp of bedrolls, bandaged heads, and children bundled in flour sacks. On the counter, someone has chalked a map of the town walls and circled the South Gate again and again. A man with a black eye and a crowbar slowly stands up.
 
 The general store holds a group of townsfolk who were fought back by the guard and are recouping here while they plan how to escape town.
 
@@ -402,13 +424,15 @@ The general store holds a group of townsfolk who were fought back by the guard a
 
 ## Bones and Clones People Repair
 
-They will heal you up fully, clearing all HP and Stress, but their prices are incredibly high (a bag of gold per PC, or a favor). When the party gets there, there is a fire in the basement that will consume the building if left unchecked. This is **Encounter F**.
+> **Read aloud:** Smoke curls from the cellar doors of Bones and Clones, and the cheerful sign out front, WE PUT YOU BACK TOGETHER!, is starting to blister. Inside, the waiting room is chaos: coughing patients, a nurse with a bucket, and a receptionist who still insists you take a number. Through the floorboards come a dull orange glow and the pop of glass vats bursting one by one. From somewhere below, something that isn’t quite a scream echoes up the stairs.
 
-- **The Fire:** a Consequence Countdown (4). Each round it ticks once. The party needs 3 successes before it ends: haul water (Strength, Difficulty 12), smother it (Instinct, Difficulty 12), or evacuate patients (Presence, Difficulty 12). If it reaches 0, the building is lost and the clinic’s healing is gone.
+They will heal you up fully, clearing all HP and Stress, but their prices are incredibly high (a bag of gold per PC, or a favor). When the party gets there, there is a fire in the basement that will consume the building if left unchecked.
+
+- **Encounter, Clinic Fire (environmental, 0 Battle Points):** no foes, just a Consequence Countdown (4). Each round it ticks once. The party needs 3 successes before it ends: haul water (Strength, Difficulty 12), smother it (Instinct, Difficulty 12), or evacuate patients (Presence, Difficulty 12). If it reaches 0, the building is lost and the clinic’s healing is gone.
 
 - **The reward:** saving the building earns the clinic’s thanks, a free full heal, and 1 Ally Token.
 
-- **The clinic’s secret: the mayor.** The real Mayor Dunmore died of glacier sickness two years ago. The Frostmere family quietly paid Bones and Clones for a copy to keep the cover-up running, with a sleeper word built in as a safety catch. The copy came out with all of the original’s grudges against the rich and none of his fear. The order, the payment, and the sleeper word (“Goodnight moon, goodnight mayor”) are written in the clinic’s **order book**, kept in the basement where the fire is.
+- **The clinic’s secret: the mayor.** The clinic can copy everything but fear. The clone Neb ordered came out with all of Bram Dunmore’s grudges against the rich and none of the fear that kept him obedient. The fear was bottled instead, and the sleeper word (“Goodnight moon, goodnight mayor”) puts it back. The order, the payment, and the word are written in the clinic’s **order book**, kept in the basement where the fire is.
 
 - **Getting the order book:** grabbing it from the fire is an action (Agility, Difficulty 13, or mark 1 Stress from the heat). If the Fire countdown reaches 0 first, the book burns, and the party has to find the word through another source in the Clue Web. If the party saves the building, the grateful clinic staff can confirm the order themselves.
 
@@ -419,7 +443,7 @@ They will heal you up fully, clearing all HP and Stress, but their prices are in
 
 # The Finale: The Tyrant Breaks Free
 
-When the Thaw reaches 10 (or the party moves on the glacier earlier), the scene moves to the Shattered Prison at the Forward Base. Open with the glacier itself: a hundred feet of ice splits down the middle, blue light pours out, and a hand the size of a cart closes over the ledge.
+When the Thaw reaches 0 (or the party moves on the glacier earlier), the scene moves to the Shattered Prison at the Forward Base. Open with the glacier itself: a hundred feet of ice splits down the middle, blue light pours out, and a hand the size of a cart closes over the ledge.
 
 ## Prep Pays Off
 
@@ -434,7 +458,7 @@ Everything the party did before the Finale should change this scene. Give them t
 | Built braziers                                    | Braziers hold ground against Chill, Regenerate, and Pylons.                                                                                                             |
 | Destroyed or exposed the purple potion            | If the potion reached the crowd at Tick 8, the Whiteout starts with 2 ticks already marked.                                                                             |
 | Exposed the Matriarch                             | Her Silver Tongue is off, and she doesn’t get a surprise appearance.                                                                                                    |
-| Silenced the mayor’s clone                        | A Guard squad fights alongside the party (1 Ally Token).                                                                                                                |
+| Turned the mayor (sleeper word or persuasion)     | A Guard squad fights alongside the party (1 Ally Token).                                                                                                                |
 | Signed the Harvest Charter                        | If the party goes for Chain It, the Mercenary Captain and 3 Guild Mercenaries fight on their side (1 Ally Token, and the Harvest Chains countdown starts at 2). If they go for any other ending, the Charter is broken and the mercenaries fight against them: remove one Ice Pylon and one Elemental summon to keep the fight at its budget. |
 
 ### Ally Tokens
@@ -443,12 +467,12 @@ Each ally the party earned is 1 Ally Token, up to 3 total:
 
 | **Ally**                  | **How the party earns them**                                               |
 |---------------------------|----------------------------------------------------------------------------|
-| Orm Alein                 | Free him from the Guards in Encounter B.                                   |
+| Orm Alein                 | Free him from the Guards in the Fountain Arrest.                           |
 | The store’s townsfolk     | Calm them or open a gate for them at ‘Food n Stuff’ (Presence, Difficulty 13). |
 | Aldric Frostmere          | Find him at the Compact Home Base and win the Compact over.                |
-| Big Tam                   | Resolve Encounter C at the blacksmith without killing anyone.              |
+| Big Tam                   | Resolve the Blacksmith Robbery without killing anyone.                     |
 | Vera Stone                | Show her proof of what the Matriarch really is.                            |
-| The Guard                 | Silence the mayor with his sleeper word.                                   |
+| The Guard                 | Speak the mayor’s sleeper word, or talk him around.                        |
 | Bones and Clones          | Save the clinic from the fire.                                             |
 | The Guild’s mercenaries   | Go for Chain It with a signed Harvest Charter.                             |
 
@@ -528,7 +552,7 @@ If she escaped, she arrives when the Tyrant enters Phase 2, or when the first PC
 
 ## Failure: Winter Falls
 
-If the party isn’t ready when the Thaw hits 10, the Tyrant breaks out with Rime at full strength and the Whiteout starts 3 ticks in. The Church celebrates. If the party then loses, the epilogue is the town buried in white and the Matriarch’s ledger filling.
+If the party isn’t ready when the Thaw hits 0, the Tyrant breaks out with Rime at full strength and the Whiteout starts 3 ticks in. The Church celebrates. If the party then loses, the epilogue is the town buried in white and the Matriarch’s ledger filling.
 
 ## Mixed Endings
 
@@ -726,31 +750,6 @@ Numbers are tuned for three level 3 PCs (Tier 2). Minions have no HP track: they
 
 # Appendix B: Quick Reference
 
-## Countdowns
-
-| **Countdown**      | **Type**    | **Steps** | **Ticks when / effect at 0**                                                                |
-|--------------------|-------------|-----------|---------------------------------------------------------------------------------------------|
-| The Thaw           | Consequence | 10        | A scene ends, or a failed roll with Fear. At 0, the Finale.                                 |
-| Whiteout           | Consequence | 6         | The GM spends a Fear. At 0, blizzard: PCs see only Close, ranged attacks have Disadvantage. |
-| Place the Charges  | Progress    | 6         | Successful rolls. At 0, detonation and the escape chase.                                    |
-| The Binding        | Progress    | 8         | Successful rolls. At 0, the Tyrant is bound.                                                |
-| Fire at the Clinic | Consequence | 4         | Each round. At 0, the building is lost.                                                     |
-| Prison Escape      | Progress    | 4         | Successful escape rolls. At 0, the party is out.                                            |
-| Sound the Whistle  | Consequence | 4         | Each round after it starts. At 0, a second Guard squad arrives.                             |
-| Church Informant   | Consequence | 3         | Spider’s Inn Fear move. Significant PC actions. At 0, Guards and Zealots search the inn.     |
-| The Wind Chimes    | Consequence | 3         | Vacation Home Fear move. Each PC action. At 0, one charge detonates (3d10 within Close).     |
-| The Harvest Chains | Progress    | 6         | Chain It ending. Successful chain, anchor, and brazier rolls. Each chain the Tyrant breaks undoes 1 tick. At 0, the Tyrant is chained for the Guild. (8 steps with only three chains.) |
-| Compact Raid       | Progress    | 3         | Compact Home Base Fear move. Successful rolls. If unfilled when the fight ends, lose Aldric or the tome. |
-
-## Difficulty Guide (Tier 2)
-
-| **Difficulty** | **Use for**                                                     |
-|----------------|-----------------------------------------------------------------|
-| 10 to 11       | Easy: a clear advantage, or a frightened or unskilled opponent. |
-| 12 to 13       | Standard: the default for most rolls and Reaction Rolls.        |
-| 14 to 15       | Hard: serious pressure, or a skilled or powerful opponent.      |
-| 16 and up      | Extreme: reserved for the Tyrant and for dramatic moments.      |
-
 ## Running the Tyrant
 
 - **Telegraph, then release.** Spear of Ice is the rhythm: charge, let the table react, then hurl. Give the players a beat to respond.
@@ -767,194 +766,6 @@ Numbers are tuned for three level 3 PCs (Tier 2). Minions have no HP track: they
 
 These are written in-world for the players to read. The GM note above each handout says where the party finds it. Print-ready player copies of every handout, with no GM notes, are in `Flyers/re-written flyers/`: `Visit Glaciers Edge.docx`, `The Sleeper Under the Ice.docx`, `Goodnight Glaciers Edge.docx` (plus a one-page text-only version), `Harvest Charter.docx`, and `Matriarchs Ledger.docx`, alongside the faction flyers (`Miners Compact Flyer.docx`, `Merchants Guild Flyer.docx`, `Meltwater Church Flyer.docx`) and `Aldrics Letter.docx`. A one-page GM cheat sheet is in `GM Cheat Sheet.docx` next to this document.
 
-## Visit Glacier’s Edge (Tourism Flyer)
-
-*GM note: printed last season, before the lockdown. Copies sit in drawers at the Spider’s Inn and blow through the empty streets. Hand it out early, since everything on it gets worse as the Thaw ticks.*
-
-> **VISIT GLACIER’S EDGE!**
-> ***Where the Fun Never Melts!***
->
-> *Brought to you by the Glacier’s Edge Town Council and the Merchants Guild*
->
-> - **Tour the Frostglass Mines!** See the glittering heart of the glacier up close. *(Mind the cracks!)*
-> - **Make a Wish at the Fountain of Mixed Blessings!** Ask our friendly keeper, Orm Alein. One wish per visitor. Results may vary.
-> - **Marvel at the Frostmere Glass House,** the only home on the frontier built of solid frostglass! *(Viewing from the street only.)*
-> - **Hear the Great Bell of the Town Church,** rung every evening by the Meltwater Church. Free sermons! Free treats!
-> - **Raise a Mug at the Spider’s Inn!** Gus pours the coldest ale this side of the mountains. Stay for Old Wick’s tall tales!
-> - **Under the Weather?** Visit Bones and Clones People Repair: *“Good as New, or a New You!”*
-> - **Stock Up at ‘Food n Stuff’!** Everything you need, and stuff!
-> - **Big Tam’s ‘Tough Enough’ Blacksmith.** If it isn’t tough enough, Tam will make it tougher.
-> - **Read a While at the City Library.** Children’s corner open daily.
->
-> *A message from Mayor Dunmore:* “Glacier’s Edge has been a safe and prosperous town for nearly a hundred years, and it always will be. For the good of the town, come and stay!”
->
-> <small>Reports of tremors are greatly exaggerated. Mining accidents are rare and fully insured.</small>
-
-## The Sleeper Under the Ice (Old Wick’s Song)
-
-*GM note: Old Wick sings this at the Spider’s Inn, and a children’s picture-book version sits in the City Library. Each verse is a clue: the prison, the mining, fire, the bell, frostglass, its pride, and the Hell-bound dead.*
-
-> *Before the town, before the mine,*
-> *Before the first fool drew a line,*
-> *The old folk sang the frozen king*
-> *To sleep beneath the glacier’s wing.*
->
-> *They built his bed of blue and white,*
-> *They bound him there with words of might,*
-> *And warned: “Who digs into his tomb*
-> *Unlocks the door and lets him loom.”*
->
-> *He hates the hearth, he hates the flame,*
-> *The kindled coal that speaks his name.*
-> *Where braziers burn and embers glow,*
-> *His wounds won’t close, his ice won’t grow.*
->
-> *He hates the bell, he hates its song.*
-> *One silver note, both loud and long,*
-> *Will crack the armor on his chest*
-> *And shake the frost that guards him best.*
->
-> *So cut him with the glass he grew,*
-> *His own heart’s crystal cuts him through.*
-> *And mock him well, for he is proud:*
-> *He’ll chase the one who laughs aloud.*
->
-> *But heed the last verse, child, and weep:*
-> *The souls he takes, he does not keep.*
-> *Each one he kills goes down below,*
-> *To fires the Hells have banked for slow.*
->
-> *So speak the words and keep him bound,*
-> *Or ring the bell and bring him down,*
-> *But never dig where old folk said,*
-> *Or you’ll be counted with the dead.*
->
-> *(Old Wick taps his cane on the floor three times. “That’s the verse they don’t sing anymore.”)*
-
-## Goodnight, Glacier’s Edge (Children’s Book)
-
-*GM note: found in the children’s corner of the City Library, no roll needed. The last page holds the mayor’s sleeper word, and a few earlier pages quietly hint at the bell, the fire weakness, and the Frostmere family. Bracketed text describes the art. The print-ready player version, with no GM notes, is `Flyers/re-written flyers/Goodnight Glaciers Edge.docx`.*
-
-> **GOODNIGHT, GLACIER’S EDGE**
-> *A Bedtime Story*
->
-> *(Inside the cover, a bookplate:)* **Donated by the Frostmere Family. “Profit Before Prudence.”**
-
-> **Page 1**
-> The sun slips down behind the ice,
-> and all of Glacier’s Edge feels sleepy.
->
-> *[A little child in a nightcap waves from a window. Behind the town, the glacier glows pink in the sunset.]*
-
-> **Page 2**
-> Goodnight, glacier, tall and white.
-> Please stay sleeping through the night.
->
-> *[The glacier fills the page. Look closely and there is a big, gentle face in the ice, eyes shut.]*
-
-> **Page 3**
-> Goodnight, mine, and goodnight, picks.
-> Goodnight, miners, home by six.
->
-> *[Miners with candle helmets march home, waving their picks.]*
-
-> **Page 4**
-> Goodnight, fountain, splish and splash.
-> One wish each, so don’t be rash!
->
-> *[A smiling fountain keeper flips a coin into the water.]*
-
-> **Page 5**
-> Goodnight, bell up in the tower.
-> Hush now, it’s past ringing hour.
-> (If ever the big ice wakes in fright,
-> Ring loud, ring long, with all your might!)
->
-> *[The church bell, with tiny cracks in the ice around the tower.]*
-
-> **Page 6**
-> Goodnight, glass house, shining bright.
-> Goodnight, Great-Grandpa Cole, sleep tight.
->
-> *[The glass house, with a stern portrait of Cole Frostmere visible through the walls.]*
-
-> **Page 7**
-> Goodnight, inn with the spider sign.
-> Goodnight, stories, line by line.
->
-> *[An old man with a cane tells a story to a crowd. A fat spider listens from the bar.]*
-
-> **Page 8**
-> Goodnight, forge, and goodnight, fire.
-> Keep us warm as snow climbs higher.
-> The cold can never cross the flame,
-> So keep it lit, and say its name.
->
-> *[A big, kind blacksmith banks the forge. Frost creeps up the windows but stops at the warm glow.]*
-
-> **Page 9**
-> Goodnight, market. Goodnight, square.
-> Goodnight, Town Hall, and all who are there.
->
-> *[Lamps going out one by one around the market. A tall, smiling man in a sash stands on the Town Hall steps.]*
-
-> **Page 10**
-> **Goodnight moon, goodnight mayor.**
->
-> *[The mayor in his nightcap, eyes closed and standing perfectly still, like a toy that has been switched off. The page is dog-eared, and someone has penciled in the margin: “for emergencies only.”]*
-
-> **Back Page**
-> Hush now. Everything sleeps.
-> Everything.
-> And the big one under the ice
-> sleeps most of all.
->
-> *[The whole town asleep under the stars. Deep in the glacier, one enormous eye is just barely open.]*
-
-## Harvest Charter
-
-*GM note: Recruiting Officer Mallick slides this across the desk at the Merchants Guild Recruiting Office. Let the players read it, and let them sign it if they want the chains. Keep the signed copy: breaking it brings the mercenaries to the Finale.*
-
-> **MERCHANTS GUILD OF GLACIER’S EDGE**
-> **HARVEST CHARTER No. 113**
->
-> This Charter is entered into by the Merchants Guild (“the Guild”) and the undersigned (“the Contractor”).
->
-> 1. **Loan of Equipment.** The Guild lends the Contractor up to four (4) Frostbane Chains (“the Equipment”). The Equipment remains Guild property at all times. Equipment that is melted, reforged, or otherwise made into “not chains” will be billed at full replacement value.
-> 2. **The Asset.** The Contractor agrees that the entity beneath the glacier (“the Asset”) shall be delivered to the Guild ALIVE, restrained, and harvestable.
-> 3. **Harvest Rights.** All parts, fluids, frostglass, and byproducts of the Asset belong to the Guild, now and in perpetuity. The Asset’s regeneration is the Asset’s own concern.
-> 4. **Prohibited Outcomes.** The Contractor shall not bury the Asset, kill the Asset, or bind the Asset on behalf of any other party. Any such outcome is a Breach.
-> 5. **Breach.** In the event of Breach, the Guild may protect its Asset by any means, including the full force of Guild Security.
-> 6. **Compensation.** A share of every harvest, payable upon harvest, as determined by the Guild.
-> 7. **Continuity.** Should the Contractor die in the performance of this Charter, all obligations pass to the Contractor’s estate, heirs, and soul, where applicable.
->
-> Signed: ______________________ (Contractor)
->
-> Witnessed: *Recruiting Officer Mallick*
->
-> <small>The Guild accepts no liability for glaciers, elementals, divine punishment, or Acts of Tyrant.</small>
-
-## A Page from the Matriarch’s Ledger
-
-*GM note: found in the Town Church (her desk, or dropped during Encounter E). The paper is warm to the touch and smells faintly of brimstone. Reading it removes her Silver Tongue advantage. It also gives the mayor’s sleeper word. If you’d rather the party find the word somewhere else, smudge that line when you print it.*
-
-> **INFERNAL REGISTRY OF SOULS**
-> **Glacier’s Edge Office, Collector: Seraphine**
->
-> | Quarterly quota | Collected | Shortfall |
-> |---|---|---|
-> | 500 souls | 88 souls | **412 souls** |
->
-> *(In red ink, in another hand:)* **Shortfall noted. Third warning. Explain, or be explained. Accounts Below.**
->
-> **Notes:**
-> - The Sleeper’s binding holds: all slain by Him come to us. When He wakes, the quota fills itself.
-> - Purple draught: 300 doses brewed. Once they are weak to the cold, He will do the rest.
-> - Vera Stone: grief makes the best congregants. Keep her close.
-> - Town Hall: D. leans our way. Keep him sweet. The words that still him are “Goodnight moon, goodnight mayor.” Do not let the miners learn them.
-> - The bell must not be rung before He is free.
->
-> *(Signed with a sigil that looks like a candle flame burning upside down.)*
 
 # Appendix D: Named NPCs
 
@@ -967,8 +778,8 @@ Each NPC has a **hook**: a habit, look, or line to repeat every time they appear
 - **Gus** (innkeeper, Spider’s Inn). Gruff gatekeeper to the Compact’s cellar. **Hook:** answers in one word whenever he can, and keeps a fat pet spider named Karen on the bar.
 - **Old Wick** (storyteller, Spider’s Inn). Tells the legend as a tall tale. **Hook:** opens every story with “Ever hear the one about…?” and taps his cane on the floor three times when he finishes.
 - **Shale** (leader of the Miners Compact). Wary and protective. **Hook:** never takes off their battered mining helmet with its candle stub, and talks in mining terms (“that plan won’t hold weight,” “you’re digging in the wrong seam”).
-- **Orm Alein** (fountain keeper, Central Grass Area). Freed in Encounter B, he explains the fountain. **Hook:** always slightly damp, and he flips a coin before every answer: “Heads, a blessing. Tails, a curse.”
-- **Mayor Dunmore** (mayor and secret clone, Town Hall). Runs the lockdown and wants the rich to pay. **Hook:** says “for the good of the town” constantly, and his gestures repeat exactly, as if he were wound up. Players who notice the repetition are getting a clue.
+- **Orm Alein** (fountain keeper, Central Grass Area). Freed in the Fountain Arrest, he explains the fountain. **Hook:** always slightly damp, and he flips a coin before every answer: “Heads, a blessing. Tails, a curse.”
+- **Mayor Bram Dunmore** (mayor and secret clone, Town Hall). Runs the lockdown so the rich can’t escape the reckoning, and doesn’t know he’s a clone. **Hook:** says “for the good of the town” constantly, and his gestures repeat exactly, as if he were wound up. Players who notice the repetition are getting a clue.
 - **Sergeant Odo Trask** (Guard Sergeant). Enforces a lockdown he doesn’t believe in. **Hook:** sighs heavily before every order, mutters “I don’t make the rules,” and fiddles with the whistle on his chest.
 - **Mother Seraphine** (the Matriarch, Town Church). A succubus filling a soul quota. **Hook:** she is always warm in the cold, smells of cinnamon and smoke, and calls everyone “little lamb.”
 - **Vera Stone** (grieving Church member, the “V.S.” on the flyer). Lost her daughter in the mines and was paid to stay quiet. **Hook:** carries her daughter’s unlit mining lamp everywhere and says, “They paid me to be silent.” If the party shows her the ledger, she can turn on the Church.
