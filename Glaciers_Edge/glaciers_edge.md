@@ -8,7 +8,7 @@ Start in motion. The party is in the market when the first big tremor hits. A be
 
 **Table question:** before play, ask each player which faction (or NPC) in town owes their character a favor, or holds a grudge. Use the answers to place hooks.
 
-## The Thaw (Consequence Countdown, 10)
+## The Thaw (Consequence Countdown, 12)
 
 Put a 12-step Consequence Countdown on the table called **The Thaw**. Tick it when:
 
@@ -23,7 +23,7 @@ Neb’s watch shows the current tick. If the party doesn’t have it, describe t
 | 10        | **First incident.** Ice elementals burst into the street (the Street Ambush, below).                                                                                                                              |
 | 8        | **Lockdown tightens.** The Guard starts arresting people on sight (the Fountain Arrest, or an arrest at Town Hall).                                                                                             |
 | 6        | **Frost spreads.** The north streets freeze and shops close. Starting a scene in the north end costs 1 Stress unless warmed. Resting is no longer safe.                                              |
-| 4        | **The Matriarch’s Sermon.** The Matriarch preaches at the Fountain, and frightened townsfolk flock to the Church. From now on, any Ally Token the party hasn’t earned yet also takes a Presence roll (Difficulty 14) to pull that ally away from the Church. Showing the ally proof of what the Matriarch really is skips the roll. A PC who confronts her mid-sermon can break the spell for the whole town (Presence, Difficulty 16), but on a failure the crowd turns on them. |
+| 4        | **The Matriarch’s Sermon.** The Matriarch preaches at the Fountain, and frightened townsfolk flock to the Church. From now on, any Ally Token the party hasn’t earned yet also takes a Presence 14 roll to pull that ally away from the Church. Showing the ally proof of what the Matriarch really is skips the roll. A PC who confronts her mid-sermon can break the spell for the whole town (Presence 16), but on a failure the crowd turns on them. |
 | 2        | **Point of no return.** Neb moves the charges to the glacier (unless he was talked down). The Church starts handing out its purple potions. The Merchants line up mercenaries at the glacier mouth. |
 | 0       | **The Tyrant breaks free.** Go to the Finale.                                                                                                                                                        |
 
@@ -41,16 +41,17 @@ No essential clue should be locked behind a single location. If the party hasn�
 | Its weaknesses (heat, sound, frostglass, binding, arrogance)        | Library (children’s books); storyteller; Compact bookshelves; Neb (knows only some)                       | Each weakness has a mechanical payoff, see Mythical Weapons         |
 | The church bell is a Shattering Bell                                | Town Church (notice it); storyteller (a song about a bell); Library                                            | The blacksmith forges it into a weapon                              |
 | The Compact’s password (“Lamplight”)                                | Neb (if the party promises to bring Aldric home); a prisoner in the Town Prison; a drunk Cultist at the Inn | Needed to enter the cellar                                          |
-| The purple potion is cold vulnerability                             | Town Church (inspect the pot); a drunk Cultist’s slip                                                          | Prevents the Tick 8 potion handout                                  |
+| The purple potion is cold vulnerability                             | Town Church (inspect the pot); a drunk Cultist’s slip                                                          | Prevents the Tick 2 potion handout                                  |
 | The mayor’s sleeper word (“Goodnight moon, goodnight mayor”)                  | Bones and Clones order book (in the burning basement); Library children’s corner (a hint); Compact bookshelves; a jailed Town Hall clerk in the Prison; the Matriarch’s ledgers | The clinic made the mayor. See Bones and Clones                     |
 | The Matriarch is a succubus and the Tyrant’s victims are Hell-bound | Storyteller; Town Church (brimstone, her ledger); Compact books                                                | Removes her Silver Tongue advantage                                 |
 
 ## Encounters
 
-A normal fight at this level is about 11 Battle Points (3 per PC + 2): a Minion group equal to the party size is 1 point, a Standard or Ranged is 2, a Leader is 3, a Bruiser is 4, and a Solo is 5. You won’t need every encounter. Each one is written up where it happens, with its Battle Points. Run three or four as the party moves through town, and always run the Finale.
+A normal fight at this level is about 11 Battle Points (3 per PC + 2): a Minion group equal to the party size is 1 point, a Standard or Ranged is 2, a Leader is 3, a Bruiser is 4, and a Solo is 5. You won’t need every encounter. Each one is written up where it happens, with its Battle Points. Run three or four as the party moves through town, and always run the Finale. The Street Ambush comes from the Thaw. The rest are listed in the Location Index at the start of Locations.
 
-- **The Thaw:** the Street Ambush.
-- **Locations:** the Fountain Arrest (Central Grass), the Blacksmith Robbery (‘Tough Enough’), the Tavern Brawl (Spider’s Inn), the Church Confrontation (Town Church), the Clinic Fire (Bones and Clones), the Souvenir and the Church Burglars (Neb’s Third Vacation Home), and the Raid (Compact Home Base).
+## Reading Rolls
+
+Rolls are written as the trait and its Difficulty. “Presence 13” means a Presence roll against Difficulty 13, and “Agility Reaction 15” means an Agility Reaction Roll against Difficulty 15.
 
 # Background
 
@@ -147,10 +148,10 @@ Each of these removes **Rime Armor** from the Frozen Tyrant (see Appendix A) or 
 | **Item**               | **Where it comes from**                                                                   | **Effect in Daggerheart**                                                                                                                                                                                                                                                                                                           |
 |------------------------|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Sunfire Lances         | The blacksmith forges them from Frostbane Chains. **2 chains make 1 lance.**              | Strength, Very Close or thrown at Close, d10+3 magic (uses proficiency as normal). Against ice creatures each hit marks 1 extra HP, and an Ice Elemental hit defeats it outright. The first lance hit on the Tyrant each round removes 1 Rime.                                                                                      |
-| Frostbane Chains       | Held by the Merchants Guild. There are four.                                              | Strength roll (Difficulty 14) to fix a chain on the Tyrant. Each success adds a Restrained token. At 2 tokens it can’t move beyond Close range. At 4 it is fully Restrained and can’t use Relentless. It breaks one chain each time it takes the spotlight unless a PC re-fixes it. Chains turned into lances are no longer chains. |
-| The Shattering Bell    | Hangs in the Town Church’s tower. The blacksmith forges it into a weapon.                            | Action: ring it with an Instinct roll against Difficulty 15. On a success, remove up to 3 Rime and the Tyrant marks 1 Stress. On a failure, remove 1 Rime. It also shatters Ice Crystals, Ice Pylons, and Ice Pools within Far.                                                                                                     |
+| Frostbane Chains       | Held by the Merchants Guild. There are four.                                              | Strength 14 roll to fix a chain on the Tyrant. Each success adds a Restrained token. At 2 tokens it can’t move beyond Close range. At 4 it is fully Restrained and can’t use Relentless. It breaks one chain each time it takes the spotlight unless a PC re-fixes it. Chains turned into lances are no longer chains. |
+| The Shattering Bell    | Hangs in the Town Church’s tower. The blacksmith forges it into a weapon.                            | Action: ring it with an Instinct 15 roll. On a success, remove up to 3 Rime and the Tyrant marks 1 Stress. On a failure, remove 1 Rime. It also shatters Ice Crystals, Ice Pylons, and Ice Pools within Far.                                                                                                     |
 | Heartfire Braziers     | The blacksmith builds them once the party knows the fire weakness. Up to three.           | Placing one is an action. In Close range of a brazier: the Tyrant can’t clear Stress or restore Rime, marks 1 Stress when it starts a spotlight there, Ice Pylons mark 1 HP each GM turn, and PCs ignore Chill.                                                                                                                     |
-| Glacierbreaker Charges | Neb’s third vacation home. Up to three. Very volatile.                                    | Place with a Finesse roll (Difficulty 13). When detonated, Ice Minions, Crystals, and Pylons within Close are destroyed. The Tyrant removes 2 Rime and marks 1 HP regardless of thresholds. Everything within Close, PCs included, takes 3d10 physical (Agility Reaction Roll, Difficulty 15, for half).                            |
+| Glacierbreaker Charges | Neb’s third vacation home. Up to three. Very volatile.                                    | Place with a Finesse 13 roll. When detonated, Ice Minions, Crystals, and Pylons within Close are destroyed. The Tyrant removes 2 Rime and marks 1 HP regardless of thresholds. Everything within Close, PCs included, takes 3d10 physical (Agility Reaction 15, for half).                            |
 | Glacierbreaker Grenade | Neb’s stock. Up to three.                                                                 | Thrown at Close, Finesse. Everything within Very Close takes 2d10 physical. Minions, Crystals, and Pylons there are destroyed. The Tyrant removes 1 Rime.                                                                                                                                                                           |
 | Frostglass Edge        | The blacksmith edges a weapon using one frostglass slab (Neb, the mines, or the Compact). | Hits ignore Rime Armor’s damage gate and count as magic damage.                                                                                                                                                                                                                                                                     |
 
@@ -162,13 +163,43 @@ Each location lists what’s there and what it can give the party. Moving on fro
 
 Each location also has two **Spend Fear** options: a 1 Fear complication and a 2 Fear escalation. Use them when the scene needs a push, or when a roll with Fear gives you the opening.
 
+Every location follows the same order: **Read aloud**, **At a glance**, the details, then **Spend Fear**.
+
+## Location Index
+
+| **Location**                 | **What the party can get**                                                  | **Encounter**                                  |
+|------------------------------|-----------------------------------------------------------------------------|------------------------------------------------|
+| Neb Frostmere’s Glass House  | Neb’s watch, the key to the charges, 1 frostglass slab, the Compact password | None                                           |
+| Neb’s Third Vacation Home    | Up to 3 Glacierbreaker Charges and 3 Grenades                              | The Souvenir or Church Burglars (1 each), d6   |
+| The Spider’s Inn             | Old Wick’s legend, the way into the Compact                                 | Tavern Brawl (optional, 1)                     |
+| The City Library             | The Tyrant’s weaknesses, the bell, the binding ritual, the sleeper word     | None                                           |
+| Central Grass Area           | Orm (Ally Token), a fountain boon and curse                                 | Fountain Arrest (about 5)                      |
+| Town Hall                    | The Guard (Ally Token), an end to the lockdown                              | None, unless an arrest                         |
+| Town Prison                  | The sleeper word, the Compact password                                      | Prison Escape, if arrested                     |
+| Town Church                  | The potion’s truth, the Shattering Bell, the ledger, Vera Stone (Ally Token)| Church Confrontation (about 5)                 |
+| Miners Compact Home Base     | The Binding tome, weakness notes, Aldric (Ally Token)                       | The Raid (2 Fear, 2)                           |
+| Merchants Guild Office       | The four Frostbane Chains                                                   | None                                           |
+| Forward Base                 | Sonic picks, a chance to prepare the Finale arena                           | The Finale, at Tick 0                          |
+| ‘Tough Enough’ Blacksmith    | Lances, the Bell weapon, a Frostglass Edge, Braziers, Big Tam (Ally Token)  | Blacksmith Robbery (1)                         |
+| ‘Food n Stuff’ General Store | An Ally Token and Brazier supplies                                          | None                                           |
+| Bones and Clones             | A full heal, an Ally Token, the order book (sleeper word)                   | Clinic Fire (0)                                |
+
+Numbers in the Encounter column are Battle Points.
+
 ## Neb Frostmere’s Glass House
 
 > **Read aloud:** The house rises out of the snow like a chandelier someone forgot to hang, every wall a sheet of frostglass throwing the grey daylight back as shivering rainbows. Through three rooms of glass, you can see a man in a velvet dressing gown wearing a groove into the floor with his pacing. As you step onto the porch, the whole building gives a faint, nervous chime, like a wineglass touched by a fingertip. The door flies open before you can knock.
 
+**At a glance**
+
+- **Who’s here:** Neb Frostmere.
+- **Get:** Neb’s watch (shows the Thaw) if talked down, the key to the charges, 1 frostglass slab, the Compact password (if they promise to bring Aldric home), and the sonic clue.
+- **Encounter:** none.
+- **Thaw:** if the party never talks him down, Neb moves the charges to the glacier at Tick 2.
+
 Neb lives in a house made mostly of frostglass. It is extremely expensive and a sign of his wealth. When the party first meets him he is frantic about getting his son back. When pressed, he reveals his plan to destroy the glacier at the risk of the whole town. He doesn’t think this is a big deal, but it is.
 
-- **Talking him down:** he will stand down only if the party promises to take care of the awakening monster another way (Presence roll, Difficulty 13, or 15 if they have no concrete plan). In return he gives them his watch, which shows the Thaw.
+- **Talking him down:** he will stand down only if the party promises to take care of the awakening monster another way (Presence 13, or 15 if they have no concrete plan). In return he gives them his watch, which shows the Thaw.
 
 - **The charges:** all the Glacierbreaker charges are kept at his third vacation home, a few streets away in the Market District. (The second one blew up because they are so volatile.) If the party wants them as a last resort, he gives them the key. See Neb Frostmere’s Third Vacation Home.
 
@@ -182,22 +213,29 @@ Neb lives in a house made mostly of frostglass. It is extremely expensive and a 
 
 **Spend Fear:**
 
-- **1 Fear, The Glass Sings:** a tremor makes the whole house ring like a struck bell. Each PC inside makes an Instinct Reaction Roll (Difficulty 13) or marks 1 Stress. This also hands them the sonic clue.
-- **2 Fear, Desk Sample:** a Glacierbreaker grenade Neb left on his desk starts to hiss. The PCs get one action to deal with it: defuse it (Finesse, Difficulty 13) or throw it outside (Agility, Difficulty 12). Otherwise it goes off: 2d6+2 physical to everything within Very Close (Agility Reaction Roll, Difficulty 13, for half), a frostglass wall shatters, and Neb panics and won’t talk until calmed (Presence, Difficulty 13).
+- **1 Fear, The Glass Sings:** a tremor makes the whole house ring like a struck bell. Each PC inside makes an Instinct Reaction 13 roll or marks 1 Stress. This also hands them the sonic clue.
+- **2 Fear, Desk Sample:** a Glacierbreaker grenade Neb left on his desk starts to hiss. The PCs get one action to deal with it: defuse it (Finesse 13) or throw it outside (Agility 12). Otherwise it goes off: 2d6+2 physical to everything within Very Close (Agility Reaction 13, for half), a frostglass wall shatters, and Neb panics and won’t talk until calmed (Presence 13).
 
 ## Neb Frostmere’s Third Vacation Home
 
 > **Read aloud:** Halfway down a quiet Market District street stands a tall townhouse with every shutter nailed closed and a hand-painted sign on the door that reads, cheerfully, VACATION. Two lots down, a fenced-off crater still smokes, its edges glazed black and glassy. The neighbors’ curtains twitch as you pass, then snap shut. Somewhere inside the house, something is softly tinkling.
 
+**At a glance**
+
+- **Who’s here:** depends on the d6 weird encounter.
+- **Get:** up to 3 Glacierbreaker Charges and 3 Glacierbreaker Grenades.
+- **Encounter:** the Souvenir or the Church Burglars (1 Battle Point each), if rolled.
+- **Thaw:** the Souvenir’s shriek or a failed search through the vacation gear can tick it.
+
 A tall, shuttered townhouse on a quiet street in the Market District, a short walk from Neb’s main house. Neb has never once vacationed in it. Since his second vacation home exploded (the fenced-off crater is two lots down the street), this one holds every Glacierbreaker he owns. The neighbors have stopped asking.
 
-- **The key:** Neb gives it to the party if they want the charges as a last resort. Without it, picking the lock is a Finesse roll (Difficulty 14).
+- **The key:** Neb gives it to the party if they want the charges as a last resort. Without it, picking the lock is a Finesse 14 roll.
 
 - **What’s inside:** up to three Glacierbreaker Charges and three Glacierbreaker Grenades, packed in straw-lined crates in the cellar. The rest of the house is stuffed with vacation gear nobody has ever used.
 
-- **Retrieving them:** a Finesse or Instinct roll (Difficulty 13) to move them safely. A failure with Fear sets one off early: 2d6+2 physical to everyone nearby (Agility Reaction Roll, Difficulty 13, for half).
+- **Retrieving them:** a Finesse or Instinct 13 roll to move them safely. A failure with Fear sets one off early: 2d6+2 physical to everyone nearby (Agility Reaction 13, for half).
 
-- **Explosives nearby:** while the party is in the cellar, any area damage there (an Ice Elemental’s Shatter, a spell, a dropped lantern) sets off a crate unless a PC succeeds on an Agility Reaction Roll (Difficulty 13) to shield it. A crate going off deals 2d6+2 physical to everything within Close.
+- **Explosives nearby:** while the party is in the cellar, any area damage there (an Ice Elemental’s Shatter, a spell, a dropped lantern) sets off a crate unless a PC succeeds on an Agility Reaction 13 roll to shield it. A crate going off deals 2d6+2 physical to everything within Close.
 
 ### Weird Encounters
 
@@ -205,25 +243,31 @@ Roll a d6 or pick one when the party arrives. Each one is strange first and dang
 
 | **d6** | **Encounter** |
 |--------|---------------|
-| 1 | **The Aunt Who Won’t Leave.** Neb’s elderly great-aunt, Prudence Frostmere, lives here and is certain it’s her house. She insists on serving tea before anyone touches anything, and she is keeping her feet warm under a quilt draped over a crate of charges. Coaxing her away from it takes a Presence roll (Difficulty 13). On a failure, she agrees only if the party takes her with them, and she brings the quilt. |
+| 1 | **The Aunt Who Won’t Leave.** Neb’s elderly great-aunt, Prudence Frostmere, lives here and is certain it’s her house. She insists on serving tea before anyone touches anything, and she is keeping her feet warm under a quilt draped over a crate of charges. Coaxing her away from it takes a Presence 13 roll. On a failure, she agrees only if the party takes her with them, and she brings the quilt. |
 | 2 | **Squatters.** Three desperate townsfolk (1 Minion group of Desperate Townsfolk) are camping in the parlor. They are using a crate of charges as a dinner table and cooking on a camp stove right next to it. They want a way out of town, not a fight. If a fight starts anyway, roll a d6 at the start of each GM turn: on a 1, the stove tips and the crate catches. |
-| 3 | **The Fuse Ferret.** Neb’s prize ferret, trained to sniff out sparks, has gotten loose and hoarded every fuse in the house inside the walls. Without fuses, the charges can’t be set. Catching it is a short chase (Agility, Difficulty 13), or a PC can lure it out with something shiny (Instinct, Difficulty 12). If the party gives up, placing a charge later takes an improvised fuse (Finesse, Difficulty 15). |
+| 3 | **The Fuse Ferret.** Neb’s prize ferret, trained to sniff out sparks, has gotten loose and hoarded every fuse in the house inside the walls. Without fuses, the charges can’t be set. Catching it is a short chase (Agility 13), or a PC can lure it out with something shiny (Instinct 12). If the party gives up, placing a charge later takes an improvised fuse (Finesse 15). |
 | 4 | **The Souvenir (1 Battle Point).** In the parlor stands a glass display case holding a small ice elemental that Cole Frostmere bottled as a curiosity a century ago. It is thawing. When the party walks in, the glass cracks and it breaks loose (1 Ice Elemental). It heads straight for the cellar. If it reaches the charges, its Shatter sets off a crate. If it is still alive at the end of the second round, it lets out a shriek the glacier answers: tick the Thaw. |
 | 5 | **Church Burglars (1 Battle Point).** Three Cult Zealots (1 Minion group) are already inside, carrying the charges out the back to dump them in the river. The Church wants the Tyrant free, and the charges are the surest way to stop it. The cellar is a terrible place for a fight: use the Explosives Nearby rule above. If the Zealots get away with a crate, the party has one fewer charge. |
-| 6 | **Ready for a Vacation.** Every room is crammed with unused holiday gear: beach chairs, a rowboat, a stuffed walrus, a crate of two hundred sun hats, all labeled “VACATION.” Finding the cellar door under it all takes an Instinct roll (Difficulty 12). On a failure, the search ticks the Thaw. On a success with Hope, the party also turns up something useful: a frostglass hand mirror (enough for a Frostglass Edge), a cask of lamp oil (supplies for one Heartfire Brazier), or a brass spyglass. |
+| 6 | **Ready for a Vacation.** Every room is crammed with unused holiday gear: beach chairs, a rowboat, a stuffed walrus, a crate of two hundred sun hats, all labeled “VACATION.” Finding the cellar door under it all takes an Instinct 12 roll. On a failure, the search ticks the Thaw. On a success with Hope, the party also turns up something useful: a frostglass hand mirror (enough for a Frostglass Edge), a cask of lamp oil (supplies for one Heartfire Brazier), or a brass spyglass. |
 
 **Spend Fear:**
 
-- **1 Fear, Loose Floorboard:** a PC carrying a charge steps on a rotten board. They make an Agility Reaction Roll (Difficulty 13) or drop it. Another PC within Close can dive to catch it (Finesse, Difficulty 13). If nobody does, it goes off: 2d6+2 physical to everything within Close.
-- **2 Fear, The Wind Chimes:** a tremor sets off the dozens of frostglass wind chimes Neb hung “for ambience,” and the charges start to hum along with them. Start a Consequence Countdown (3) that ticks at the end of each PC action. At 0, one charge detonates: 3d10 physical to everything within Close (Agility Reaction Roll, Difficulty 15, for half). Muffling the chimes (Instinct, Difficulty 13) or getting every charge out of the house stops it.
+- **1 Fear, Loose Floorboard:** a PC carrying a charge steps on a rotten board. They make an Agility Reaction 13 roll or drop it. Another PC within Close can dive to catch it (Finesse 13). If nobody does, it goes off: 2d6+2 physical to everything within Close.
+- **2 Fear, The Wind Chimes:** a tremor sets off the dozens of frostglass wind chimes Neb hung “for ambience,” and the charges start to hum along with them. Start a Consequence Countdown (3) that ticks at the end of each PC action. At 0, one charge detonates: 3d10 physical to everything within Close (Agility Reaction 15, for half). Muffling the chimes (Instinct 13) or getting every charge out of the house stops it.
 
 ## The Spider’s Inn / Tavern
 
 > **Read aloud:** Warm air hits you like a shove: pipe smoke, wet wool, and a stew that’s been simmering since sometime last week, though nearly every chair is upturned on an empty table and cobwebs thick as lace drape the silent rafters. Behind the bar, a slab of a man polishes the same glass and stares at you like you’ve tracked in something worse than snow. The only other soul here is a wizened old man hunched by the fire, his beard yellowed with pipe smoke, telling a story to a black cat sitting on a chair. “…and the ice, see, it *remembers*,” he croaks.
 
+**At a glance**
+
+- **Who’s here:** Gus (innkeeper) and Old Wick (storyteller).
+- **Get:** the legend from Old Wick (the prison, the bell, the Hell-bound dead), and the way down to the Compact with the password “Lamplight.”
+- **Encounter:** Tavern Brawl (optional, 1 Battle Point). The drunk Cultists leak the potion clue.
+
 The Spider’s Inn is the hiding place of the Miners Compact. The Church, which controls most of the town, doesn’t look kindly on them. The innkeeper, Gus, is gruff and surly and doesn’t like talking to people. There is also an old storyteller, Old Wick, who can explain more about the monster.
 
-- **Entering the cellar:** Gus allows it only if the party knows the password and shows they mean the Compact no ill will (Presence roll, Difficulty 14, with advantage if they bring news of Aldric).
+- **Entering the cellar:** Gus allows it only if the party knows the password and shows they mean the Compact no ill will (Presence 14, with advantage if they bring news of Aldric).
 
 - **The password is “Lamplight.”** It comes from the first line of the Compact’s flyer (“In corners where the lamplight dies”), so sharp players may guess it. Gus still wants to see that they mean no harm.
 
@@ -236,15 +280,22 @@ The Spider’s Inn is the hiding place of the Miners Compact. The Church, which 
 **Spend Fear:**
 
 - **1 Fear, Gus Clams Up:** Gus decides he doesn’t like the PCs’ faces. The next roll to get into the cellar has Disadvantage unless they do him a favor first, such as hauling in a frozen keg from the yard or fixing the stuck cellar door.
-- **2 Fear, Church Informant:** a pale face in a white hood has been watching through the frosted front window, and it ducks away when a PC looks up. The party’s arrival at the Compact’s hideout is about to be reported. Start a Consequence Countdown (3) that ticks each time the PCs take a significant action here. At 0, a Town Guard Squad and 3 Cult Zealots arrive to search the inn, and the Compact seals the cellar for the rest of the scene. Catching the spy in the empty street (Instinct to pick out their tracks in the snow, Difficulty 14, then Agility to run them down, Difficulty 12) stops it.
+- **2 Fear, Church Informant:** a pale face in a white hood has been watching through the frosted front window, and it ducks away when a PC looks up. The party’s arrival at the Compact’s hideout is about to be reported. Start a Consequence Countdown (3) that ticks each time the PCs take a significant action here. At 0, a Town Guard Squad and 3 Cult Zealots arrive to search the inn, and the Compact seals the cellar for the rest of the scene. Catching the spy in the empty street (Instinct 14 to pick out their tracks in the snow, then Agility 12 to run them down) stops it.
 
 ## The City Library
 
 > **Read aloud:** The library is a single narrow hall that smells of dust, glue, and candle stubs, its shelves bowed under penny romances and adventure novels with weathered covers. A ceramic goose wearing reading spectacles mans the empty front desk. In the far corner, a ring of tiny chairs circles a rug painted with a map of the town, the glacier drawn as a smiling, sleeping face. Above you, the ice on the roof creaks like a page being turned.
 
+**At a glance**
+
+- **Who’s here:** no one (just a ceramic goose at the desk).
+- **Get:** the Tyrant’s abilities and weaknesses; on a success with Hope, the bell and the binding ritual; and *Goodnight, Glacier’s Edge* with the mayor’s sleeper word.
+- **Encounter:** none.
+- **Thaw:** the search ticks it once.
+
 The library isn’t large. This isn’t a city of knowledge, so it mostly has fiction and children’s books. Look closer, though, and the truth is hidden in them.
 
-- **The search:** an Instinct or Knowledge roll (Difficulty 12) finds which tales are true. Success reveals the Tyrant’s abilities and weaknesses. A success with Hope also reveals the bell and the binding ritual.
+- **The search:** an Instinct or Knowledge 12 roll finds which tales are true. Success reveals the Tyrant’s abilities and weaknesses. A success with Hope also reveals the bell and the binding ritual.
 
 - **Time:** the search takes a scene, so it ticks the Thaw. That makes it a real trade-off against other locations.
 
@@ -253,11 +304,18 @@ The library isn’t large. This isn’t a city of knowledge, so it mostly has fi
 **Spend Fear:**
 
 - **1 Fear, Lost in the Stacks:** the shelves are a mess and the catalog is a lie. The search ticks the Thaw one extra time, unless a PC marks a Stress to push through.
-- **2 Fear, Torn Pages:** someone got here first. The pages about the bell and the binding ritual have been torn out, and a Cult Zealot is slipping out the back with them. Run a short chase (Agility, Difficulty 13) or a fight with 3 Cult Zealots (1 Minion group) to get them back. If the Zealot escapes, the pages end up at the Town Church.
+- **2 Fear, Torn Pages:** someone got here first. The pages about the bell and the binding ritual have been torn out, and a Cult Zealot is slipping out the back with them. Run a short chase (Agility 13) or a fight with 3 Cult Zealots (1 Minion group) to get them back. If the Zealot escapes, the pages end up at the Town Church.
 
 ## City’s Central Grass Area
 
 > **Read aloud:** The square should be a sheet of white, but the grass around the fountain is stubbornly, impossibly green, and it steams in the cold. The Fountain of Mixed Blessings gurgles at its center, its water flashing gold one moment and bruise-purple the next. A crowd surges and shouts as guards in blue cloaks drag a dripping old man away from the basin by his elbows. “Heads!” he bellows at no one in particular. “It was heads!”
+
+**At a glance**
+
+- **Who’s here:** Orm Alein, Sergeant Odo Trask and his Guards, and a panicking crowd.
+- **Get:** Orm as an Ally Token, and one fountain bath per person (a boon and a curse).
+- **Encounter:** Fountain Arrest (about 5 Battle Points).
+- **Thaw:** at Tick 8 the arrest finds the party wherever they are. At Tick 4 the Matriarch preaches here.
 
 The central grass area has the Fountain of Mixed Blessings, which can only be used once by any person who visits. When the party arrives, the fountain’s keeper, Orm Alein, is being arrested by the town guard.
 
@@ -276,12 +334,18 @@ If the party bathes an item in the fountain, it gains a boon and a curse. Roll a
 
 **Spend Fear:**
 
-- **1 Fear, Crowd Surge:** the panicking crowd shoves. One PC makes an Agility Reaction Roll (Difficulty 12) or is swept away from the group and ends up at Far range, separated for the next exchange.
+- **1 Fear, Crowd Surge:** the panicking crowd shoves. One PC makes an Agility Reaction 12 roll or is swept away from the group and ends up at Far range, separated for the next exchange.
 - **2 Fear, The Fountain’s Whim:** the fountain froths over on its own and splashes an item a PC is carrying (your choice). Roll on the d6 table. The curse takes hold now, and the boon only wakes up the first time the PC spends a Hope with the item. Because the fountain works once per person, that PC can’t bathe anything else in it.
 
 ## Town Hall
 
 > **Read aloud:** Town Hall is a fortress of paperwork: lockdown orders teeter in stacks on every bench, clerks sprint between doors with ink-black fingers, and the lobby clock has frozen at a quarter past panic. Every wall is papered with notices in fresh, furious print: CURFEW. NO EXIT. BY ORDER OF THE MAYOR. At the top of the grand staircase, a broad man in a sash barks orders at three people at once without ever looking up. Every guard in the room turns to watch you walk in.
+
+**At a glance**
+
+- **Who’s here:** Mayor Bram Dunmore, frantic clerks, and Guards.
+- **Get:** the Guard as an Ally Token and an end to the lockdown, by sleeper word or by persuasion.
+- **Encounter:** none, unless the mayor finds an excuse to arrest them.
 
 Mayor Bram Dunmore runs the lockdown with fearless energy. He is secretly sympathetic to the Meltwater Church and does **not** want the party to stop the monster. He wants the rich to pay for their lies, and the lockdown exists to keep them from escaping before the reckoning. He is a clone (see History) and doesn’t know it. He only knows he can’t remember how to be afraid.
 
@@ -289,7 +353,7 @@ Mayor Bram Dunmore runs the lockdown with fearless energy. He is secretly sympat
 
 - **The sleeper word, “Goodnight moon, goodnight mayor,”** gives him back the fear the clinic couldn’t copy, and he becomes afraid of whoever spoke it. That PC can order him to end the lockdown, call off the Guard, or reveal the Church’s plans, and he obeys. It doesn’t wear off, and he remembers everything. Play it as what it is: controlling a man the way the Frostmeres did.
 
-- **Talking him around** is the harder path. Show him proof of what he is (the order book, or Neb’s confession) and convince him to expose the Frostmeres instead of letting the whole town pay (Presence, Difficulty 15).
+- **Talking him around** is the harder path. Show him proof of what he is (the order book, or Neb’s confession) and convince him to expose the Frostmeres instead of letting the whole town pay (Presence 15).
 
 - **Either way,** the lockdown loses its head. For the rest of the session, Guard squads can be talked down with advantage, and the Guard counts as one Ally Token in the Finale.
 
@@ -298,33 +362,46 @@ Mayor Bram Dunmore runs the lockdown with fearless energy. He is secretly sympat
 
 **Spend Fear:**
 
-- **1 Fear, Papers, Please:** a harried clerk demands to see lockdown papers. A PC makes a Presence roll (Difficulty 13) to bluff past. On a failure, the mayor learns the party is poking around, and the next Guard encounter starts hostile with no chance to talk first.
+- **1 Fear, Papers, Please:** a harried clerk demands to see lockdown papers. A PC makes a Presence 13 roll to bluff past. On a failure, the mayor learns the party is poking around, and the next Guard encounter starts hostile with no chance to talk first.
 - **2 Fear, Trumped-Up Charges:** the mayor finds his excuse. A Guard Sergeant and one Town Guard Squad arrive with a warrant. The party can go quietly (run the Prison Escape) or resist. Resisting is a fight in the Town Hall, and the Thaw ticks once.
 
 ## Town Prison
 
 > **Read aloud:** The prison is a squat stone box with three iron cells and a stove nobody has lit in days, so your breath fogs the moment you step inside. Two cells are crammed with townsfolk in nightclothes and work aprons, arrested for the crime of standing in the street. A frostglass seam runs down the back wall, glittering along a crack someone has been patiently picking at. The turnkey glances up from a game of solitaire, sighs, and reaches for the keys.
 
+**At a glance**
+
+- **Who’s here:** the turnkey, a Town Hall clerk (knows the sleeper word), and a miner (knows the Compact password).
+- **Get:** the mayor’s sleeper word and the Compact password, in exchange for a way out.
+- **Encounter:** the Prison Escape, if the party is arrested.
+
 The Town Prison has only three cells. Two are full of people the guards picked up off the street for breaking lockdown. The general attitude in town is that nobody wants to be here anymore and nobody likes the guards.
 
 - **Who’s inside:** a Town Hall clerk who knows the mayor’s sleeper word, and a miner who knows the Compact’s password. Both will talk in exchange for a way out.
 
-- **If the party is arrested:** they wake in Cell 3. Run a **Prison Escape** as a Progress Countdown (4). Each success on one of these ticks it: talk the turnkey down (Presence, Difficulty 13), pick the lock (Finesse, Difficulty 14), get the cellmates to riot (Presence, Difficulty 12), or crack the frostglass seam in the wall (Strength, Difficulty 13). A failure with Fear ticks the Thaw.
+- **If the party is arrested:** they wake in Cell 3. Run a **Prison Escape** as a Progress Countdown (4). Each success on one of these ticks it: talk the turnkey down (Presence 13), pick the lock (Finesse 14), get the cellmates to riot (Presence 12), or crack the frostglass seam in the wall (Strength 13). A failure with Fear ticks the Thaw.
 
 **Spend Fear:**
 
-- **1 Fear, The Turnkey’s Rounds:** the turnkey comes by at the worst moment. During a Prison Escape, undo one tick of its countdown. During a visit, a frightened prisoner starts shouting, and the PCs must quiet them (Presence, Difficulty 12) before the guards come to look.
+- **1 Fear, The Turnkey’s Rounds:** the turnkey comes by at the worst moment. During a Prison Escape, undo one tick of its countdown. During a visit, a frightened prisoner starts shouting, and the PCs must quiet them (Presence 12) before the guards come to look.
 - **2 Fear, Transfer:** the guards move the prisoner the party needs (the clerk or the miner) to Town Hall. To reach them, the party either goes to Town Hall (a new scene, which ticks the Thaw) or ambushes the transfer in the street against one Town Guard Squad.
 
 ## Town Church
 
 > **Read aloud:** The church smells of incense and candle wax, with something sharper underneath, like a freshly struck match. Pale-robed worshippers kneel in neat rows while, at the altar, a great copper pot bubbles with a violet brew that throws purple light across the stained glass. High above, the old bell gives a single low hum, though no one has touched it. A woman in white turns from the pot with a smile so warm you can feel it on your skin.
 
+**At a glance**
+
+- **Who’s here:** the Matriarch (Mother Seraphine), Cult Zealots, and Vera Stone.
+- **Get:** the truth about the purple potion, the Shattering Bell, the Matriarch’s ledger page, and Vera Stone as an Ally Token.
+- **Encounter:** Church Confrontation (about 5 Battle Points).
+- **Thaw:** at Tick 2 the potion handout begins, unless the pot was destroyed.
+
 The Town Church is the home of the Meltwater Church. When the adventurers enter, the cult members are brewing a big pot of purple potion. They say it’s a cold resistance potion, but on closer inspection it is a cold vulnerability potion that they plan to give to the town. The cult will not be happy if the party finds this out.
 
-- **Inspecting the potion:** Instinct or Knowledge roll (Difficulty 13). Success reveals what it is. Destroying the pot prevents the Tick 8 potion handout.
+- **Inspecting the potion:** Instinct or Knowledge 13 roll. Success reveals what it is. Destroying the pot prevents the Tick 2 potion handout.
 
-- **The bell:** the bell in the church tower is a Shattering Bell. Once Big Tam forges it into a weapon, ringing it in the Finale strips up to 3 Rime, makes the Tyrant mark Stress, shatters Ice Crystals, Pylons, and Pools within Far, and breaks the Whiteout’s blindness (see Mythical Weapons). The Church knows what it is and guards it, since the Matriarch’s orders say it must not be rung before He is free. The party can take it quietly (Finesse, Difficulty 14, to lower it from the tower unseen) or in the middle of the Church Confrontation.
+- **The bell:** the bell in the church tower is a Shattering Bell. Once Big Tam forges it into a weapon, ringing it in the Finale strips up to 3 Rime, makes the Tyrant mark Stress, shatters Ice Crystals, Pylons, and Pools within Far, and breaks the Whiteout’s blindness (see Mythical Weapons). The Church knows what it is and guards it, since the Matriarch’s orders say it must not be rung before He is free. The party can take it quietly (Finesse 14 to lower it from the tower unseen) or in the middle of the Church Confrontation.
 
 - **The Matriarch:** the Church is run by Mother Seraphine, a very persuasive woman who is a succubus in disguise. A spell has been cast on the Frozen Tyrant: any person he kills is bound to the Hells. She is trying to reap souls to make up for a botched quota.
 
@@ -334,12 +411,19 @@ The Town Church is the home of the Meltwater Church. When the adventurers enter,
 
 **Spend Fear:**
 
-- **1 Fear, A Warm Cup:** a smiling Zealot offers a PC a cup of the purple potion as hospitality. Refusing without offense takes a Presence roll (Difficulty 14). On a failure the cult turns cold, and the Church Confrontation can start early. A PC who drinks marks 1 extra HP the first time they take magic damage from an ice creature.
+- **1 Fear, A Warm Cup:** a smiling Zealot offers a PC a cup of the purple potion as hospitality. Refusing without offense takes a Presence 14 roll. On a failure the cult turns cold, and the Church Confrontation can start early. A PC who drinks marks 1 extra HP the first time they take magic damage from an ice creature.
 - **2 Fear, The Matriarch’s Gaze:** the Matriarch appears and uses Charm on a PC without marking a Stress. A Charmed PC also tells her the most important thing the party has learned so far, and she acts on it, for example by moving the bell or warning the mayor.
 
 ## \[Secret\] Miners Compact Home Base (under the tavern)
 
 > **Read aloud:** Past the cellar door, a narrow stair drops into a cave lit by dozens of mining lamps hung from the ceiling like low stars. Shelves cut straight into the rock sag under old leather books, a few of them muttering faintly to themselves. A dozen miners rise as one with picks in hand, and the room goes so quiet you can hear the glacier groaning through the stone. At the back, a thin young man with ink-stained hands clutches a book to his chest like a shield.
+
+**At a glance**
+
+- **Who’s here:** Shale, Aldric Frostmere, and wary miners.
+- **Get:** the Binding tome, notes on the Tyrant’s weaknesses and the mayor’s clone, and Aldric as an Ally Token.
+- **Encounter:** the Raid (2 Fear, 2 Battle Points).
+- **Getting in:** the password and Gus’s approval at the Spider’s Inn.
 
 When the party reaches the Compact, they find bookshelves of magical books and a group of wary, hunted miners. Aldric Frostmere is here.
 
@@ -358,6 +442,13 @@ When the party reaches the Compact, they find bookshelves of magical books and a
 
 > **Read aloud:** This is the warmest room in town, and it wants you to know it: a roaring hearth, thick rugs, and an ice-crystal chandelier worth more than the street outside. Glass cases along the walls show off frostglass goblets, crystal-tipped picks, and one shard of glowing blue ice labeled “Prime Specimen. Not For Sale.” A row of mercenaries lounges by the door, sharpening blades they clearly enjoy using. Behind a polished desk, a smiling recruiter already holding a contract in his hands.
 
+**At a glance**
+
+- **Who’s here:** Recruiting Officer Mallick and a row of mercenaries.
+- **Get:** the four Frostbane Chains, for a sworn favor or a signed Harvest Charter.
+- **Encounter:** none here. Breaking the Charter brings the mercenaries to the Finale.
+- **Thaw:** at Tick 2 the Guild lines up mercenaries at the glacier mouth.
+
 The Merchants Guild is concerned with making a profit, and that is just about it. They worry that if the glacier or the monster is destroyed, they may not be able to make frostglass or ice crystals. If the monster is contained, they can harvest monster parts from it again and again and let it regenerate. That would make the mines safer, but would cause the monster great agony.
 
 - **The offer:** Recruiting Officer Mallick offers the Frostbane Chains in exchange for a sworn favor (escort a shipment, scare the Compact) or a signed Harvest Charter that promises the Tyrant to them alive.
@@ -369,15 +460,21 @@ The Merchants Guild is concerned with making a profit, and that is just about it
 **Spend Fear:**
 
 - **1 Fear, The Fine Print:** Recruiting Officer Mallick slips in an extra clause. Whoever signs owes the Guild one more favor than they thought. Call it in at the worst possible moment.
-- **2 Fear, Rival Bidder:** someone else has made the Guild a better offer for the chains. The party must outbid them (Presence, Difficulty 15, or a second sworn favor). Otherwise the Guild sells two of the four Frostbane Chains elsewhere, and the party can only get the remaining two.
+- **2 Fear, Rival Bidder:** someone else has made the Guild a better offer for the chains. The party must outbid them (Presence 15, or a second sworn favor). Otherwise the Guild sells two of the four Frostbane Chains elsewhere, and the party can only get the remaining two.
 
 ## Forward Base (at the entrance to the glacier)
 
 > **Read aloud:** The road ends at a wall of blue ice taller than a cathedral, split down the middle by a crack that glows from somewhere deep inside. A Compact camp lies wrecked at its feet: tents flattened, braziers tipped and cold, picks scattered in the snow like dropped cutlery. The air tastes like metal, and every breath stings. Deep in the crack, something vast shifts, and the whole glacier lets out a long, grinding sigh.
 
+**At a glance**
+
+- **Who’s here:** no one. It’s a wrecked Compact camp.
+- **Get:** sonic picks and mining gear, and a chance to prepare the Finale arena.
+- **Encounter:** the Finale, when the Thaw hits 0.
+
 - **What’s here:** a ruined Miners Compact camp at the glacier mouth: unlit braziers, mining gear, sonic picks, and the first crack in the ice.
 
-- **Staging:** the Finale takes place here. Any scene here before Tick 10 lets the party prepare the arena (place braziers, plant charges, set chains).
+- **Staging:** the Finale takes place here. Any scene here before the Thaw hits 0 lets the party prepare the arena (place braziers, plant charges, set chains).
 
 **Spend Fear:**
 
@@ -388,11 +485,16 @@ The Merchants Guild is concerned with making a profit, and that is just about it
 
 > **Read aloud:** You hear the smithy before you see it: the roar of the forge, angry shouting, and the clatter of steel hitting stone. Inside, three ragged townsfolk are stuffing swords into flour sacks, while a mountain of a man in a scorched leather apron blocks the door with a pair of tongs in one fist. Sparks drift through the air and hiss out in the snow blowing through the doorway. Nobody has noticed you yet.
 
-When the party arrives, they find three townsfolk robbing the blacksmith. One is a townsman looking to take weapons to arm his friends so he can fight his way out of town.
+**At a glance**
 
-- **Encounter, Blacksmith Robbery (1 Battle Point):** 3 Desperate Townsfolk (1 Minion group). It’s mostly social, and best resolved by talking (Presence, Difficulty 12) or by one decisive hit that makes the others reconsider.
+- **Who’s here:** Big Tam and three desperate robbers.
+- **Get:** forging: Sunfire Lances, the Bell weapon, a Frostglass Edge, and up to 3 Heartfire Braziers. Big Tam as an Ally Token.
+- **Encounter:** Blacksmith Robbery (1 Battle Point).
+- **Thaw:** one crafting scene ticks it once.
 
-The blacksmith, Big Tam, has one goal, which is to keep the town alive at any cost. He helps the party make mythical weapons from what they bring him. If the party knows about the monster’s weaknesses, he can build up to three Heartfire Braziers.
+When the party arrives, they find three townsfolk robbing the blacksmith. One is a townsman looking to take weapons to arm his friends so he can fight his way out of town. The blacksmith, Big Tam, has one goal, which is to keep the town alive at any cost. He helps the party make mythical weapons from what they bring him. If the party knows about the monster’s weaknesses, he can build up to three Heartfire Braziers.
+
+- **Encounter, Blacksmith Robbery (1 Battle Point):** 3 Desperate Townsfolk (1 Minion group). It’s mostly social, and best resolved by talking (Presence 12) or by one decisive hit that makes the others reconsider.
 
 - **Chains:** he can turn Frostbane Chains into Sunfire Lances (2 chains per lance).
 
@@ -406,35 +508,47 @@ The blacksmith, Big Tam, has one goal, which is to keep the town alive at any co
 
 **Spend Fear:**
 
-- **1 Fear, Overworked Forge:** the forge can’t keep up. One item isn’t ready until after the party’s next scene, unless a PC works the bellows (Strength, Difficulty 12, and mark 1 Stress).
-- **2 Fear, Light Fingers:** one of the robbers got away with something, either a finished item or the frostglass slab. Their trail leads to the ‘Food n Stuff’ General Store, where the desperate townsfolk have it. Getting it back means a talk (Presence, Difficulty 13) or a fight.
+- **1 Fear, Overworked Forge:** the forge can’t keep up. One item isn’t ready until after the party’s next scene, unless a PC works the bellows (Strength 12, and mark 1 Stress).
+- **2 Fear, Light Fingers:** one of the robbers got away with something, either a finished item or the frostglass slab. Their trail leads to the ‘Food n Stuff’ General Store, where the desperate townsfolk have it. Getting it back means a talk (Presence 13) or a fight.
 
 ## ‘Food n Stuff’ General Store
 
 > **Read aloud:** The bell over the door gives a cracked little jingle, and twenty frightened faces snap toward you. The shelves are stripped to the boards, and the floor has become a camp of bedrolls, bandaged heads, and children bundled in flour sacks. On the counter, someone has chalked a map of the town walls and circled the South Gate again and again. A man with a black eye and a crowbar slowly stands up.
 
+**At a glance**
+
+- **Who’s here:** about twenty frightened townsfolk.
+- **Get:** an Ally Token and a Heartfire Brazier’s worth of supplies.
+- **Encounter:** none.
+
 The general store holds a group of townsfolk who were fought back by the guard and are recouping here while they plan how to escape town.
 
-- **What they want:** a way out. If the party calms them or opens a gate (Presence, Difficulty 13), they earn 1 Ally Token and a Heartfire Brazier’s worth of supplies.
+- **What they want:** a way out. If the party calms them or opens a gate (Presence 13), they earn 1 Ally Token and a Heartfire Brazier’s worth of supplies.
 
 **Spend Fear:**
 
 - **1 Fear, A Desperate Ask:** a parent begs the party to smuggle their child out of town. Each PC who refuses marks 1 Stress. A PC who agrees has a new obligation to deal with before the Finale.
-- **2 Fear, Rush the Gate:** the townsfolk decide to break for the South Gate right now. The party must talk them down (Presence, Difficulty 14) or go with them. If neither, the Guard crushes the attempt: the store’s Ally Token is lost and the Thaw ticks once.
+- **2 Fear, Rush the Gate:** the townsfolk decide to break for the South Gate right now. The party must talk them down (Presence 14) or go with them. If neither, the Guard crushes the attempt: the store’s Ally Token is lost and the Thaw ticks once.
 
 ## Bones and Clones People Repair
 
 > **Read aloud:** Smoke curls from the cellar doors of Bones and Clones, and the cheerful sign out front, WE PUT YOU BACK TOGETHER!, is starting to blister. Inside, the waiting room is chaos: coughing patients, a nurse with a bucket, and a receptionist who still insists you take a number. Through the floorboards come a dull orange glow and the pop of glass vats bursting one by one. From somewhere below, something that isn’t quite a scream echoes up the stairs.
 
+**At a glance**
+
+- **Who’s here:** clinic staff and patients.
+- **Get:** a full heal (paid, or free if they save the building), an Ally Token, and the order book with the mayor’s sleeper word.
+- **Encounter:** Clinic Fire (environmental, 0 Battle Points).
+
 They will heal you up fully, clearing all HP and Stress, but their prices are incredibly high (a bag of gold per PC, or a favor). When the party gets there, there is a fire in the basement that will consume the building if left unchecked.
 
-- **Encounter, Clinic Fire (environmental, 0 Battle Points):** no foes, just a Consequence Countdown (4). Each round it ticks once. The party needs 3 successes before it ends: haul water (Strength, Difficulty 12), smother it (Instinct, Difficulty 12), or evacuate patients (Presence, Difficulty 12). If it reaches 0, the building is lost and the clinic’s healing is gone.
+- **Encounter, Clinic Fire (environmental, 0 Battle Points):** no foes, just a Consequence Countdown (4). Each round it ticks once. The party needs 3 successes before it ends: haul water (Strength 12), smother it (Instinct 12), or evacuate patients (Presence 12). If it reaches 0, the building is lost and the clinic’s healing is gone.
 
 - **The reward:** saving the building earns the clinic’s thanks, a free full heal, and 1 Ally Token.
 
 - **The clinic’s secret: the mayor.** The clinic can copy everything but fear. The clone Neb ordered came out with all of Bram Dunmore’s grudges against the rich and none of the fear that kept him obedient. The fear was bottled instead, and the sleeper word (“Goodnight moon, goodnight mayor”) puts it back. The order, the payment, and the word are written in the clinic’s **order book**, kept in the basement where the fire is.
 
-- **Getting the order book:** grabbing it from the fire is an action (Agility, Difficulty 13, or mark 1 Stress from the heat). If the Fire countdown reaches 0 first, the book burns, and the party has to find the word through another source in the Clue Web. If the party saves the building, the grateful clinic staff can confirm the order themselves.
+- **Getting the order book:** grabbing it from the fire is an action (Agility 13, or mark 1 Stress from the heat). If the Fire countdown reaches 0 first, the book burns, and the party has to find the word through another source in the Clue Web. If the party saves the building, the grateful clinic staff can confirm the order themselves.
 
 **Spend Fear:**
 
@@ -452,11 +566,11 @@ Everything the party did before the Finale should change this scene. Give them t
 | **What the party did**                            | **Finale effect**                                                                                                                                                       |
 |---------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Talked Neb down and took the charges              | Charges and grenades are available. The Bury countdown starts at 2.                                                                                                     |
-| Found the Binding tome or allied with the Compact | Once per fight, a PC can speak a **Binding Word** (Knowledge, Difficulty 15): the Tyrant loses its next spotlight. The Bind countdown starts at 2, and Aldric is present. |
+| Found the Binding tome or allied with the Compact | Once per fight, a PC can speak a **Binding Word** (Knowledge 15): the Tyrant loses its next spotlight. The Bind countdown starts at 2, and Aldric is present. |
 | Got the chains from the Merchants                 | Up to 4 Frostbane Chains. Every chain made into a lance is one fewer chain. All four are needed for the easiest Chain It ending.                                         |
 | Forged weapons                                    | Lances, the Bell, and the Frostglass Edge all strip Rime Armor.                                                                                                         |
 | Built braziers                                    | Braziers hold ground against Chill, Regenerate, and Pylons.                                                                                                             |
-| Destroyed or exposed the purple potion            | If the potion reached the crowd at Tick 8, the Whiteout starts with 2 ticks already marked.                                                                             |
+| Destroyed or exposed the purple potion            | If the potion reached the crowd at Tick 2, the Whiteout starts with 2 ticks already marked.                                                                             |
 | Exposed the Matriarch                             | Her Silver Tongue is off, and she doesn’t get a surprise appearance.                                                                                                    |
 | Turned the mayor (sleeper word or persuasion)     | A Guard squad fights alongside the party (1 Ally Token).                                                                                                                |
 | Signed the Harvest Charter                        | If the party goes for Chain It, the Mercenary Captain and 3 Guild Mercenaries fight on their side (1 Ally Token, and the Harvest Chains countdown starts at 2). If they go for any other ending, the Charter is broken and the mercenaries fight against them: remove one Ice Pylon and one Elemental summon to keep the fight at its budget. |
@@ -468,7 +582,7 @@ Each ally the party earned is 1 Ally Token, up to 3 total:
 | **Ally**                  | **How the party earns them**                                               |
 |---------------------------|----------------------------------------------------------------------------|
 | Orm Alein                 | Free him from the Guards in the Fountain Arrest.                           |
-| The store’s townsfolk     | Calm them or open a gate for them at ‘Food n Stuff’ (Presence, Difficulty 13). |
+| The store’s townsfolk     | Calm them or open a gate for them at ‘Food n Stuff’ (Presence 13). |
 | Aldric Frostmere          | Find him at the Compact Home Base and win the Compact over.                |
 | Big Tam                   | Resolve the Blacksmith Robbery without killing anyone.                     |
 | Vera Stone                | Show her proof of what the Matriarch really is.                            |
@@ -482,9 +596,9 @@ Once per token during the Finale, a player can spend one to **grant advantage on
 
 **Tier 2 environment.** Impulses: entomb the proud, freeze everything, and remind them how small they are.
 
-- **Whiteout (Consequence Countdown, 6):** starts when the Tyrant breaks free. Tick it whenever you spend a Fear on a move. At 0, a blizzard blinds the arena: PCs can only see and target within Close, and ranged attacks are made with Disadvantage until a brazier is lit or the Bell is rung. A PC can push it back by one tick by tending a lit brazier (Instinct roll, Difficulty 12, as an action).
+- **Whiteout (Consequence Countdown, 6):** starts when the Tyrant breaks free. Tick it whenever you spend a Fear on a move. At 0, a blizzard blinds the arena: PCs can only see and target within Close, and ranged attacks are made with Disadvantage until a brazier is lit or the Bell is rung. A PC can push it back by one tick by tending a lit brazier (Instinct 12, as an action).
 
-- **Falling Icicles (Fear move):** spend a Fear: choose a Far-range area. PCs there make an Agility Reaction Roll (Difficulty 13) or take 1d10+3 physical. Icicles that miss become difficult terrain.
+- **Falling Icicles (Fear move):** spend a Fear: choose a Far-range area. PCs there make an Agility Reaction 13 roll or take 1d10+3 physical. Icicles that miss become difficult terrain.
 
 - **Ice Crystal Clusters:** four clusters scattered across the floor (see Appendix A). Hit by anything, they explode. Players can use them on purpose.
 
@@ -497,7 +611,7 @@ Once per token during the Finale, a player can spend one to **grant advantage on
 | **Phase**         | **Trigger**          | **What changes**                                                                                                                                                                       |
 |-------------------|----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1\. The Thaw      | Start. HP 10 to 7.   | Encased: it can’t move and can’t use Relentless, Freezing Breath, or Flash Freeze. It fights with Pylons, Elementals, Spear of Ice, and Ice Prison. The party breaks Rime and sets up. |
-| 2\. Breaking Free | It marks its 4th HP. | The ice shatters (Agility Reaction Roll, Difficulty 14, or 2d8+3 physical to all within Far). It gains Relentless (2), Freezing Breath, and Flash Freeze. The Whiteout ticks once.     |
+| 2\. Breaking Free | It marks its 4th HP. | The ice shatters (Agility Reaction 14, or 2d8+3 physical to all within Far). It gains Relentless (2), Freezing Breath, and Flash Freeze. The Whiteout ticks once.     |
 | 3\. Cracked       | It marks its 7th HP. | Its frostglass heart is exposed. Thresholds drop by 3. Relentless becomes (3). Sonic hits mark an extra HP. Glacial Fist gains +1d10 damage.                                           |
 
 ## The Matriarch in the Finale
@@ -512,7 +626,7 @@ If she escaped, she arrives when the Tyrant enters Phase 2, or when the first PC
 
 - **Complications:** every failed roll ticks the Whiteout or lets the Tyrant act. The Tyrant tries to Drain Pylons and shatter the scaffold.
 
-- **The finish:** when it completes, they light the fuses and run. Make a final chase of Agility Reaction Rolls (Difficulty 13) as the ice comes down.
+- **The finish:** when it completes, they light the fuses and run. Make a final chase of Agility Reaction 13 rolls as the ice comes down.
 
 - **Epilogue:** the Tyrant is entombed, the glacier is dead, and half the town with its economy. Neb watches it fall. The prison holds, but whatever it holds is still down there.
 
@@ -520,7 +634,7 @@ If she escaped, she arrives when the Tyrant enters Phase 2, or when the first PC
 
 **Requires:** the Binding tome and Aldric. **Feel:** a ritual under fire.
 
-- **Progress Countdown (8): The Binding.** Attune three frostglass slabs around the Fissure (Knowledge, Difficulty 14), keep Aldric safe while he chants (Presence, Difficulty 13, to steady him), and stay alive. It starts at 2 with the Compact’s help.
+- **Progress Countdown (8): The Binding.** Attune three frostglass slabs around the Fissure (Knowledge 14), keep Aldric safe while he chants (Presence 13, to steady him), and stay alive. It starts at 2 with the Compact’s help.
 
 - **Complications:** the Matriarch tries to Charm Aldric. The Tyrant uses Ice Prison on the ritualists and drains slabs it can reach.
 
@@ -540,7 +654,7 @@ If she escaped, she arrives when the Tyrant enters Phase 2, or when the first PC
 
 - **The deal:** this is the only ending that keeps the Harvest Charter. If the party signed it and goes for Chain It, the Mercenary Captain and Guild Mercenaries arrive on the party’s side instead of against it. They count as 1 Ally Token and start the countdown at 2. If the party goes for any other ending, the Charter is broken and the mercenaries fight them (see Prep Pays Off).
 
-- **Progress Countdown (6): The Harvest Chains.** Each success advances it by 1: fix a chain on the Tyrant (Strength, Difficulty 14), anchor a fixed chain to bedrock or the scaffold (Finesse, Difficulty 13), or keep it from regenerating by lighting a brazier in its Close range (Instinct, Difficulty 12). Each time the Tyrant takes the spotlight it breaks a chain as usual, and that undoes 1 tick unless a PC re-fixes it before the GM’s next turn.
+- **Progress Countdown (6): The Harvest Chains.** Each success advances it by 1: fix a chain on the Tyrant (Strength 14), anchor a fixed chain to bedrock or the scaffold (Finesse 13), or keep it from regenerating by lighting a brazier in its Close range (Instinct 12). Each time the Tyrant takes the spotlight it breaks a chain as usual, and that undoes 1 tick unless a PC re-fixes it before the GM’s next turn.
 
 - **Fewer chains:** with only three chains, the countdown is 8. With two or fewer, this ending can’t be reached. The Tyrant can only be fully Restrained with all four.
 
@@ -580,7 +694,7 @@ Numbers are tuned for three level 3 PCs (Tier 2). Minions have no HP track: they
 | **Attack**       | Pitchfork or club: Very Close, 3 physical.                                                                                                               |
 | **Minion (4)**   | Passive: defeated on any damage. For every 4 damage dealt, defeat an additional Minion within range.                                                     |
 | **Group Attack** | Action: spend a Fear to spotlight every Minion of this group within Close of a target. They make one shared attack roll and combine damage on a success. |
-| **Desperate**    | Reaction: when half the group is defeated, the rest can be talked down (Presence, Difficulty 12).                                                        |
+| **Desperate**    | Reaction: when half the group is defeated, the rest can be talked down (Presence 12).                                                        |
 
 ### Town Guard Squad
 
@@ -595,9 +709,9 @@ Numbers are tuned for three level 3 PCs (Tier 2). Minions have no HP track: they
 | **Motives**      | Hold the line. Follow the Sergeant. Arrest, don’t kill.                                                                                                       |
 | **Minion (6)**   | Passive: defeated on any damage. For every 6 damage dealt, defeat an additional Minion within range.                                                          |
 | **Group Attack** | Action: spend a Fear to spotlight every Minion of this group within Close of a target. They make one shared attack roll and combine damage on a success.      |
-| **Shield Wall**  | Action: two or more Guards in Melee block a street or door. PCs can’t pass without a Strength roll (Difficulty 12) or an area effect.                         |
-| **Net Toss**     | Action: one Guard throws a net at a target within Close. Agility Reaction Roll (Difficulty 13) or Restrained until they break free (Strength, Difficulty 12). |
-| **Reluctant**    | Reaction: when half the group is defeated, the rest can be talked down (Presence, Difficulty 12).                                                             |
+| **Shield Wall**  | Action: two or more Guards in Melee block a street or door. PCs can’t pass without a Strength 12 roll or an area effect.                         |
+| **Net Toss**     | Action: one Guard throws a net at a target within Close. Agility Reaction 13 roll or Restrained until they break free (Strength 12). |
+| **Reluctant**    | Reaction: when half the group is defeated, the rest can be talked down (Presence 12).                                                             |
 
 ### Guard Sergeant (Odo Trask)
 
@@ -612,7 +726,7 @@ Numbers are tuned for three level 3 PCs (Tier 2). Minions have no HP track: they
 | **Experience**        | Discipline +2                                                                                                                                                                                                |
 | **Motives**           | Keep order. Take them alive. Protect the squad.                                                                                                                                                              |
 | **Form Up**           | Action: spend a Fear to spotlight up to two Guard Minions, who each make a standard attack.                                                                                                                  |
-| **Sound the Whistle** | Action: mark a Stress to start a Consequence Countdown (4). At 0, a second Guard Squad arrives at Close range. A PC can stop it by defeating the Sergeant or silencing the whistle (Finesse, Difficulty 12). |
+| **Sound the Whistle** | Action: mark a Stress to start a Consequence Countdown (4). At 0, a second Guard Squad arrives at Close range. A PC can stop it by defeating the Sergeant or silencing the whistle (Finesse 12). |
 | **Take Them Alive**   | Reaction: when a PC would take Severe damage from a Guard, reduce it to Major. The PC is Restrained (chained) instead.                                                                                       |
 
 ### Ice Elemental
@@ -629,7 +743,7 @@ Numbers are tuned for three level 3 PCs (Tier 2). Minions have no HP track: they
 | **Minion (6)**    | Passive: defeated on any damage. For every 6 damage dealt, defeat an additional Minion within range.                                                                                           |
 | **Group Attack**  | Action: spend a Fear to spotlight every Minion of this group within Close of a target. They make one shared attack roll and combine damage on a success.                                       |
 | **Mindless**      | Passive: immune to mental effects.                                                                                                                                                             |
-| **Shatter**       | Reaction: when defeated, it explodes. Everything within Very Close takes 1d10 magic (Agility Reaction Roll, Difficulty 12, for half). If an Ice Crystal is within Very Close, it explodes too. |
+| **Shatter**       | Reaction: when defeated, it explodes. Everything within Very Close takes 1d10 magic (Agility Reaction 12, for half). If an Ice Crystal is within Very Close, it explodes too. |
 | **Fire Weakness** | Passive: a Sunfire Lance hit or any fire damage defeats it outright.                                                                                                                           |
 
 ### Ice Crystal
@@ -641,7 +755,7 @@ Numbers are tuned for three level 3 PCs (Tier 2). Minions have no HP track: they
 |                   |                                                                                                                                                                                                                       |
 |-------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Stats**         | Difficulty 8 \| HP 1                                                                                                                                                                                                  |
-| **Frozen Energy** | Reaction: when it takes any damage, it explodes. Everything within Very Close takes 1d10 magic (Agility Reaction Roll, Difficulty 12, for half). Other Crystals and Ice Minions within Very Close are also destroyed. |
+| **Frozen Energy** | Reaction: when it takes any damage, it explodes. Everything within Very Close takes 1d10 magic (Agility Reaction 12, for half). Other Crystals and Ice Minions within Very Close are also destroyed. |
 
 ### Ice Pylon
 
@@ -682,7 +796,7 @@ Numbers are tuned for three level 3 PCs (Tier 2). Minions have no HP track: they
 | **Motives**        | Get paid. Protect the asset. Don’t die for the Guild.                                                                                                                   |
 | **Minion (6)**     | Passive: defeated on any damage. For every 6 damage dealt, defeat an additional Minion within range.                                                                    |
 | **Group Attack**   | Action: spend a Fear to spotlight every Minion of this group within Close of a target. They make one shared attack roll and combine damage on a success.                |
-| **Hook and Drag**  | Action: one Mercenary hooks a PC within Close. Agility Reaction Roll (Difficulty 13) or the PC is pulled into Very Close range of the Tyrant.                            |
+| **Hook and Drag**  | Action: one Mercenary hooks a PC within Close. Agility Reaction 13 roll or the PC is pulled into Very Close range of the Tyrant.                            |
 | **Not Paid Enough** | Reaction: when the Captain is defeated or bought off, the rest of the group stops fighting and backs away.                                                             |
 
 ### Mercenary Captain
@@ -699,7 +813,7 @@ Numbers are tuned for three level 3 PCs (Tier 2). Minions have no HP track: they
 | **Motives**              | Enforce the Charter. Keep the Tyrant alive. Collect the bonus.                                                                                                                                        |
 | **Fire Team**            | Action: spend a Fear to spotlight up to two Guild Mercenaries, who each make a standard attack.                                                                                                      |
 | **Protect the Asset**    | Reaction (once per scene): when the Tyrant would mark its final HP, mark a Stress. A Mercenary throws a chain across the blow, and the Tyrant marks 1 fewer HP.                                     |
-| **Everyone Has a Price** | Reaction: when a PC offers the Captain a better deal than the Guild’s and succeeds on a Presence roll (Difficulty 15), the Captain and their Mercenaries stand down for the rest of the fight. |
+| **Everyone Has a Price** | Reaction: when a PC offers the Captain a better deal than the Guild’s and succeeds on a Presence 15 roll, the Captain and their Mercenaries stand down for the rest of the fight. |
 
 ### The Matriarch (Mother Seraphine, Succubus)
 
@@ -714,7 +828,7 @@ Numbers are tuned for three level 3 PCs (Tier 2). Minions have no HP track: they
 | **Experiences**     | Silver Tongue +3 \| Infernal Bureaucracy +2                                                                                                                                                                                       |
 | **Motives**         | Fill the quota. Keep the faithful. Corrupt the bold.                                                                                                                                                                              |
 | **Silver Tongue**   | Passive: PCs have Disadvantage on rolls to resist her Presence or see through her disguise, until they’ve seen proof of what she is.                                                                                              |
-| **Charm**           | Action: mark a Stress. A PC within Far makes a Presence Reaction Roll (Difficulty 15) or is Charmed: their next action must help her side. It ends when they take damage or an ally succeeds on an Instinct roll (Difficulty 13). |
+| **Charm**           | Action: mark a Stress. A PC within Far makes a Presence Reaction 15 roll or is Charmed: their next action must help her side. It ends when they take damage or an ally succeeds on an Instinct 13 roll. |
 | **Cult Rally**      | Action: spend a Fear to spotlight up to two Cult Zealots.                                                                                                                                                                         |
 | **Escape in Smoke** | Reaction: when she would mark her last HP, spend a Fear. She vanishes in brimstone and returns in the Finale with 2 HP marked.                                                                                                    |
 | **The Bargain**     | Action (Finale): when a PC makes a Death Move because of the Tyrant, she appears and offers an Avoid Death with a debt.                                                                                                           |
@@ -737,16 +851,16 @@ Numbers are tuned for three level 3 PCs (Tier 2). Minions have no HP track: they
 | **Momentum**         | Passive: when it succeeds on an attack, you gain a Fear and each PC within Close of the target loses a Hope.                                                                                                                                                                                                                      |
 | **Regenerate**       | Passive: at the start of the GM turn, if an Ice Pylon or Ice Pool is within Far and it isn’t in a Brazier’s Close range, it clears 1 Stress.                                                                                                                                                                                      |
 | **Soul-Bound**       | Passive: any PC who makes a Death Move because of the Tyrant is bound to the Hells. Blaze of Glory breaks the binding.                                                                                                                                                                                                            |
-| **Spear of Ice**     | Action: mark a Stress and place a token as it gathers ice, describing where it aims. On its next spotlight, remove the token and hurl it at a target in line of sight: Far, 3d8+3 magic (Agility Reaction Roll, Difficulty 15, for half). A PC can break line of sight or shatter the spear (Strength, Difficulty 14) to stop it. |
+| **Spear of Ice**     | Action: mark a Stress and place a token as it gathers ice, describing where it aims. On its next spotlight, remove the token and hurl it at a target in line of sight: Far, 3d8+3 magic (Agility Reaction 15, for half). A PC can break line of sight or shatter the spear (Strength 14) to stop it. |
 | **Legion of Ice**    | Action: mark a Stress. Summon 2 Ice Elementals at Close.                                                                                                                                                                                                                                                                          |
 | **Summon Ice Pylon** | Action: mark a Stress and spend a Fear. Create an Ice Pylon within Far.                                                                                                                                                                                                                                                           |
 | **Drain Pylon**      | Action: destroy a Pylon within Far. Clear 2 Stress and 1 HP, or restore 1 Rime. Doesn’t work inside a Brazier’s Close range.                                                                                                                                                                                                      |
-| **Ice Prison**       | Action: mark a Stress. A PC within Far makes an Agility Reaction Roll (Difficulty 14) or is Restrained and Vulnerable in ice. An ally frees them with a Strength roll (Difficulty 12), or a Heartfire effect frees them instantly.                                                                                                |
-| **Freezing Breath**  | Action (Phase 2+): mark a Stress. Everything in a Close cone takes 2d6+3 magic (Agility Reaction Roll, Difficulty 14, for half).                                                                                                                                                                                                  |
+| **Ice Prison**       | Action: mark a Stress. A PC within Far makes an Agility Reaction 14 roll or is Restrained and Vulnerable in ice. An ally frees them with a Strength 12 roll, or a Heartfire effect frees them instantly.                                                                                                |
+| **Freezing Breath**  | Action (Phase 2+): mark a Stress. Everything in a Close cone takes 2d6+3 magic (Agility Reaction 14, for half).                                                                                                                                                                                                  |
 | **Fly My Pretties**  | Fear Action: spend a Fear. Spotlight every Ice Elemental in the scene at once. Each makes a Frost Slam.                                                                                                                                                                                                                           |
-| **Ice Pool**         | Fear Action: spend a Fear. Ice spreads over a Far-range area as difficult terrain. A PC moving across makes an Agility Reaction Roll (Difficulty 12) or is Vulnerable until they take the spotlight.                                                                                                                              |
-| **Flash Freeze**     | Fear Action (Phase 2+): spend a Fear. Every PC within Far makes an Agility Reaction Roll (Difficulty 15) or marks 2 Stress and is Vulnerable until they take the spotlight.                                                                                                                                                       |
-| **Arrogance**        | Reaction: when a PC succeeds on a Presence roll (Difficulty 14) to taunt it, its next spotlight must target that PC. It can’t use Relentless that turn.                                                                                                                                                                           |
+| **Ice Pool**         | Fear Action: spend a Fear. Ice spreads over a Far-range area as difficult terrain. A PC moving across makes an Agility Reaction 12 roll or is Vulnerable until they take the spotlight.                                                                                                                              |
+| **Flash Freeze**     | Fear Action (Phase 2+): spend a Fear. Every PC within Far makes an Agility Reaction 15 roll or marks 2 Stress and is Vulnerable until they take the spotlight.                                                                                                                                                       |
+| **Arrogance**        | Reaction: when a PC succeeds on a Presence 14 roll to taunt it, its next spotlight must target that PC. It can’t use Relentless that turn.                                                                                                                                                                           |
 
 # Appendix B: Quick Reference
 
